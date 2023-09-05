@@ -1,6 +1,6 @@
 # FA23-Cyber8420
  Repository for the Mythical Code Buster's in the Fall Software Assurance class.
- Project: Strawberry Secure Cloud
+ Project: Nextcloud Server
  Company: Git Grub
 
-https://github.com/Strawberry-Software-Industries/SecureCloud
+https://github.com/nextcloud/server
