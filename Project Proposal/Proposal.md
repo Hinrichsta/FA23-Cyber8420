@@ -48,8 +48,8 @@ Recommendations for the following Cyber Security Controls implemented according 
 * AC \- Access controls  
 * AU \- Audit Controls  
 * CM \- Configuration Management  
-* Software Usage Restrictions  
-* User \- Installed Software  
+	1. Software Usage Restrictions  
+	2. User \- Installed Software  
 * CP \- Contingency Planning  
 * IA \- Identification and Authentication  
 * IR \- Incident Response  
