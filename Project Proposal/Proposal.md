@@ -84,12 +84,12 @@ Recommendations for the following Cyber Security Controls implemented according 
 ## Security related issues:  
 
 There was no security policy implemented or enforced for this open source software  
-> **The open source software does not align with industry best standards**  
-> **There are no network diagrams documented for review the topology of the network**  
-> **The latest version of load balancers and software were neither installed nor configured properly**  
-> **There are no access controls, security controls or mechanisms were in place to deny access to server files, applications, xml files, CSS, templates, test files, etc.**  
-> **Recommend implementing CNSS1253 policy for all access controls**  
-> **All data files must use encryption features when transporting files over an open or closed network.**  
+**The open source software does not align with industry best standards**  
+**There are no network diagrams documented for review the topology of the network**  
+**The latest version of load balancers and software were neither installed nor configured properly**  
+**There are no access controls, security controls or mechanisms were in place to deny access to server files, applications, xml files, CSS, templates, test files, etc.**  
+**Recommend implementing CNSS1253 policy for all access controls**  
+**All data files must use encryption features when transporting files over an open or closed network.**  
 
 ## Reflections:  
 
