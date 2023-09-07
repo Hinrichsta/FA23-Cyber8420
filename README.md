@@ -4,10 +4,10 @@
  Project: Nextcloud Server  
  Company: ?  
  Team Members:  
-  Sheryl Cummings - Team Lead  
-  Chris Hepburn  
-  Henry Allou  
-  Lucas Reichlinger  
-  Tyler Hinrichs
+ > Sheryl Cummings - Team Lead  
+ > Chris Hepburn  
+ > Henry Allou  
+ > Lucas Reichlinger  
+ > Tyler Hinrichs
 
 https://github.com/nextcloud/server
