@@ -95,7 +95,7 @@ There was no security policy implemented or enforced for this open source softwa
 
 Nextcloud was founded in 2016 by Frank Karlistscheck, a  former core contributor of the ownCloud application. Frank left ownCloud as he wanted to build a platform more focused on security and privacy.  
 The vulnerability statistic of Nextcloud since 2016 show a wide range of vulnerabilities from XSS, SQL Injection, Overflow etc.  
-![Vulnerability Trend Over Time](./Vulnerability%20Trend%20Over%20Time.webp "Vulnerability Trend Over Time")
+![Vulnerability Trend Over Time](./Vulnerability%20Trend%20Over%20Time.webp "Vulnerability Trend Over Time")  
 We mostly notice from this table the consistency of XSS, SSRF and Input validation vulnerabilities over the last 4 years. These types of vulnerabilities seem to be a struggle area for Nextcloud.  
 However on their website next close promote to implement industry standard security.  
 
