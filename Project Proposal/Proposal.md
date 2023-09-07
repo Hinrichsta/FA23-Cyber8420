@@ -43,39 +43,39 @@ Based upon previous months, Nextcloud Security Vulnerabilities (XSS) will need u
 ## Solution:  
 
 Recommendations for the following Cyber Security Controls implemented according to industry based practices:  
-AC **Access controls  
-AU**Audit Controls  
-CM**Configuration Management  
-I.	Software Usage Restrictions  
-II.	User-Installed Software  
-CP**Contingency Planning  
-IA**Identification and Authentication  
-IR**Incident Response  
-Maintenance Tools  
-MP**Media Protection  
-PE***Physical and Environment Protection  
-PL**System Security Plan  
-PM**Information Security Program Plan  
-PS**Access Agreements  
-RA**Risk Assessment Policy and Procedures  
-SA-8** Security Engineering Principles  
-SC-1 System and Communication Protection Policy and Procedures  
-•	SC-50 Software-Enforced Separation and Policy Enforcement  
-SI System and Information Integrity Policy and Procedures  
-•	SI-7 Software, Firmware, and Information Integrity  
-8.19 Installation of software on operational systems CM-5, CM-7(4)*, CM-7(5)*, CM-11*  
-Antivirus software  
-NIST Special Publication 800-218: Secure Software Development Framework (SSDF) Ver. 1.1  
+* AC - Access controls  
+* AU - Audit Controls  
+* CM - Configuration Management  
+* Software Usage Restrictions  
+* User-Installed Software  
+* CP - Contingency Planning  
+* IA - Identification and Authentication  
+* IR - Incident Response  
+* Maintenance Tools  
+* MP - Media Protection  
+* PE - Physical and Environment Protection  
+* PL - System Security Plan  
+* PM - Information Security Program Plan  
+* PS - Access Agreements  
+* RA - Risk Assessment Policy and Procedures  
+* SA-8 - Security Engineering Principles  
+* SC-1 System and Communication Protection Policy and Procedures  
+* SC-50 Software-Enforced Separation and Policy Enforcement  
+* SI - System and Information Integrity Policy and Procedures  
+* SI-7 - Software, Firmware, and Information Integrity  
+* 8.19 - Installation of software on operational systems CM-5, CM-7(4)*, CM-7(5)*, CM-11*  
+* Antivirus software  
+* NIST Special Publication 800-218: Secure Software Development Framework (SSDF) Ver. 1.1  
 
 ## Security related issues:  
 
 There was no security policy implemented or enforced for this open source software  
-**The open source software does not align with industry best standards**  
-**There are no network diagrams documented for review the topology of the network**  
-**The latest version of load balancers and software were neither installed nor configured properly**  
-**There are no access controls, security controls or mechanisms were in place to deny access to server files, applications, xml files, CSS, templates, test files, etc.**  
-**Recommend implementing CNSS1253 policy for all access controls**  
-**All data files must use encryption features when transporting files over an open or closed network.**  
+> **The open source software does not align with industry best standards**  
+> **There are no network diagrams documented for review the topology of the network**  
+> **The latest version of load balancers and software were neither installed nor configured properly**  
+> **There are no access controls, security controls or mechanisms were in place to deny access to server files, applications, xml files, CSS, templates, test files, etc.**  
+> **Recommend implementing CNSS1253 policy for all access controls**  
+> **All data files must use encryption features when transporting files over an open or closed network.**  
 
 ## Reflections:  
 
