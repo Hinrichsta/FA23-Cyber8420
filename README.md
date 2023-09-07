@@ -2,7 +2,7 @@
  Repository for the Mythical Code Buster's in the Fall Software Assurance class.
  
  Project: Nextcloud Server  
- Company: ? 
+ Company: GFH (GitFINHelp) Bank  
 
  
  # Team Members:  
