@@ -1,3 +1,15 @@
+## Contents  
+
+[About GetFINHelp](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Project%20Proposal/Proposal.md#about-getfinhelp)
+[Security Policies and Strategic Objectives](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Project%20Proposal/Proposal.md#security-policies-and-strategic-objectives)
+[Secure Software Development Framework (SSDF)](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Project%20Proposal/Proposal.md#secure-software-development-framework-ssdf)
+[Risk Management Framework](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Project%20Proposal/Proposal.md#risk-management-framework)
+[Cryptography National Institute of Standards (NIST)](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Project%20Proposal/Proposal.md#cryptography-national-institute-of-standards-nist)
+[Nextcloud Security Vulnerabilities Found](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Project%20Proposal/Proposal.md#nextcloud-security-vulnerabilities-found)
+[Solution](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Project%20Proposal/Proposal.md#solution)
+[Security related issues](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Project%20Proposal/Proposal.md#security-related-issues)
+[Reflections](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Project%20Proposal/Proposal.md#reflections)
+[References](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Project%20Proposal/Proposal.md#references)
 ## About GetFINHelp:  
 
 GitFINHelp is a financial in business which has been in business for over twenty years. Its primary mission is to help and serve the community through challenging and difficult times.  
