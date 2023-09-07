@@ -19,7 +19,8 @@ This framework captures the process of people, processes and technology in perfo
 ## Risk Management Framework:  
 
 The Risk Management Framework uses a seven-step approach in defending internal processes in protecting our network:  
-0. Prepare \>Create a risk management strategy and assess the organizational risk tolerance
+
+0. Prepare \> Create a risk management strategy and assess the organizational risk tolerance
 1. Categorize System \> According to CNSSI 1253/Initiate the Security Plan
 2. Select Security Control \> Select your security controls based upon your network
 3. Implement \> Implement security architecture based upon security controls
