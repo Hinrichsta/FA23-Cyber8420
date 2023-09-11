@@ -1,5 +1,5 @@
 # FA23-Cyber8420
- Repository for the Mythical Code Buster's in the Fall Software Assurance class.
+ Repository for the Mythical Code Busters in the Fall Software Assurance class.
  
  Project: Nextcloud Server  
  Company: GFH (GitFINHelp) Bank  
