@@ -13,6 +13,7 @@
 [GFH Environment](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Project%20Proposal/Proposal.md#gfh-environment)  
 [Licensing Agreement](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Project%20Proposal/Proposal.md#licensing-agreement)  
 [Project Description](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Project%20Proposal/Proposal.md#project-description)  
+[Project Planning](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Project%20Proposal/Proposal.md#project-planning)
 [Reflections](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Project%20Proposal/Proposal.md#reflections)  
 [Team Motivation](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Project%20Proposal/Proposal.md#team-motivation)  
 [References](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Project%20Proposal/Proposal.md#references) 
@@ -24,7 +25,10 @@ By reaching out to our community GetFINHelp to implement an advanced state of th
 GFH advanced computer systems allow our mission partners to adhere to both state, federal and local policies in maintaining Payment Card Industry (PCI) Data Security Standard (DSS) compliance. 
 GFH strategic governance ensure the industries best practices and standards in protecting consumer’s data in our business environment. Those strict standards which includes, state, local and federal regulatory compliance, security governance and implementing industries best practices is what GFH Bank a part from our financial competitors.  
 Protecting the processing of customers data is the number one priority. When a credit card transaction is over the network, the goal is to ensure data transmitted is both secure and tamper proof against vulnerabilities or attacks.  
-“Our customers care deeply about security and so do we. Nextcloud aligns with industry standards such as Clause 14 of ISO/IEC27001-2013 and related standards.” (Nextcloud, 2023) 
+“Our customers care deeply about security and so do we. Nextcloud aligns with industry standards such as Clause 14 of ISO/IEC27001-2013 and related standards.” (Nextcloud, 2023)  
+
+## System Engineering View
+![System Enginnering View](./System%20Engineering%20View.png "System Engineering View")  
 
 ## Security Policies and Strategic Objectives:  
 GetFINHelp (GFH) Bank. Our business strategic plan compliments the three pillars of data integrity: Confidentiality, Integrity and Availability (CIA).GFH Bank focuses on the latest advanced technology in securing and maintaining our network from vulnerabilities and intrusions.   
@@ -149,6 +153,14 @@ While Nextcloud doesn't have a "contributor agreement" form per say they do have
 The contributors consist of a growing number of highly reviewed individuals that number as of this document's writing, 890. As the community grows the support and contributions grow with it making it an ideal choice for open-source software. Activity for this open-source software has been steady since the software was first created as a repository and is updated through contributions and branches monthly. The community of followers is active and helpful for resolving potential issues.  
 
 The Nextcloud software has many uses and continues to innovate in the sectors it operates in and has many repositories that cover a wide range of use cases. Popularity of Nextcloud is immense with nearly 4K subscribers and yearly conferences hosted in Germany to showcase new features and developments. HTML, CSS, JavaScript, PHP, and VUE.js are just some of the primary languages this software is written in. The application is designed to be run on Apache in the Linux OS. This web and mobile accessible application can be styled in many ways. The front-end settings and configuration are done in Vue.js and compiled with css written in SSCC. Future compatibility with containerization is being discussed in several issues. Documentation for this open-source project can be found in the GitHub repository and on its linked site  
+
+## Project Planning  
+Our primary objective is to ensure the utmost protection of user data, both at rest and in transit, by identifying and mitigating potential vulnerabilities.  
+This project will encompass a comprehensive assessment of the software's architecture, codebase, and dependencies, followed by the implementation of robust security measures, including but not limited to:  
+* Encryption standards  
+* Access control mechanisms  
+* Continuous monitoring solutions  
+Our team will also collaborate closely with the Nextcloud community to foster a culture of security awareness and to keep the platform in line with the latest industry best practices. Through meticulous planning, rigorous testing, and ongoing improvements, this project seeks to provide Nextcloud users with a safer and more secure data management experience.  
 
 ## Reflections
 Extremely difficult to find software which software developers continued to develop and maintain. I reviewed several files for this project and found I was going into the land of the abyss! From a cyber-security standpoint, I did not see any industry best practices when it came to securing software based on guidance such s NIST SP 800-53 rev 5. I recognized the software developers use this opens source code by making additional tweaks to install on their organizational network. I could not verify if the developers performed a benchmark test before implementation on the production environment. I would only hope before implementing any open source software, the software developers test the software on all three networks (development and test) before placing on a production environment. I would also suggest understanding and knowing the operational environment before installing any software. GItFINHelp (GFH) Bank primary focus is to follow guidelines and industry best standards in software assurance and development. 
