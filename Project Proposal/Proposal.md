@@ -1,15 +1,21 @@
 ## Contents  
 
-[About GetFINHelp](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Project%20Proposal/Proposal.md#about-getfinhelp)  
-[Security Policies and Strategic Objectives](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Project%20Proposal/Proposal.md#security-policies-and-strategic-objectives)  
+[About GetFINHelp](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Project%20Proposal/Proposal.md#secure-software-development-framework-ssdf)  
+[Security Policies and Strategic Objectives](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Project%20Proposal/Proposal.md#secure-software-development-framework-ssdf)  
 [Secure Software Development Framework (SSDF)](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Project%20Proposal/Proposal.md#secure-software-development-framework-ssdf)  
 [Risk Management Framework](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Project%20Proposal/Proposal.md#risk-management-framework)  
 [Cryptography National Institute of Standards (NIST)](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Project%20Proposal/Proposal.md#cryptography-national-institute-of-standards-nist)  
+[Vulnerability History](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Project%20Proposal/Proposal.md#vulnerability-history)  
 [Nextcloud Security Vulnerabilities Found](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Project%20Proposal/Proposal.md#nextcloud-security-vulnerabilities-found)  
+[Vulnerability Timeline](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Project%20Proposal/Proposal.md#vulnerability-timeline)
+[Security Related issues](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Project%20Proposal/Proposal.md#security-related-issues)  
 [Solution](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Project%20Proposal/Proposal.md#solution)  
-[Security related issues](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Project%20Proposal/Proposal.md#security-related-issues)  
+[GFH Environment](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Project%20Proposal/Proposal.md#gfh-environment)  
+[Licensing Agreement](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Project%20Proposal/Proposal.md#licensing-agreement)  
+[Project Description](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Project%20Proposal/Proposal.md#project-description)  
 [Reflections](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Project%20Proposal/Proposal.md#reflections)  
-[References](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Project%20Proposal/Proposal.md#references)  
+[Team Motivation](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Project%20Proposal/Proposal.md#team-motivation)  
+[References](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Project%20Proposal/Proposal.md#references) 
 
 ## About GetFINHelp (GFH) Bank:	 
 GitFINHelp (GFH) Bank is a financial in institution, which have been in business for over twenty years. Its primary mission is to help and serve the community through challenging and difficult times.  
