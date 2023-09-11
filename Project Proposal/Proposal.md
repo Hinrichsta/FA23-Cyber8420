@@ -189,7 +189,7 @@ The Nextcloud software has many uses and continues to innovate in the sectors it
 ## Reflections
 It is extremely difficult to find software which software developers continue to develop and maintain. From a cyber-security standpoint. For Nextcloud it does not seem that there are any major industry best practices when it came to securing software based on guidance such as NIST SP 800-53 rev 5. Even though software developers use this opens source code by making additional tweaks to install on their organizational network it should have some security implemented by default. This way it is not left to the developer to implement basic securities.  
 
-Before implementing any open-source software, the software developers test the software on all three networks (development and test) before placing it in a production environment. I would also suggest understanding and knowing the operational environment before installing any software and especially open-source software.  
+Before implementing any open-source software, software developers must test the software on all three networks (development and test) before placing it in a production environment. We would also suggest understanding and knowing the operational environment before installing any software and especially open-source software.  
 
 ## Team Motivation: 
 Our team decided to go forward utilizing a file sharing system as the base of our project.  File shares are a big part of an organization as it allows for easy collaboration and can be centrally managed.  This also adds aa certain level of risk such as target attacks. As malicious actor can penetrate a file share system and cause extreme damage into the organizational assets. 
