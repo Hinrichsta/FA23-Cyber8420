@@ -23,7 +23,7 @@
 [References](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Project%20Proposal/Proposal.md#references) 
 
 ## About GetFINHelp (GFH) Bank	 
-GitFINHelp (GFH) Bank is a financial in institution, which have been in business for over twenty years. Its primary mission is to help and serve the community through challenging and difficult times. 
+GitFINHelp (GFH) Bank is a financial in institution, which has been in business for over twenty years. Its primary mission is to help and serve the community through challenging and difficult times. 
   
 GitFINHelp (GFH) Bank collaborated with other businesses and organizations in reaching out to our large and small business owners. GetFINHelp recently was awarded a government grant to help better serve our community in providing competitive mortgage rates to our first-time homebuyers.  
 
@@ -31,7 +31,8 @@ By reaching out to our community GetFINHelp to implement an advanced state of th
 
 GFH advanced computer systems allow our mission partners to adhere to both state, federal and local policies in maintaining Payment Card Industry (PCI) Data Security Standard (DSS) compliance.   
 
-GFH strategic governance ensure the industries best practices and standards in protecting consumer’s data in our business environment. Those strict standards include, state, local and federal regulatory compliance, security governance. Implementing the implementing industries best practices is what GFH Bank set us apart from our financial competitors.  
+GFH strategic governance ensure the industries best practices and standards in protecting consumer’s data in our business environment. Those strict standards include, state, local and federal regulatory compliance, security governance. Implementing the industries best practices is what GFH Bank set us apart from our financial competitors.  
+
 Protecting the processing of consumers data is our number one priority. When a credit card transaction is processed, the number one goal is to ensure data being transmitted is both secure and tamper proof against vulnerabilities or attacks.  
 
 “Our customers care deeply about security and so do we. Nextcloud aligns with industry standards such as Clause 14 of ISO/IEC27001-2013 and related standards.” (Nextcloud, 2023)   
@@ -97,7 +98,7 @@ Security Objectives:
 
 
 ## Measures of Success
-* Ensure the proper configurations settings of the system, such as the enterprise server are in place and configured properly.  
+* Ensure the proper configurations settings of the system, such as the enterprise servers are in place and configured properly.  
 * Install the latest software patches to the latest version.  CVE-2023-39955 indicated the latest path is 4.8.0  
 * Recommend the proper security controls and mechanisms are in place.  
   
