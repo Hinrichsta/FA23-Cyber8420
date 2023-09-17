@@ -1,0 +1,23 @@
+NextCloud Release Notes:
+
+Nextcloud 26 installation requirements:
+System requirements
+•	PHP 8.2 is now supported, but 8.1 is recommended.
+•	PHP 7.4 is no longer supported.
+System email
+The software component to send system emails (notifications, invites, password reset, etc.) had to be replaced. The new library should work without any changes out of the box for most setups. Only NTLM/Exchange is known to be no longer supported. See Configuring an SMTP server.
+Web server configuration
+•	The recommended nginx configuration changed.
+Nextcloud 27 Maintenance and Release Schedule Dates:
+
+Release date: 2023-03-21. Current version 26.0.6 (2023-09-14) Next version 26.0.7 (2023-10-12) End of Life: 2024-03
+Nextcloud 27 installation requirements:
+System requirements
+•	PHP 8.2 is recommended over PHP 8.1.
+•	PHP 8.0 is deprecated and will be removed in Nextcloud 28.
+Exposed system address book
+Nextcloud 27 exposes the system address book. Restrict the enumeration settings if your users should n
+Nextcloud 27 Maintenance and Release Schedule Dates:
+ Release date: 2023-06-13. Current version 27.1.0 (2023-09-16) Next version 27.1.1 (2023-10-12) . End of Life 2024-06.
+
+Nextcloud 28: There are no release notes for Nextcloud 28
