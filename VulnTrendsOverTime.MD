@@ -8,4 +8,4 @@ Year	Overflow	Memory Corruption	Sql Injection	XSS	Directory Traversal	File Inclu
 2021				                                    9	            1	          3			                  1		                            2 
 2022			                        1	            4	            1				                            2	       2                      4
 2023			                                    	2	            3	                        	2	      3        1	                    2
-Total	      1	     1	            4	           33	            6	          3	              2		    8        3	                    14
+Total	      1	     1	            4	           33	            6	          3	              2		    8        3	                   14
