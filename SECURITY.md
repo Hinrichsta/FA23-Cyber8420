@@ -5,17 +5,12 @@
 
 Use this section to tell people about which versions of your project are
 currently being supported with security updates.GFH advanced computer systems allow our mission partners to adhere to both state, federal and local policies in maintaining Payment Card Industry (PCI) Data Security Standard (DSS) compliance. 
-GFH strategic governance ensure the industries best practices and standards in protecting consumer’s data in our business environment. Those strict standards which includes, state, local and federal regulatory compliance, security governance and implementing industries best practices is what GFH Bank a part from our financial competitors. 
+GFH strategic governance ensure the industries best practices and standards in protecting consumer’s data in our business environment. 
+GFH Bank security policy framework includes the General Data Protection Regulation in protecting consumers data. The GDPR policy follows the strictist governance in data protection to our consumers. Those strict standards is includes, state, local and federal regulatory compliance, security governance and implementing industries best practices is what GFH Bank a part from our financial competitors. 
 Protecting the processing of customers data is the number one priority. When a credit card transaction is over the network, the goal is to ensure data transmitted is both secure and tamper proof against vulnerabilities or attacks.
 “Our customers care deeply about security and so do we. Nextcloud aligns with industry standards such as Clause 14 of ISO/IEC27001-2013 and related standards.” (Nextcloud, 2023)
+Will need to upgrade to nextcloud 26.0.6. Current version 26.0.6 (2023-09-14) Next version 26.0.7 (2023-10-12) End of Life: 2024-03
 
-
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
 
 ## Reporting a Vulnerability
 **CVE-2023-28999** > File encryption: Known vulnerability on Nextcloud is an open-source productivity platform. If not mitigated, a malicious server administrator can gain full access to the encrypted folder. Published 03-30-2023. Last updated 04-07-2023.  
