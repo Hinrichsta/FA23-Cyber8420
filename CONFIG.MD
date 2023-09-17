@@ -10,4 +10,14 @@ CVE-2023-39955
 Notes is a note-taking app for Nextcloud, an open-source cloud platform. Starting in version 4.4.0 and prior to version 4.8.0, when creating a note file with HTML, the content is rendered in the preview instead of the file being offered to download. Nextcloud Notes app version 4.8.0 contains a patch for the issue. No known workarounds are available.
 CVE-2023-23942
 he Nextcloud Desktop Client is a tool to synchronize files from a Nextcloud Server with your computer. Versions prior to 3.6.3 are missing sanitisation on qml labels which are used for basic HTML elements such as `strong`, `em` and `head` lines in the UI of the desktop client. The lack of sanitisation may allow for javascript injection. It is recommended that the Nextcloud Desktop Client is upgraded to 3.6.3. There are no known workarounds for this issue.
-Remediation: Recommend upgrade Nextcloud Desktop Client to 3.6.3. There are no known workarounds for this issue
+Remediation: Recommend upgrade Nextcloud Desktop Client to 3.6.3. There are no known workarounds for this issueSystem requirements
+Webserver: 
+•	Apache 2.4 with mod_php or php-fpm (recommended)
+•	nginx with php-fpm
+PHP Runtime
+•	7.4 is no longer supported
+•	8.0 (deprecated)
+•	8.1 (is not recommended)
+•	8.2 (recommended)
+
+
