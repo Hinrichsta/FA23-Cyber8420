@@ -13,7 +13,8 @@ he Nextcloud Desktop Client is a tool to synchronize files from a Nextcloud Serv
 Remediation: Recommend upgrade Nextcloud Desktop Client to 3.6.3. There are no known workarounds for this issueSystem requirements
 Webserver: 
 •	Apache 2.4 with mod_php or php-fpm (recommended)
-•	nginx with php-fpm
+•	nginx with php-fpmWeb server configuration
+•	The recommended nginx configuration changed.
 PHP Runtime
 •	7.4 is no longer supported
 •	8.0 (deprecated)
