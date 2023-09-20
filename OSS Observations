@@ -2,3 +2,13 @@ Did not see the domain name in the registrars approval list.
 Solution verify domain name is in the approval list to prevent cybersquatting, a term used by bad actors to contact customers to phish for their information.
 Nextcloud uses http instead of https (s stands for security) 
 Solution: redirect webservers from http to https based upon the industry best practice and standards. This technique prevents ip spoofing and also campaign phishing
+In the Database Configuration documentation, it references MySQL, MariaDB and PstgreSQL, I did not I did not see Oracle 19c (which is recommended) to install
+Solution: Oracle 12c end-of-life ended on 12/31/2022. Recommend upgraded from 12c to 19c. Other solutions such as MariaDb may not work in all environments
+Installation Issues going from 25.0.11 to 26 were discussed in the nextcloud community. Users were not able to revert 26.0.2.1 back to 26.2.2 after upgrade installation.
+The users were also missing data after the upgrade. Based upon the nextcloud community, there was not a fix available at that particular time.
+Solution: Update release notes to inform customers of mitigations and fixes of bugs when they come available
+
+
+
+
+
