@@ -6,7 +6,7 @@
 
 
 ## Misuse Case example 3 - Database
-![Database Misuse Case](./Use-Misuse%20case%20-%20Database.png "Database Misuse Case")
+![Database Misuse Case](./Use-Misuse%20Case%20-%20Database.png "Database Misuse Case")
 
 ## Misuse Case example 4 - Mobile App
 
