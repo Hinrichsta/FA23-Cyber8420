@@ -1,0 +1,4 @@
+Did not see the domain name in the registrars approval list.
+Solution verify domain name is in the approval list to prevent cybersquatting, a term used by bad actors to contact customers to phish for their information.
+Nextcloud uses http instead of https (s stands for security) 
+Solution: redirect webservers from http to https based upon the industry best practice and standards. This technique prevents ip spoofing and also campaign phishing
