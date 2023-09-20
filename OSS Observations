@@ -8,6 +8,18 @@ Installation Issues going from 25.0.11 to 26 were discussed in the nextcloud com
 The users were also missing data after the upgrade. Based upon the nextcloud community, there was not a fix available at that particular time.
 Solution: Update release notes to inform customers of mitigations and fixes of bugs when they come available
 
+List of Security Patchnames   SUSE Package Hub 15 SP4                         openSUSE-2023-90
+SUSE Package Hub 15 SP5                                                       openSUSE-2023-171
+openSUSE Leap 15.4                                                            openSUSE-2023-90
+openSUSE Leap 15.5                                                            openSUSE-2023-171
+Solution: I would also recommend other encryption methods in protecting consumer’s data. One data encryption example is Tripe Data Encryption Standard (DES).
+Triple DES is a symmetric encryption technique and more advanced of the Data Encryption Standard (DES).
+Compliments to Nexcloud for being the first vendor to implement End t0 End Client-side Encryption.
+This technique ensures neither nextcloud server nor any code provides (like in the browser) has ever access to the unencrypted data.
+
+
+
+
 
 
 
