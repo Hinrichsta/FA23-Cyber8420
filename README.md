@@ -6,8 +6,8 @@
 
  
  # Team Members:  
- * Sheryl Cummings - Team Lead  
- * Chris Hepburn  
+ * Sheryl Cummings 
+ * Chris Hepburn  - Team Lead
  * Henri Allou  
  * Lucas Reichlinger  
  * Tyler Hinrichs
