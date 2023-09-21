@@ -152,7 +152,8 @@ PCI and DSS standards according to federal, state and local laws. GFH Bank is a 
 
 
 ## System Engineering View
-Project Proposal/System Engineering View - Version 3.png
+![image](https://github.com/Hinrichsta/FA23-Cyber8420/assets/143133739/af9213bd-ff77-4c56-be89-d61244f0efb5)
+
 
 ## Licensing Agreement
 The Nextcloud application states the following as its license agreement.  “These Guidelines are published under Version 3 of the Creative Commons Attribution Share-Alike License, and are derived in part from the openSUSE Trademark Guidelines (April 20, 2015), which in turn is derived in part from the Open Solaris Trademark Policy 1.0 (May 5, 2008), the Ubuntu and Mozilla Trademark guidelines. We reserve the right to make changes to the guidelines at any time without notification. We last updated the guidelines on April 16 2020.“  
