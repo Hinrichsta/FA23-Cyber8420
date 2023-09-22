@@ -14,6 +14,10 @@ openSUSE Leap 15.4                                                            op
 openSUSE Leap 15.5                                                            openSUSE-2023-171
 Solution: I would also recommend other encryption methods in protecting consumer’s data. One data encryption example is Tripe Data Encryption Standard (DES).
 Triple DES is a symmetric encryption technique and more advanced of the Data Encryption Standard (DES).
+
+I would also recommend both a public key and a private key. Symmetric keys is used to encrypt and decrypt data
+Asymmetric keys uses two keys: The public key is to decrypt data. The private key is used to decrypt data. This method is widely used in when sending and receiving emails. 
+
 Compliments to Nexcloud for being the first vendor to implement End t0 End Client-side Encryption.
 This technique ensures neither nextcloud server nor any code provides (like in the browser) has ever access to the unencrypted data.
 
