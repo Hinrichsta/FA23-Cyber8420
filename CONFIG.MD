@@ -3,7 +3,7 @@ The Nextcloud dialogs library (npm package @nextcloud/dialogs) before 3.1.2 insu
 Published: 2021-04-13
 Updated: 2021-04-19
 Nextcloud Security Vulnerabilities:
-Overall, there have been 271 security vulnerabilities files found in Next Cloud from 2016 to 2023. The security vulnerabilities can be found at: Nextcloud : Security vulnerabilities, CVEs (cvedetails.com)
+Overall, there have been 272 security vulnerabilities files found in Next Cloud from 2016 to 2023. The security vulnerabilities can be found at: Nextcloud : Security vulnerabilities, CVEs (cvedetails.com)
 Nextcloud cross site scripting (XSS):
 From 2016 to 2023, there were 33 cross site scripting (XSS) Nextcloud security vulnerabilities found. Two examples can be found on the following  CVE website: Nextcloud : Security vulnerabilities, CVEs xss, cross site scripting (cvedetails.com). 
 CVE-2023-39955
