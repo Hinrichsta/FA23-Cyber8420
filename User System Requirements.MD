@@ -2,7 +2,7 @@ System Features Based Upon User Requirements
 •	Intrusion Detection System (IDS)
 •	Wireless Intrusion Detection System (WIDS)
 •	Host Base Security System (HBSS)
-•	Anti-software (McAfee) and malware software
+•	Anti-virus oftware (McAfee) 
 •	One time password
 •	Two factor authentications
 •	Firewall, routers, switches, SSL encryption
@@ -28,8 +28,6 @@ Incident Response: Recovery processes and procedures are in place to ensure rest
 11.	Host Base Security System (HBSS)
 12.	Host Intrusion Detection (HIDS)
 13.	Encrypted Password
-
-
 Cloud Server Security Controls
 1.	Identity Management
 a.	Include User name and Password
