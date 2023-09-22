@@ -14,7 +14,7 @@ Protecting the processing of customers data is the number one priority. When a c
 •	Two factor authentication
 Public key, Private Key, Oracle 19c, MySQL, SSL, PHP 8.0
 ## Reporting a Vulnerability
-Overall, there have been 271 security vulnerabilities files found in Next Cloud from 2016 to 2023. The security vulnerabilities can be found at: Nextcloud : Security vulnerabilities, CVEs (cvedetails.com)
+Overall, there have been 272 security vulnerabilities files found in Next Cloud from 2016 to 2023. The security vulnerabilities can be found at: Nextcloud : Security vulnerabilities, CVEs (cvedetails.com)
 
 **CVE-2023-28999** > File encryption: Known vulnerability on Nextcloud is an open-source productivity platform. If not mitigated, a malicious server administrator can gain full access to the encrypted folder. Published 03-30-2023. Last updated 04-07-2023.  
 **CVE-2023-28647** > attacker can enable IOS files app and bypass Nextcloud pin/password protection. Recommend upgrading IOS app to 4.7.0. There are no known workarounds for this vulnerability.  
