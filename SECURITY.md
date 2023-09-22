@@ -8,16 +8,13 @@ Protecting the processing of customers data is the number one priority. When a c
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.GFH advanced computer systems allow our mission partners to adhere to both state, federal and local policies in maintaining Payment Card Industry (PCI) Data Security Standard (DSS) compliance. Other regulations GFH Bank also follow other guidelines such as Sarbanes-Oxley (SOX) act of 2002,	Gramm Leach Bliley Act and the Home Mortgage Act. This is not an all inclusive list of governance GFH Bank follows, but our business goal is to protect consumers data when making both internal and external transactions. GFH Baml mumber one goal is to ensure the industry best practices and standards are followed in our strategoc business environment.
-
-GFH Bank security policy framework includes the General Data Protection Regulation in protecting consumers data. The GDPR policy follows the strictist governance in data protection to our consumers. Those strict standards is includes, state, local and federal regulatory compliance, security governance and implementing industries best practices is what GFH Bank a part from our financial competitors. 
-Protecting the processing of customers data is the number one priority. When a credit card transaction is over the network, the goal is to ensure data transmitted is both secure and tamper proof against vulnerabilities or attacks.
-“Our customers care deeply about security and so do we. Nextcloud aligns with industry standards such as Clause 14 of ISO/IEC27001-2013 and related standards.” (Nextcloud, 2023)
-Will need to upgrade to nextcloud 26.0.6. Current version 26.0.6 (2023-09-14) Next version 26.0.7 (2023-10-12) End of Life: 2024-03
-
+•	LDAP/Active Directory
+•	Kerberos
+•	SSO/SML 2.0
+•	Two factor authentication
+Public key, Private Key, Oracle 19c, MySQL, SSL, PHP 8.0
 ## Reporting a Vulnerability
-Overall, there have been 272 security vulnerabilities files found in Next Cloud from 2016 to 2023. The security vulnerabilities can be found at: Nextcloud : Security vulnerabilities, CVEs (cvedetails.com)
+Overall, there have been 271 security vulnerabilities files found in Next Cloud from 2016 to 2023. The security vulnerabilities can be found at: Nextcloud : Security vulnerabilities, CVEs (cvedetails.com)
 
 **CVE-2023-28999** > File encryption: Known vulnerability on Nextcloud is an open-source productivity platform. If not mitigated, a malicious server administrator can gain full access to the encrypted folder. Published 03-30-2023. Last updated 04-07-2023.  
 **CVE-2023-28647** > attacker can enable IOS files app and bypass Nextcloud pin/password protection. Recommend upgrading IOS app to 4.7.0. There are no known workarounds for this vulnerability.  
