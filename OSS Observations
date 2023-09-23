@@ -17,7 +17,11 @@ Solution: I would also recommend other encryption methods in protecting consumer
 Triple DES is a symmetric encryption technique and more advanced of the Data Encryption Standard (DES).
 
 I would also recommend both a public key and a private key. Symmetric keys is used to encrypt and decrypt data
-Asymmetric keys uses two keys: The public key is to decrypt data. The private key is used to decrypt data. This method is widely used in when sending and receiving emails. 
+Asymmetric keys uses two keys: The public key is to decrypt data. The private key is used to decrypt data. This method is widely used in when sending and receiving emails.
+
+Nextcloud Installation Observations:Installation Issues going from 25.0.11 to 26 discussed in the nextcloud community.Users were not able to revert 26.0.2.1 back to 26.2.2 after upgrade installation. 
+The users were also missing data after the upgrade.
+Based upon the nextcloud community, there was not a fix available at that particular time.
 
 Compliments to Nexcloud for being the first vendor to implement End t0 End Client-side Encryption.
 This technique ensures neither nextcloud server nor any code provides (like in the browser) has ever access to the unencrypted data.
@@ -32,7 +36,7 @@ PHP Runtime
 •	8.0 (deprecated)
 •	8.1 (is not recommended)
 •	8.2 (recommended)
-
+Overall, there were 271 security vulnerabilites found in the nextcloud software. For example, CVE-2021-4505, Apache Log4J2 vulnerability affected both the public and private sectors.
 CVE-2021-45105 is a remote code execution (RCE) vulnerability that enables malicious actors to execute arbitrary Java code, taking control of a target server.
 Apache Log4j2 versions 2.0-alpha1 through 2.16.0 (excluding 2.12.3 and 2.3.1) did not protect from uncontrolled recursion from self-referential lookups. This allows an attacker with control over Thread Context Map data to cause a denial of service when a crafted string is interpreted. 
 Remediation:
