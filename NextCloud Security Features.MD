@@ -28,6 +28,7 @@ Encryption
 •	Server-side Encryption
 •	Key Management, 
 •	End to End Client-side Encryption
+Multi-layered encryption
 Other Features
 •	Include root certificate
 •	Support for security headers by the web server
