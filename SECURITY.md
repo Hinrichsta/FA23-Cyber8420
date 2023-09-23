@@ -17,6 +17,12 @@ Protecting the processing of customers data is the number one priority. When a c
 •	SSO/SML 2.0
 •	Two factor authentication
 Public key, Private Key, Oracle 19c, MySQL, SSL, PHP 8.0
+Version code	Version name	Release date	End of life	Current version	Next version
+27	Hub 6	2023-06-13	2024-06	27.1.1 (2023-09-21)	27.1.2 (2023-10-19)
+26	Hub 4	2023-03-21	2024-03	26.0.7 (2023-09-21)	26.0.8 (2023-10-19)
+25	Hub 3	2022-10-19	2023-10	25.0.12 (2023-09-21)	25.0.13 (2023-10-19)
+
+
 ## Reporting a Vulnerability
 Overall, there have been 272 security vulnerabilities files found in Next Cloud from 2016 to 2023. The security vulnerabilities can be found at: Nextcloud : Security vulnerabilities, CVEs (cvedetails.com)
 
