@@ -3,10 +3,10 @@
 ### Misuse Case example 1 - File Access
 ![File Access](./Use-Misuse%20Case%20-%20Access_Files%20-%20Version2.png "File Access")
 #### Use Case  
-Bank employees, customers, and even the partners that will be sending or recieving files from GFH Bank will all be targets of the hacker groups and specifically Legion of Doom who will be attempting to gain access to files through login hacking attacks. When the employees, customers, and partners access files they will need to go through a login portal and use credentials to access this portal. Other measures not outlined in this use case such as MFA and one-time time based-passwords (TOTP) will be implemented along side a strongly configured User Password Policy. 
+Bank employees, customers, and even the partners that will be sending or receiving files from GFH Bank will all be targets of the hacker groups specifically Legion of Doom who will be attempting to gain access to files through login hacking attacks. When the employees, customers, and partners access files they will need to go through a login portal and use credentials to access this portal. Other measures not outlined in this use case such as MFA and one-time time based-passwords (TOTP) will be implemented alongside a strongly configured User Password Policy.
 
 #### Misues Case  
-The hacker group Legion of Doom is a threat to our Customer and Banker files that include PII (Personally Identifiable Information). With the access to files compromised they would be able to steal identities, create fake accounts, and much more with customer data. The misuse could incorporate many different forms of attacks such as Brute Force Attacks, Dictionary Attacks, and Credential Stuffing. These attacks have various forms of prevention built into the NextCloud Server User Password Policy and thus it should be fully implemented with all its feature capabilities to prevent these issues. 
+The hacker group Legion of Doom is a threat to our Customer and Banker files that include PII (Personally Identifiable Information). With access to files compromised, they would be able to steal identities, create fake accounts, and much more with customer data. The misuse could incorporate many different forms of attacks such as Brute Force Attacks, Dictionary Attacks, and Credential Stuffing. These attacks have various forms of prevention built into the NextCloud Server User Password Policy and thus it should be fully implemented with all its feature capabilities to prevent these issues.
 
 ### Prevention of misuse case
 To prevent the misuse of the access to files, NextCloud Server has a strong and multi-optioned Password Policy that can be found here. 
@@ -30,7 +30,7 @@ In the security-section of your administrator-settings you can configure:
 * Dictionary Attack
   * Will be prevented by Password Policy - Forbid common passwords like ‘password’ or ‘login’ and  checking the password against the list of breached passwords from haveibeenpwnd.com
 * Credential Stuffing
-  * Will be prevented byy Password Policy - A password history and checking the password against the list of breached passwords from haveibeenpwnd.com.
+  * Will be prevented by Password Policy - A password history and checking the password against the list of breached passwords from haveibeenpwnd.com.
     
 ### Misuse Case example 2 - Website Access
 ![Website Misuse Case](./Website%20Misuse%20Case.webp "Website Misuse Case")
