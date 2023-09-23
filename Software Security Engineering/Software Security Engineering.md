@@ -2,7 +2,36 @@
 
 ### Misuse Case example 1 - File Access
 ![File Access](./Use-Misuse%20Case%20-%20Access_Files%20-%20Version2.png "File Access")
+#### Use Case  
+Bank employees, customers, and even the partners that will be sending or recieving files from GFH Bank will all be targets of the hacker groups and specifically Legion of Doom who will be attempting to gain access to files through login hacking attacks. When the employees, customers, and partners access files they will need to go through a login portal and use credentials to access this portal. Other measures not outlined in this use case such as MFA and one-time time based-passwords (TOTP) will be implemented along side a strongly configured User Password Policy. 
 
+#### Misues Case  
+The hacker group Legion of Doom is a threat to our Customer and Banker files that include PII (Personally Identifiable Information). With the access to files compromised they would be able to steal identities, create fake accounts, and much more with customer data. The misuse could incorporate many different forms of attacks such as Brute Force Attacks, Dictionary Attacks, and Credential Stuffing. These attacks have various forms of prevention built into the NextCloud Server User Password Policy and thus it should be fully implemented with all its feature capabilities to prevent these issues. 
+
+### Prevention of misuse case
+To prevent the misuse of the access to files, NextCloud Server has a strong and multi-optioned Password Policy that can be found here. 
+https://docs.nextcloud.com/server/latest/admin_manual/configuration_user/user_password_policy.html
+A password policy is a set of rules designed to enhance computer security by encouraging users to employ strong passwords and use them properly.
+
+In the security-section of your administrator-settings you can configure:
+* A minimal length of a password. Default is 10 characters.
+* A password history
+* A password expiration period
+* A lockout policy
+* To forbid common passwords like ‘password’ or ‘login’.
+* To enforce upper and lower case characters
+* To enforce numeric characters
+* To enforce special characters like ! or :
+* To check the password against the list of breached passwords from haveibeenpwnd.com (hashed check via haveibeenpwnd.com-API)
+![image](https://github.com/Hinrichsta/FA23-Cyber8420/assets/143133739/c7aed762-ae92-47bb-9618-102228f44977)
+
+* Brute Force Attack
+  * Will be prevented by Password Policy - Account Lockout Enabled after 5 invalid attempts.
+* Dictionary Attack
+  * Will be prevented by Password Policy - Forbid common passwords like ‘password’ or ‘login’ and  checking the password against the list of breached passwords from haveibeenpwnd.com
+* Credential Stuffing
+  * Will be prevented byy Password Policy - A password history and checking the password against the list of breached passwords from haveibeenpwnd.com.
+    
 ### Misuse Case example 2 - Website Access
 ![Website Misuse Case](./Website%20Misuse%20Case.webp "Website Misuse Case")
 
