@@ -17,11 +17,30 @@ Protecting the processing of customers data is the number one priority. When a c
 •	SSO/SML 2.0
 •	Two factor authentication
 Public key, Private Key, Oracle 19c, MySQL, SSL, PHP 8.0
-Version code	Version name	Release date	End of life	Current version	Next version
+Maintainence Schedule:
+28 version update is to be determined (TBD)
 27	Hub 6	2023-06-13	2024-06	27.1.1 (2023-09-21)	27.1.2 (2023-10-19)
 26	Hub 4	2023-03-21	2024-03	26.0.7 (2023-09-21)	26.0.8 (2023-10-19)
 25	Hub 3	2022-10-19	2023-10	25.0.12 (2023-09-21)	25.0.13 (2023-10-19)
+The following nextcloud versions are at the end of life (EOL):
 
+Version code	Version name	Release date	End of life	Current version	Next version
+24	Hub 3	2022-05-03	2023-04	24.0.12 (2023-04-20)	End of Life
+23	Hub 2	2021-11-30	2022-12	23.0.12 (2022-12-08)	End of Life
+22	Hub	2021-07-06	2022-07	22.2.10 (2022-07-18)	End of Life
+21	Hub	2021-02-22	2022-02	21.0.9 (2022-02-15)	End of Life
+20	Hub	2020-10-03	2021-11	20.0.14 (2021-11-11)	End of Life
+19	Hub	2020-06-03	2021-06	19.0.13 (2021-07-01)	End of Life
+18	Hub	2020-01-16	2021-01	18.0.14 (2021-01-27)	End of Life
+17	17	2019-09-30	2020-10	17.0.10 (2020-10-08)	End of Life
+16	16	2019-04-25	2020-06	16.0.11 (2020-06-04)	End of Life
+15	15	2018-12-10	2019-12	15.0.14 (2019-12-19)	End of Life
+14	14	2018-09-10	2019-09	14.0.14 (2019-08-15)	End of Life
+13	13	2018-02-06	2019-02	13.0.12 (2019-02-28)	End of Life
+12	12	2017-05-22	2018-11	12.0.13 (2018-11-22)	End of Life
+11	11	2016-12-13	2018-03	11.0.8 (2018-03-15)	End of Life
+10	10	2016-08-25	2017-08	10.0.6 (2017-08-07)	End of Life
+9	9	2016-03-08	2017-04	9.0.58 (2017-04-24)	End of Life
 
 ## Reporting a Vulnerability
 Overall, there have been 272 security vulnerabilities files found in Next Cloud from 2016 to 2023. The security vulnerabilities can be found at: Nextcloud : Security vulnerabilities, CVEs (cvedetails.com)
