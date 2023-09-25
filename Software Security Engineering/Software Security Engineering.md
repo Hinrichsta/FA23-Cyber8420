@@ -136,4 +136,4 @@ There are a lot of potential pitfalls with their method of documentation, as it 
    * The group could use a little more work in terms of working cohesively, and I do not think that we will make it to the finish line of this semester as we currently stand.  This past week and a half has been a trial of my patience and my friends and coworkers will to hear me vent.  I believe that if we have a meeting shortly after the assignment is posted it may help our group work better, but I don’t think it will help fix the root cause of our issues.
 
 * Sheryl Cummings
-   * [Reflection](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Software%20Security%20Engineering/OSS%20Nextcloud%20Security%20and%20authentication%20featuresv3.docx)
+   * [Reflection](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Software%20Security%20Engineering/OSS%20Nextcloud%20Security%20and%20authentication%20featuresv3.docx)(Starting at Page 7)
