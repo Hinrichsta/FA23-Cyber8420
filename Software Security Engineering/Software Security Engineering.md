@@ -54,9 +54,39 @@ Data thieves will try their hardest to get ahold of our banks data and use it to
 
 ### Misuse Case example 3 - Database
 ![Database Misuse Case](./Use-Misuse%20Case%20-%20Database.png "Database Misuse Case")
+#### Use Case
+A banker seek to pull client's account information or search through the company home page information related to client inquiry. To do so they interact with search boxes which behind the scene query the bank database. 
+
+#### Misuses case
+The darkweb is filled with various skilled programmers and hackers who can't wait to put their hand on your precious client record. They will try everything in their power to gain control of those record including attacks like XSS or SQL Injection which essentially seek to exploit weak entry data point (User's input) in the bank application or website that have not been properly sanitize. Where a regular banker would enter a normal query, the darkweb data harvester would enter malicious codes. 
+
+### Prevention of misuse case
+* Client side input validation: To counter XSS and SQL Injection, the nextcloud system should sanitize all users input not only on the client side but most importantly on the server side. Client side controls can easily be disabled or bypassed by a malicious actor like the darknet data harvesters. 
+* Server side input validation: Everything happening on the client side can be controled by the client however server side implementation is not. 
+* Use parametized sql queries: Even when the data is sanitized on the server side SQL Injection can still be possible as some advanced attack like blind SQL Injection can be hard to defend against. This is why in addition to server side validation nexcloud should use parametized query. 
+Parameterized queries is a technique that aims to separate the SQL query from the user input values. The user input values are passed as parameters. They can no longer contain an executable code since the parameter is treated as a literal value and checked for the type and length.
 
 ### Misuse Case example 4 - Mobile App
+![image](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Software%20Security%20Engineering/CEH%20Mobile%20Device%20Use-Misuse%20Case%20Draft3.png)
+#### Use Case  
+From the banker’s point of view who would use their android smart phone to access their NextCloud application, would login with their username and password and then authenticate with U2F over NFC. They preferably would use a password vault, so their password is complex. 
 
+#### Misues Case  
+From the WFFHG(Wells Fargo Funded Hacker Group)’s perspective, they would have already phished, purchased off the dark web or otherwise, the bankers NextCloud credentials for login.  They may also have planted malware on the device that would allow them to intercept MFA tokens via text messages or phone calls.  They could also leverage MFA fatigue attacks to hopefully wear down the banker into accepting the incoming MFA authentication request.
+
+### Prevention of misuse case
+With regards to Nextcloud’s ability to counter the WFFHG attacks the administrator of the NextCloud system could leverage a force password change if the credentials were known to be leaked.  They could also disable the user account in total. However, the best defense to nullify any MFA attack would be to use a U2F (YubiKey or equivalent) for only-on-person authentication to NextCloud MFA prompts over Android using an NFC connection.
+
+In NextCloud's admin Manual online, in the two-factor authentication chapter it covers the following:
+* Two-factor authentication is installed by default, this allows for TOTP and U2F.
+* In order to use two-factor authentication the administrator must enable which form of two-factor they want used. In this case U2F.
+* Next the admin must enforce the U2f authentication for all employees and groups.
+* When users logon to the NextCloud application they will be prompted for setting up U2F with a YubiKey.
+![image](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Software%20Security%20Engineering/U2F.png)
+
+* MFA fatigue attack
+  * Will be prevented by a Admin disabling a user account.
+  * Utilizing U2F MFA with a Yubikey.
 ### Misuse Case example 5 - System Administration
 
 
@@ -64,4 +94,14 @@ Data thieves will try their hardest to get ahold of our banks data and use it to
 
 ## Reflection
 * Lucas Reichlinger
-  * For contributions this week I hosted the meetings, worked through Use Case Example 1 for Login to the Files, and helped members work with Draw.io the diagram tool used for the assignment. Worked with each member to help gain a better understanding of the requirements set forth by the instructor based on a previous meeting and resolved any previous diagrams for assignments to ensure project documentation was accurate. Proofed writings for part 2 of the assignment to ensure accuracy and grammar. Some of the issues that occurred were related to time management, workload, and use of the tools for the project. We resolved them by working toward a common goal, helping each other where possible by staying late at meetings to ensure all questions were answered, and dividing tasks among group members based on skill sets. Each member also contributed to the improvement of each other's diagrams to help maintain a full understanding of the assignment. Going forward it was recommended that our meetings be more organized in terms of agenda and getting through any misunderstandings, as well as working earlier on the project when it is posted when time permits for everyone. 
+  * For contributions this week I hosted the meetings, worked through Use Case Example 1 for Login to the Files, and helped members work with Draw.io the diagram tool used for the assignment. Worked with each member to help gain a better understanding of the requirements set forth by the instructor based on a previous meeting and resolved any previous diagrams for assignments to ensure project documentation was accurate. Proofed writings for part 2 of the assignment to ensure accuracy and grammar. Some of the issues that occurred were related to time management, workload, and use of the tools for the project. We resolved them by working toward a common goal, helping each other where possible by staying late at meetings to ensure all questions were answered, and dividing tasks among group members based on skill sets. Each member also contributed to the improvement of each other's diagrams to help maintain a full understanding of the assignment. Going forward it was recommended that our meetings be more organized in terms of agenda and getting through any misunderstandings, as well as working earlier on the project when it is posted when time permits for everyone.
+ 
+* Chris Hepburn
+  *	Section 2 reflection - Prior to our first meeting this week I created a working area in our Microsoft Teams group (Files)along with color coded Todo document to get ideas going. For the first meeting we all discussed our understanding of the material and what use/misuse ideas everyone had along with company ideas. The next day we met with Dr. Gandhi where we discussed our use/misuse ideas where he gave us food for thought in being more to the point and having a company that would be larger and broader. After this meeting Sheryl and I met on Zoom for more dialog and questions using draw.io.  I completed my use and misuse case on mobile device MFA login using U2F (YubiKey) with NextCloud to combat MFA fatigue attacks specifically. I typed up my use case and misuse case summaries of the diagram and team contribution summary along with team reflection.  After this I fleshed out my use/misuse task in github with my dialog with Dr.Gandhi and uploaded my draw.io drafts, needed pictures for the summary and all written items.  
+  *	Team reflection- This week our team met two times for an hour or more and one time with Dr. Gandhi.  Sheryl and I moved to a different zoom meeting after meeting with Dr. Gandhi to help clarify the project to that point for about 30 minutes.  The team does have more alpha types than not which makes for many leaders.  However, we all have the common goal, which is to get the assignments done, to make sure others understand the tasks at hand and how to complete them. While the team may have different views on some tasks, we talk it out and ultimately come to an agreement and help one another when there are questions, misunderstandings, ideas on making assignments flow better or needed communication within the group. I did feel the diagrams were rather difficult to achieve the initial idea fully of what was wanted from Dr. Gandhi, but we all pulled together and fleshed it out and made sure each person understood what was expected in the end.  
+
+* Henri Allou
+  * Individual Contribution:
+    My contribution this week has been to work with my teammates to complete the deliverable for the Requirement for Software Security Engineering. On Tuesday we met and discus what nextcloud features we would like to develop use/misuse cases for and assigned them to each team member. I picked the database as it talk more to me than the other features. We had 1 day to get a draft of the diagram ready for Dr Ghandi to review on Wednesday. This was a rather short timeframe I think from when we picked our task but we managed to have 3 drafts ready. Dr Ghandi guided reviewed the draft and put us on the right path by adjusting our understanding of what was needed. We decided to meet again on Thursday from 5pm to 5:30pm to help each other out and review our diagram on Thursday. Some members had difficulties with the use of Github or draw.io. Many stayed well past 5:30pm to help each other out. I stayed until 7pm with Sheryl to help her with her diagram on draw.io (an extra hour and half past 5:30pm) 
+  * Teamwork Reflection:
+   As a team we communicate a lot through emails on canvas. I find this team to be very communicative, which is great for any project as communication I think is key to a successful project. We discuss openly about any issues we have working on our tasks and help each other out. Some go as far as proposing extra meetings with members who need help. This is very refreshing to see. It means we are all on the same page and willing to put in all the effort we can to get to the finish line. I hope this great teamwork will continue until the end. 
