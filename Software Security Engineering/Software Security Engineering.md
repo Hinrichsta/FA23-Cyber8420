@@ -67,7 +67,7 @@ The darkweb is filled with various skilled programmers and hackers who can't wai
 Parameterized queries is a technique that aims to separate the SQL query from the user input values. The user input values are passed as parameters. They can no longer contain an executable code since the parameter is treated as a literal value and checked for the type and length.
 
 ### Misuse Case example 4 - Mobile App
-![image](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Software%20Security%20Engineering/CEH%20Mobile%20Device%20Use-Misuse%20Case%20Draft3.png)
+![image](./CEH%20Mobile%20Device%20Use-Misuse%20Case%20Draft3.png)
 #### Use Case  
 From the banker’s point of view who would use their android smart phone to access their NextCloud application, would login with their username and password and then authenticate with U2F over NFC. They preferably would use a password vault, so their password is complex. 
 
@@ -82,13 +82,13 @@ In NextCloud's admin Manual online, in the two-factor authentication chapter it 
 * In order to use two-factor authentication the administrator must enable which form of two-factor they want used. In this case U2F.
 * Next the admin must enforce the U2f authentication for all employees and groups.
 * When users logon to the NextCloud application they will be prompted for setting up U2F with a YubiKey.
-![image](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Software%20Security%20Engineering/U2F.png)
+![image](./U2F.png)
 
 * MFA fatigue attack
   * Will be prevented by a Admin disabling a user account.
   * Utilizing U2F MFA with a Yubikey.
-### Misuse Case example 5 - System Administration
-![Misuse Case 5]()
+### Misuse Case example 5 - Customer
+![Misuse Case 5](./GFH%20Bank%20Misuse%20Case%20Diagram%20Customer.png)
 Scenario: The customer is reviewing her account balance on the internet. In the background, GFH Bank is allowing here access by validating asymmetrically (utilizing both public key and private key). She is logging onto the bank’s HTTPS website. In the meantime, vulcanator is trying to infiltrate the system by denying the customer access to her account. Vulcanator introduced a botnet on the bank’s server while performing a distributed denial of service attack on the banks website.  
 While the DDOS is in place, vulcanator is also capturing trying to capture the customers data such as user name, password, bank login credentials, etc. by running a script kiddie to capture this information.  
 GFH Bank have in place a public key (for the customer) and private key (for the bank) to authenticate information being sent and received to validate the customers credentials.
@@ -102,11 +102,11 @@ Nextcloud has an extensive database of documentation, and most of it is availabl
 ### Security configuration
 While the security configuration of Nextcloud appears to be well documented, they do have their share of vulnerabilities.  They don’t try to hid their vulnerabilities posting their [CVE Details page]( https://www.cvedetails.com/vulnerability-list/vendor_id-15913/Nextcloud.html) they have had 272 vulnerabilities over their lifetime with 62 within 2023.  They also have a direct link to submit reports to [HackerOne]( https://hackerone.com/nextcloud) about their vulnerabilities.  It seems that most vulnerabilities found are submitted through the HackerOne page and that they patch them efficiently.  
 * [Basic Server Hardening](https://docs.nextcloud.com/server/latest/admin_manual/installation/harden_server.html)
-	* [Using HTTPS](https://docs.nextcloud.com/server/latest/admin_manual/installation/harden_server.html#use-https)
+  	* [Using HTTPS](https://docs.nextcloud.com/server/latest/admin_manual/installation/harden_server.html#use-https)
 * [User Management]( https://docs.nextcloud.com/server/latest/admin_manual/configuration_user/index.html)
- * [User Password Policy]( https://docs.nextcloud.com/server/latest/admin_manual/configuration_user/reset_admin_password.html)
- * [Multifactor Authentication](https://docs.nextcloud.com/server/latest/admin_manual/configuration_user/two_factor-auth.html)
- * [Brute Force Protection]( https://docs.nextcloud.com/server/latest/admin_manual/configuration_server/bruteforce_configuration.html)
+  * [User Password Policy]( https://docs.nextcloud.com/server/latest/admin_manual/configuration_user/reset_admin_password.html)
+  * [Multifactor Authentication](https://docs.nextcloud.com/server/latest/admin_manual/configuration_user/two_factor-auth.html)
+  * [Brute Force Protection]( https://docs.nextcloud.com/server/latest/admin_manual/configuration_server/bruteforce_configuration.html)
 * [Server Side Encryption]( https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/encryption_configuration.html)
 * [Transactional File Locking]( https://docs.nextcloud.com/server/latest/admin_manual/configuration_files/files_locking_transactional.html)
 
@@ -132,8 +132,8 @@ There are a lot of potential pitfalls with their method of documentation, as it 
    As a team we communicate a lot through emails on canvas. I find this team to be very communicative, which is great for any project as communication I think is key to a successful project. We discuss openly about any issues we have working on our tasks and help each other out. Some go as far as proposing extra meetings with members who need help. This is very refreshing to see. It means we are all on the same page and willing to put in all the effort we can to get to the finish line. I hope this great teamwork will continue until the end. 
 
 * Tyler Hinrichs
- * In this project I worked on the Website misuse case and did most of the project board organization.  Initially I started with an API misuse case, but it ballooned a lot and so I narrowed it down to just the website and specifically looked at SSL within the Website.  It took a while to finally get what I needed, but after the review with Dr. Gandhi I had a decent grasp on what was expected.  After reviewing past projects I felt I had a solid grasp.  The project board was mainly just assigning the tasks and keeping an eye on everything, which was monitored through email.  I had to do a little pushing for everyone to use it but overall it had moderate use.  
-The group could use a little more work in terms of working cohesively, and I do not think that we will make it to the finish line of this semester as we currently stand.  This past week and a half has been a trial of my patience and my friends and coworkers will to hear me vent.  I believe that if we have a meeting shortly after the assignment is posted it may help our group work better, but I don’t think it will help fix the root cause of our issues.
+   * In this project I worked on the Website misuse case and did most of the project board organization.  Initially I started with an API misuse case, but it ballooned a lot and so I narrowed it down to just the website and specifically looked at SSL within the Website.  It took a while to finally get what I needed, but after the review with Dr. Gandhi I had a decent grasp on what was expected.  After reviewing past projects I felt I had a solid grasp.  The project board was mainly just assigning the tasks and keeping an eye on everything, which was monitored through email.  I had to do a little pushing for everyone to use it but overall it had moderate use.  
+   * The group could use a little more work in terms of working cohesively, and I do not think that we will make it to the finish line of this semester as we currently stand.  This past week and a half has been a trial of my patience and my friends and coworkers will to hear me vent.  I believe that if we have a meeting shortly after the assignment is posted it may help our group work better, but I don’t think it will help fix the root cause of our issues.
 
 * Sheryl Cummings
- * [Reflection](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Software%20Security%20Engineering/OSS%20Nextcloud%20Security%20and%20authentication%20featuresv3.docx)
+   * [Reflection](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Software%20Security%20Engineering/OSS%20Nextcloud%20Security%20and%20authentication%20featuresv3.docx)
