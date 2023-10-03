@@ -9,9 +9,12 @@ This document will review the development of four top-level assurance claims for
 
 Top-Level Claim #1
 -
-### Claim
-- Nextcloud prevents malicious file uploads
+### Claim: Nextcloud minimizes malicious input execution
+#### Description
+User input is processed by nexcloud for searches, login, comments etc. This input can very well be used to perform many malicious activites such as extracting information from the database or executing complex script on the user's machine or even on the server. User's input represent a critical data that must be handled with care otherwise it could have some serious repercution for the business. 
+The Assurance Case below seek to mitigate this risk. 
 
+![Malicious input Execution](./NC-Malicious_Input.jpg "Malicious Input Execution")
 
 
 Top-Level Claim #2
