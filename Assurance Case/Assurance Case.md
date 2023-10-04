@@ -28,7 +28,8 @@ Top-Level Claim #2
 Top-Level Claim #3
 -
 ### Claim
-- The Nextcloud ...
+![Secure Communications](./Assurance%20Case%20-%20Secure%20Communication.webp)
+
 
 
 Top-Level Claim #4
