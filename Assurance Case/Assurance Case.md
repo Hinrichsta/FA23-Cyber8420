@@ -19,8 +19,8 @@ The Assurance Case below seek to mitigate this risk.
 
 Top-Level Claim #2
 -
-### Claim
-- Nextcloud ...
+### Claim: NextCloud eliminates unauthorized account access
+#### Description
 
 
 
