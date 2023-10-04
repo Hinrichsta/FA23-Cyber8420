@@ -21,7 +21,8 @@ Top-Level Claim #2
 -
 ### Claim: NextCloud eliminates unauthorized account access
 #### Description
-![Account Access](./Assurance Case - Account Access.drawio.png "Account Access")
+![Assurance Case - Account Access drawio](https://github.com/Hinrichsta/FA23-Cyber8420/assets/143133739/bb1240ba-577a-46e6-9bf6-1261e0efc286)
+
 
 
 Top-Level Claim #3
