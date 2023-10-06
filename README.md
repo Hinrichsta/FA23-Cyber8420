@@ -15,6 +15,10 @@
 
 https://github.com/nextcloud/server
 
+### Project Documentation
+
+https://docs.nextcloud.com/server/latest/admin_manual/index.html
+
 ### Project Deliverables
 
 [Project Proposal](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Project%20Proposal/Proposal.md)  
