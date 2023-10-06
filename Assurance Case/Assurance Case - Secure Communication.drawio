@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-06T15:23:51.755Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="cgICVK-20kwEsU7BngPH" version="22.0.3" type="device">
+<mxfile host="app.diagrams.net" modified="2023-10-06T15:42:44.461Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="thiKapbsr3Z9a4qzs4Yx" version="22.0.3" type="device">
   <diagram id="2RAkf9iS2bYrb-5zrusB" name="Page-1">
     <mxGraphModel dx="1434" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -68,7 +68,7 @@
         <mxCell id="V42Uoq7RvH6Dob9uq_5v-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="V42Uoq7RvH6Dob9uq_5v-35" target="V42Uoq7RvH6Dob9uq_5v-49" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V42Uoq7RvH6Dob9uq_5v-35" value="&lt;b&gt;Evidence E1:&lt;/b&gt;&lt;br&gt;The VirtualHost file has been configured in Apache to use Strict Transport Security." style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffffff;rounded=0;" parent="1" vertex="1">
+        <mxCell id="V42Uoq7RvH6Dob9uq_5v-35" value="&lt;b&gt;Evidence E2:&lt;/b&gt;&lt;br&gt;Virtualhost file with HSTS Configuration." style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffffff;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="330" y="720" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="J1Rwe4xzmmFX6WQmkzGD-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" parent="1" source="V42Uoq7RvH6Dob9uq_5v-42" target="J1Rwe4xzmmFX6WQmkzGD-5" edge="1">
