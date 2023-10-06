@@ -18,5 +18,5 @@ https://github.com/nextcloud/server
 ### Project Deliverables
 
 [Project Proposal](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Project%20Proposal/Proposal.md)  
-[Software Security Engineering](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Software%20Security%20Engineering/Software%20Security%20Engineering.md)
+[Software Security Engineering](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Software%20Security%20Engineering/Software%20Security%20Engineering.md)  
 [Assurance Cases for SSE](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Assurance%20Case/Assurance%20Case.md)
