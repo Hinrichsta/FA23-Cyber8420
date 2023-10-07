@@ -32,8 +32,11 @@ Nextcloud has the ability to be set up with secure communication protocols withi
 ![Secure Communications](./Assurance%20Case%20-%20Secure%20Communication.webp)
 
 
-## Claim 4: 
-- The Nextcloud ...
+## Claim 4: NextCloud provides secure mobile device connections
+#### Description
+NextCloud provides a highly secure Andriod application for moible device connections to it's servers. The program allows for secure and detailed user password requirements as shown here [NextCloud Password Requirements Setup](https://docs.nextcloud.com/server/20/Nextcloud_Server_Administration_Manual.pdf). When coupled with the administrative ability for an administrator to force password changes, disable user accounts and enforce MFA, NextCloud creates a highly secure enviorments for it's users. NextCloud also allows for a highly secure form of MFA in terms of it's API tie in to the application during setup, with the U2F protocol, such as a YubiKey as seen here [NextCloud MFA Setup](https://docs.nextcloud.com/server/stable/Nextcloud_Server_Administration_Manual.pdf).  While U2F is a great choice when trying to secure a user account but also in blocking MFA fatigue attacks.  Hower the NextCloud admin guide does not do a very good job in explaining the setup and configuration of U2F within it's software. Another important aspect of protecting NextCloud users and it's plattform is turning on and utilizing the brute-force API as shown here [NextCloud brute-force Protection Setup](https://docs.nextcloud.com/server/latest/admin_manual/configuration_server/bruteforce_configuration.html).  The only draw back to this setting is the neccesity of the system administrator to understand the Linux server enviorment and be able to properly edit configuration files. 
+###Diagram
+
 
 ## Reflection
 
