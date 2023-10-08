@@ -38,8 +38,8 @@ NextCloud provides a highly secure Andriod application for moible device connect
 ### Diagram
 ![Secure Mobile Device Connection](./CEH%20Mobile%20Device%20Assurance%20Case%20Final.png)
 
-## Reflection
+## Team Reflection & Contributions
+Our team worked very efficiently this week.  Each person studied and understood the prior week’s software assurance information and was able to contribute to the team in a meaningful and professional manner. Everyone brought good ideas, thoughts and helpful criticism on each use-misuse case and how to start their diagrams prior to meeting with Dr. Gandhi.  After our meeting with Dr. Gandhi each person set to work and created what we feel to be true to topic diagrams for our final submission. Each diagram and description were completed on time and was looked over by at least one other student.  The team met twice during the week and once with Dr. Gandhi.  Each student did their own diagram, description, helped to update GitHub with the proper file uploads and markdown editing as needed. All in all, it was a solid week.
 
-\## TODO: Write Reflection
 
  [Project Page](https://github.com/users/Hinrichsta/projects/2/views/1)
