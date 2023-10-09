@@ -27,17 +27,6 @@ NextCloud uses an enhanced password policy and preferences inside of it to maint
 * E4: Evidence 4 will prove that as a result of change management and verification of settings post changes that these implemented claims and sub-claims will remain in effect and not be undone by any type of change or update. 
 
 
-<<<<<<< HEAD
-
-Top-Level Claim #1
--
-### Claim
-- Nextcloud minimizes malicious input execution
-#### Description
-User input is processed by nexcloud for searches, login, comments etc. This input can very well be used to perform many malicious activites such as extracting information from the database or executing complex script on the user's machine or even on the server. User's input represent a critical data that must be handled with care otherwise it could have some serious repercution for the business. The Assurance Case below seek to mitigate this risk. 
-
-![Malicious input Execution](./NC-Malicious_Input.jpg "Malicious Input Execution")
-=======
 ## Claim 3: Nextcloud provides acceptable communication protection for end users
 #### Description
 Nextcloud has the ability to be set up with secure communication protocols within it platform.  It also only communicates over Web Protocols making it easier to properly configure the secure protocols, which can all be found here [Nextcloud HTTPS Configuration](https://docs.nextcloud.com/server/latest/admin_manual/installation/harden_server.html#use-https).  Unfortunately it doesn't do the best to document the interserver communcation protocals, and the federated files shares.  It also doesn't have a section of its public documentation that lays out proper firewall configuration with the ports that are required for the server to run.  With what it has the end user communication can be configured to be as secure as possible without including third party applications such as a Web Application Firewall.
@@ -50,7 +39,6 @@ Nextcloud has the ability to be set up with secure communication protocols withi
 NextCloud provides a highly secure Andriod application for moible device connections to it's servers. The program allows for secure and detailed user password requirements as shown here [NextCloud Password Requirements Setup](https://docs.nextcloud.com/server/20/Nextcloud_Server_Administration_Manual.pdf). When coupled with the administrative ability for an administrator to force password changes, disable user accounts and enforce MFA, NextCloud creates a highly secure enviorments for it's users. NextCloud also allows for a highly secure form of MFA in terms of it's API tie in to the application during setup, with the U2F protocol, such as a YubiKey as seen here [NextCloud MFA Setup](https://docs.nextcloud.com/server/stable/Nextcloud_Server_Administration_Manual.pdf).  While U2F is a great choice when trying to secure a user account but also in blocking MFA fatigue attacks.  Hower the NextCloud admin guide does not do a very good job in explaining the setup and configuration of U2F within it's software. Another important aspect of protecting NextCloud users and it's plattform is turning on and utilizing the brute-force API as shown here [NextCloud brute-force Protection Setup](https://docs.nextcloud.com/server/latest/admin_manual/configuration_server/bruteforce_configuration.html).  The only draw back to this setting is the neccesity of the system administrator to understand the Linux server enviorment and be able to properly edit configuration files. 
 ### Diagram
 ![Secure Mobile Device Connection](./CEH%20Mobile%20Device%20Assurance%20Case%20Final.png)
->>>>>>> b64567ba9fbe4e28e63b90bb876db5e88d3035a4
 
 ## Team Reflection & Contributions
 Our team worked very efficiently this week.  Each person studied and understood the prior week’s software assurance information and was able to contribute to the team in a meaningful and professional manner. Everyone brought good ideas, thoughts and helpful criticism on each use-misuse case and how to start their diagrams prior to meeting with Dr. Gandhi.  After our meeting with Dr. Gandhi each person set to work and created what we feel to be true to topic diagrams for our final submission. Each diagram and description were completed on time and was looked over by at least one other student.  The team met twice during the week and once with Dr. Gandhi.  Each student did their own diagram, description, helped to update GitHub with the proper file uploads and markdown editing as needed. All in all, it was a solid week.
