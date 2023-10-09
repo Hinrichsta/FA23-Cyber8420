@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-06T15:42:44.461Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="thiKapbsr3Z9a4qzs4Yx" version="22.0.3" type="device">
+<mxfile host="app.diagrams.net" modified="2023-10-09T22:01:24.556Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="SWSJ3GMSt1Ic7VFBBkKF" version="21.8.0" type="device">
   <diagram id="2RAkf9iS2bYrb-5zrusB" name="Page-1">
-    <mxGraphModel dx="1434" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="1128" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -51,7 +51,7 @@
             <mxPoint x="340" y="590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="V42Uoq7RvH6Dob9uq_5v-26" value="&lt;b&gt;Rebuttal R4:&lt;br&gt;Unless the HTTPS Protocol get stripped through a redirection.&lt;br&gt;&lt;/b&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=17;fillColor=#FFF2CC;" parent="1" vertex="1">
+        <mxCell id="V42Uoq7RvH6Dob9uq_5v-26" value="&lt;b&gt;Rebuttal R4:&lt;/b&gt;&lt;br&gt;Unless the HTTPS Protocol get stripped through a redirection." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=17;fillColor=#FFF2CC;" parent="1" vertex="1">
           <mxGeometry x="320" y="440" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="V42Uoq7RvH6Dob9uq_5v-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="V42Uoq7RvH6Dob9uq_5v-28" target="V42Uoq7RvH6Dob9uq_5v-50" edge="1">
@@ -74,7 +74,7 @@
         <mxCell id="J1Rwe4xzmmFX6WQmkzGD-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" parent="1" source="V42Uoq7RvH6Dob9uq_5v-42" target="J1Rwe4xzmmFX6WQmkzGD-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V42Uoq7RvH6Dob9uq_5v-42" value="&lt;b&gt;Sub Claim C6:&lt;/b&gt;&lt;br&gt;&lt;b&gt;Nextcloud only communicates with users over web protocols&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="V42Uoq7RvH6Dob9uq_5v-42" value="&lt;b&gt;Sub Claim C4:&lt;/b&gt;&lt;br&gt;Nextcloud only communicates with users over web protocols" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="106.25" y="590" width="142.5" height="70" as="geometry" />
         </mxCell>
         <mxCell id="V42Uoq7RvH6Dob9uq_5v-45" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;Sub Claim C3:&lt;/b&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;TLS 1.3 is required for connection with Strong Ciphers Enabled&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -83,7 +83,7 @@
         <mxCell id="V42Uoq7RvH6Dob9uq_5v-46" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;Sub Claim C2:&lt;/b&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;HTTPS is Required to connect&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="310" width="125" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="V42Uoq7RvH6Dob9uq_5v-48" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;Sub Claim C4:&lt;/b&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;HTTPS Strict Transport Security has been enabled&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="V42Uoq7RvH6Dob9uq_5v-48" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;Sub Claim C5:&lt;/b&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;HTTPS Strict Transport Security has been enabled&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="595" width="125" height="60" as="geometry" />
         </mxCell>
         <mxCell id="V42Uoq7RvH6Dob9uq_5v-49" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CCCCCC;" parent="1" vertex="1">
