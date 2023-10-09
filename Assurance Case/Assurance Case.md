@@ -31,7 +31,7 @@ NextCloud uses an enhanced password policy and preferences inside of it to maint
 #### Description
 Nextcloud has the ability to be set up with secure communication protocols within it platform.  It also only communicates over Web Protocols making it easier to properly configure the secure protocols, which can all be found here [Nextcloud HTTPS Configuration](https://docs.nextcloud.com/server/latest/admin_manual/installation/harden_server.html#use-https).  Unfortunately it doesn't do the best to document the interserver communcation protocals, and the federated files shares.  It also doesn't have a section of its public documentation that lays out proper firewall configuration with the ports that are required for the server to run.  With what it has the end user communication can be configured to be as secure as possible without including third party applications such as a Web Application Firewall.
 ### Diagram:
-![Secure Communications](./Assurance%20Case%20-%20Secure%20Communication.webp)
+![Secure Communications](https://raw.githubusercontent.com/Hinrichsta/FA23-Cyber8420/main/Assurance%20Case/Assurance%20Case%20-%20Secure%20Communication.webp)
 
 
 ## Claim 4: NextCloud provides secure mobile device connections
