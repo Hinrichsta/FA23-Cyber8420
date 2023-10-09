@@ -9,6 +9,8 @@ The Assurance Case below seek to mitigate this risk.
 
 
 ## Claim 2: NextCloud eliminates unauthorized account access
+#### Description
+NextCloud uses an enhanced password policy and preferences inside of it to maintain secure access to accounts. Multi-factor Authentication (MFA) is resolved by the Claim 4 - Sub-Claim 4. This Claim identifies and works to show that unauthorized account access through means of password attacks is eliminated and the various mechanisms that are used to mitigate them. Through the explanations of the Evidence found below it is clear that the NextCloud Assurance Case for eliminating unauthorized account access is indeed possible and critical to avoid any compliance or user privacy violations.  
 
 ![Assurance Case - Account Access drawio](https://github.com/Hinrichsta/FA23-Cyber8420/assets/143133739/bb1240ba-577a-46e6-9bf6-1261e0efc286)
 
