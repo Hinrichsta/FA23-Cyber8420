@@ -1,0 +1,224 @@
+<mxfile host="app.diagrams.net" modified="2023-10-09T21:42:50.307Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="7B0CG0fVl-Pwi_EnbJmA" version="22.0.4" type="device">
+  <diagram id="2RAkf9iS2bYrb-5zrusB" name="Page-1">
+    <mxGraphModel dx="2231" dy="1071" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EpLoNu7SxfJ4iQwhgqlz-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;" parent="1" source="EpLoNu7SxfJ4iQwhgqlz-2" target="EpLoNu7SxfJ4iQwhgqlz-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EpLoNu7SxfJ4iQwhgqlz-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;curved=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" parent="1" source="EpLoNu7SxfJ4iQwhgqlz-2" target="EpLoNu7SxfJ4iQwhgqlz-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EpLoNu7SxfJ4iQwhgqlz-2" value="&lt;b&gt;Top-Claim C1:&lt;br&gt;&lt;/b&gt;Nextcloud offers reasonable protection against malicious input" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="345" y="10" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EpLoNu7SxfJ4iQwhgqlz-3" value="&lt;b&gt;Context CT1:&lt;/b&gt; NC processes user&#39;s input (Search, login, comments etc...)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;" parent="1" vertex="1">
+          <mxGeometry x="605" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EpLoNu7SxfJ4iQwhgqlz-9" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="EpLoNu7SxfJ4iQwhgqlz-5" target="EpLoNu7SxfJ4iQwhgqlz-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EpLoNu7SxfJ4iQwhgqlz-5" value="Rebuttal R2: Unless nextcloud is vulnerable to XSS" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=17;fillColor=#FFF2CC;" parent="1" vertex="1">
+          <mxGeometry x="484" y="133" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EpLoNu7SxfJ4iQwhgqlz-12" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=block;endFill=1;" parent="1" source="EpLoNu7SxfJ4iQwhgqlz-8" target="EpLoNu7SxfJ4iQwhgqlz-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EpLoNu7SxfJ4iQwhgqlz-8" value="&lt;b&gt;Sub-Claim C3:&lt;br&gt;&lt;/b&gt;NC uses client side input validation" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="353" y="250" width="135" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EpLoNu7SxfJ4iQwhgqlz-16" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;" parent="1" source="EpLoNu7SxfJ4iQwhgqlz-10" target="EpLoNu7SxfJ4iQwhgqlz-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EpLoNu7SxfJ4iQwhgqlz-10" value="Rebuttal R4: Unless input validation is bypassed&amp;nbsp;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=17;fillColor=#FFF2CC;" parent="1" vertex="1">
+          <mxGeometry x="310" y="357" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tH5tL20Kys3OlExUbErp-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EpLoNu7SxfJ4iQwhgqlz-14" target="tH5tL20Kys3OlExUbErp-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EpLoNu7SxfJ4iQwhgqlz-14" value="&lt;b&gt;Sub-Claim C7:&lt;br&gt;&lt;/b&gt;Nexcloud does not execute user input" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="376" y="463" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EpLoNu7SxfJ4iQwhgqlz-23" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;" parent="1" target="EpLoNu7SxfJ4iQwhgqlz-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="288" y="694" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tH5tL20Kys3OlExUbErp-2" value="Rebuttal R1: Unless nextcloud is vulnerable to SQL Injection" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=17;fillColor=#FFF2CC;" vertex="1" parent="1">
+          <mxGeometry x="168" y="133" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tH5tL20Kys3OlExUbErp-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="EpLoNu7SxfJ4iQwhgqlz-2" target="tH5tL20Kys3OlExUbErp-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="100" as="sourcePoint" />
+            <mxPoint x="349" y="204" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tH5tL20Kys3OlExUbErp-4" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tH5tL20Kys3OlExUbErp-2" target="EpLoNu7SxfJ4iQwhgqlz-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="200" as="sourcePoint" />
+            <mxPoint x="418" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tH5tL20Kys3OlExUbErp-5" value="&lt;b&gt;Sub-Claim C2:&lt;br&gt;&lt;/b&gt;NC validates user&#39;s input on the server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="39" y="252" width="135" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tH5tL20Kys3OlExUbErp-7" value="&lt;b&gt;Sub-Claim C4:&lt;br&gt;&lt;/b&gt;NC uses output encoding to block script execution" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="641" y="247" width="135" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tH5tL20Kys3OlExUbErp-8" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="EpLoNu7SxfJ4iQwhgqlz-5" target="tH5tL20Kys3OlExUbErp-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="448" y="200" as="sourcePoint" />
+            <mxPoint x="418" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tH5tL20Kys3OlExUbErp-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tH5tL20Kys3OlExUbErp-9" target="tH5tL20Kys3OlExUbErp-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tH5tL20Kys3OlExUbErp-9" value="Rebuttal R5: Unless the source code is altered&amp;nbsp;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=17;fillColor=#FFF2CC;" vertex="1" parent="1">
+          <mxGeometry x="556" y="386" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tH5tL20Kys3OlExUbErp-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tH5tL20Kys3OlExUbErp-10" target="tH5tL20Kys3OlExUbErp-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tH5tL20Kys3OlExUbErp-10" value="&lt;b&gt;Sub-Claim C8:&lt;br&gt;&lt;/b&gt;NC code is signed on release" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="558.5" y="523" width="135" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tH5tL20Kys3OlExUbErp-11" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;" edge="1" parent="1" source="tH5tL20Kys3OlExUbErp-12" target="tH5tL20Kys3OlExUbErp-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tH5tL20Kys3OlExUbErp-12" value="&lt;b&gt;Evidence E3&lt;/b&gt;:&lt;br&gt;Code Signature review" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffffff;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="576" y="635" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tH5tL20Kys3OlExUbErp-13" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="611" y="765" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tH5tL20Kys3OlExUbErp-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tH5tL20Kys3OlExUbErp-15" target="tH5tL20Kys3OlExUbErp-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tH5tL20Kys3OlExUbErp-15" value="Rebuttal R6: Unless NC uses vulnerable encoding functions" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=17;fillColor=#FFF2CC;" vertex="1" parent="1">
+          <mxGeometry x="741" y="386" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tH5tL20Kys3OlExUbErp-16" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;entryX=0;entryY=0;entryDx=61.5;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="tH5tL20Kys3OlExUbErp-7" target="tH5tL20Kys3OlExUbErp-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="636" y="284" as="sourcePoint" />
+            <mxPoint x="749" y="344" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tH5tL20Kys3OlExUbErp-17" value="&lt;b&gt;Sub-Claim C9:&lt;br&gt;&lt;/b&gt;NC uses&amp;nbsp; template engines with latest encoding functions" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="743.5" y="525" width="135" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tH5tL20Kys3OlExUbErp-18" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;" edge="1" parent="1" source="tH5tL20Kys3OlExUbErp-19" target="tH5tL20Kys3OlExUbErp-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tH5tL20Kys3OlExUbErp-19" value="&lt;b&gt;Evidence E4&lt;/b&gt;:&lt;br&gt;Vulnerability assesement report" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffffff;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="761" y="637" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tH5tL20Kys3OlExUbErp-20" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="796" y="767" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tH5tL20Kys3OlExUbErp-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tH5tL20Kys3OlExUbErp-17" target="tH5tL20Kys3OlExUbErp-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="811.24" y="597" as="sourcePoint" />
+            <mxPoint x="810.24" y="657" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tH5tL20Kys3OlExUbErp-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="tH5tL20Kys3OlExUbErp-2" target="tH5tL20Kys3OlExUbErp-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="204" as="sourcePoint" />
+            <mxPoint x="3" y="267" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tH5tL20Kys3OlExUbErp-25" value="Rebuttal R3: Unless NC uses string concatenation in SQL&amp;nbsp;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=17;fillColor=#FFF2CC;" vertex="1" parent="1">
+          <mxGeometry x="105" y="357" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tH5tL20Kys3OlExUbErp-28" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;" edge="1" parent="1" source="tH5tL20Kys3OlExUbErp-29" target="tH5tL20Kys3OlExUbErp-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tH5tL20Kys3OlExUbErp-29" value="&lt;b&gt;Evidence E1&lt;/b&gt;:&lt;br&gt;Code Review" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffffff;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="603" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tH5tL20Kys3OlExUbErp-30" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="245" y="744" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tH5tL20Kys3OlExUbErp-32" value="&lt;b&gt;Sub-Claim C6:&lt;br&gt;&lt;/b&gt;NC uses parametized queries for DB access" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="463" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tH5tL20Kys3OlExUbErp-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.457;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tH5tL20Kys3OlExUbErp-5" target="tH5tL20Kys3OlExUbErp-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="108" y="304" as="sourcePoint" />
+            <mxPoint x="108" y="356" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tH5tL20Kys3OlExUbErp-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="tH5tL20Kys3OlExUbErp-25" target="tH5tL20Kys3OlExUbErp-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="155" y="311" as="sourcePoint" />
+            <mxPoint x="154" y="359" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tH5tL20Kys3OlExUbErp-37" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="EpLoNu7SxfJ4iQwhgqlz-10" target="tH5tL20Kys3OlExUbErp-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="289" y="421" as="sourcePoint" />
+            <mxPoint x="164" y="471" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tH5tL20Kys3OlExUbErp-39" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tH5tL20Kys3OlExUbErp-32" target="tH5tL20Kys3OlExUbErp-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="124.99999999999999" y="518" as="sourcePoint" />
+            <mxPoint x="308" y="575" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tH5tL20Kys3OlExUbErp-40" value="&lt;b&gt;Sub-Claim C5:&lt;br&gt;&lt;/b&gt;NC uses stored procedures for data access" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6" y="463" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tH5tL20Kys3OlExUbErp-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="tH5tL20Kys3OlExUbErp-25" target="tH5tL20Kys3OlExUbErp-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="129" y="404" as="sourcePoint" />
+            <mxPoint x="-2" y="463" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tH5tL20Kys3OlExUbErp-42" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tH5tL20Kys3OlExUbErp-40" target="tH5tL20Kys3OlExUbErp-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="539" as="sourcePoint" />
+            <mxPoint x="270" y="613" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tH5tL20Kys3OlExUbErp-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tH5tL20Kys3OlExUbErp-7" target="tH5tL20Kys3OlExUbErp-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="746" y="329" as="sourcePoint" />
+            <mxPoint x="808" y="374" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tH5tL20Kys3OlExUbErp-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tH5tL20Kys3OlExUbErp-60" target="tH5tL20Kys3OlExUbErp-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tH5tL20Kys3OlExUbErp-60" value="&lt;b&gt;Evidence E2&lt;/b&gt;:&lt;br&gt;Code Review" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffffff;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="396" y="587" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tH5tL20Kys3OlExUbErp-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tH5tL20Kys3OlExUbErp-64" target="tH5tL20Kys3OlExUbErp-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tH5tL20Kys3OlExUbErp-64" value="Undermine UM1: Unless 0 days xss are used against the server" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=17;fillColor=#9DC0F5;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="376" y="725" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tH5tL20Kys3OlExUbErp-66" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;" edge="1" parent="1" source="tH5tL20Kys3OlExUbErp-67" target="tH5tL20Kys3OlExUbErp-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="442" y="997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tH5tL20Kys3OlExUbErp-67" value="&lt;b&gt;Evidence E5&lt;/b&gt;:&lt;br&gt;Content Security Policy Report" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffffff;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="396" y="934" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tH5tL20Kys3OlExUbErp-68" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="431" y="1057" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tH5tL20Kys3OlExUbErp-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tH5tL20Kys3OlExUbErp-70" target="tH5tL20Kys3OlExUbErp-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tH5tL20Kys3OlExUbErp-70" value="&lt;b&gt;Sub-Claim C10:&lt;br&gt;&lt;/b&gt;NC uses Content Security Policy to restrict xss impact" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="378.5" y="829" width="135" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

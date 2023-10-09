@@ -1,0 +1,116 @@
+<mxfile host="app.diagrams.net" modified="2023-10-06T15:42:44.461Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="thiKapbsr3Z9a4qzs4Yx" version="22.0.3" type="device">
+  <diagram id="2RAkf9iS2bYrb-5zrusB" name="Page-1">
+    <mxGraphModel dx="1434" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="V42Uoq7RvH6Dob9uq_5v-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="V42Uoq7RvH6Dob9uq_5v-11" target="V42Uoq7RvH6Dob9uq_5v-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V42Uoq7RvH6Dob9uq_5v-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="V42Uoq7RvH6Dob9uq_5v-11" target="V42Uoq7RvH6Dob9uq_5v-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V42Uoq7RvH6Dob9uq_5v-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="V42Uoq7RvH6Dob9uq_5v-11" target="V42Uoq7RvH6Dob9uq_5v-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V42Uoq7RvH6Dob9uq_5v-11" value="&lt;b&gt;Top Level Claim C1:&lt;/b&gt;&lt;br&gt;Nextcloud provides acceptable&amp;nbsp; communication protection for end users.&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="50" width="145" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="V42Uoq7RvH6Dob9uq_5v-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" parent="1" source="V42Uoq7RvH6Dob9uq_5v-12" target="V42Uoq7RvH6Dob9uq_5v-46" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V42Uoq7RvH6Dob9uq_5v-12" value="&lt;b&gt;Rebuttal R1:&lt;/b&gt;&lt;br&gt;Unless HTTPS is not required" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=17;fillColor=#FFF2CC;" parent="1" vertex="1">
+          <mxGeometry x="235" y="180" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V42Uoq7RvH6Dob9uq_5v-14" value="&lt;b&gt;Context:&lt;/b&gt;&lt;br&gt;The Nextcloud server has been configured recommended hardening and security guidelines." style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;" parent="1" vertex="1">
+          <mxGeometry x="575" y="40" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="V42Uoq7RvH6Dob9uq_5v-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="V42Uoq7RvH6Dob9uq_5v-46" target="V42Uoq7RvH6Dob9uq_5v-26" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="400" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V42Uoq7RvH6Dob9uq_5v-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="V42Uoq7RvH6Dob9uq_5v-18" target="V42Uoq7RvH6Dob9uq_5v-45" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V42Uoq7RvH6Dob9uq_5v-18" value="&lt;b&gt;Rebuttal R2&lt;/b&gt;:&lt;br&gt;Unless TLS is not properly configured" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=17;fillColor=#FFF2CC;" parent="1" vertex="1">
+          <mxGeometry x="450" y="180" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V42Uoq7RvH6Dob9uq_5v-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="V42Uoq7RvH6Dob9uq_5v-45" target="V42Uoq7RvH6Dob9uq_5v-28" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="360" as="sourcePoint" />
+            <mxPoint x="560" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V42Uoq7RvH6Dob9uq_5v-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="V42Uoq7RvH6Dob9uq_5v-26" target="V42Uoq7RvH6Dob9uq_5v-48" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V42Uoq7RvH6Dob9uq_5v-26" value="&lt;b&gt;Rebuttal R4:&lt;br&gt;Unless the HTTPS Protocol get stripped through a redirection.&lt;br&gt;&lt;/b&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=17;fillColor=#FFF2CC;" parent="1" vertex="1">
+          <mxGeometry x="320" y="440" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V42Uoq7RvH6Dob9uq_5v-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="V42Uoq7RvH6Dob9uq_5v-28" target="V42Uoq7RvH6Dob9uq_5v-50" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V42Uoq7RvH6Dob9uq_5v-28" value="&lt;b&gt;Evidence E3:&lt;/b&gt;&lt;br&gt;TLS and Cipher Verification test results" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffffff;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="530" y="410" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="V42Uoq7RvH6Dob9uq_5v-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="V42Uoq7RvH6Dob9uq_5v-48" target="V42Uoq7RvH6Dob9uq_5v-35" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="650" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V42Uoq7RvH6Dob9uq_5v-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="V42Uoq7RvH6Dob9uq_5v-35" target="V42Uoq7RvH6Dob9uq_5v-49" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V42Uoq7RvH6Dob9uq_5v-35" value="&lt;b&gt;Evidence E2:&lt;/b&gt;&lt;br&gt;Virtualhost file with HSTS Configuration." style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffffff;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="330" y="720" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="J1Rwe4xzmmFX6WQmkzGD-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" parent="1" source="V42Uoq7RvH6Dob9uq_5v-42" target="J1Rwe4xzmmFX6WQmkzGD-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V42Uoq7RvH6Dob9uq_5v-42" value="&lt;b&gt;Sub Claim C6:&lt;/b&gt;&lt;br&gt;&lt;b&gt;Nextcloud only communicates with users over web protocols&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="106.25" y="590" width="142.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="V42Uoq7RvH6Dob9uq_5v-45" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;Sub Claim C3:&lt;/b&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;TLS 1.3 is required for connection with Strong Ciphers Enabled&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="310" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V42Uoq7RvH6Dob9uq_5v-46" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;Sub Claim C2:&lt;/b&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;HTTPS is Required to connect&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="310" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V42Uoq7RvH6Dob9uq_5v-48" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;Sub Claim C4:&lt;/b&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;HTTPS Strict Transport Security has been enabled&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="595" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V42Uoq7RvH6Dob9uq_5v-49" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CCCCCC;" parent="1" vertex="1">
+          <mxGeometry x="375" y="880" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V42Uoq7RvH6Dob9uq_5v-50" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CCCCCC;" parent="1" vertex="1">
+          <mxGeometry x="575" y="580" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J1Rwe4xzmmFX6WQmkzGD-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" parent="1" source="J1Rwe4xzmmFX6WQmkzGD-2" target="V42Uoq7RvH6Dob9uq_5v-42" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J1Rwe4xzmmFX6WQmkzGD-2" value="&lt;b&gt;Rebuttal R3:&lt;/b&gt;&lt;br&gt;Unless the Nextcloud client doesn&#39;t communicate over HTTPS" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=17;fillColor=#FFF2CC;" parent="1" vertex="1">
+          <mxGeometry x="70" y="430" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J1Rwe4xzmmFX6WQmkzGD-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" parent="1" source="V42Uoq7RvH6Dob9uq_5v-46" target="J1Rwe4xzmmFX6WQmkzGD-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J1Rwe4xzmmFX6WQmkzGD-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="J1Rwe4xzmmFX6WQmkzGD-5" target="J1Rwe4xzmmFX6WQmkzGD-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J1Rwe4xzmmFX6WQmkzGD-5" value="&lt;b&gt;Evidence E1:&lt;/b&gt;&lt;br&gt;Nextcloud documentation states that it only goes over Web Protocols&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffffff;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="100" y="720" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="J1Rwe4xzmmFX6WQmkzGD-7" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CCCCCC;" parent="1" vertex="1">
+          <mxGeometry x="145" y="880" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
