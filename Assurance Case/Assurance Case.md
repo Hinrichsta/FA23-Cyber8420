@@ -1,19 +1,20 @@
 # Assurance Cases
 
-## Claim 1: Nextcloud minimizes malicious input execution
+## Claim 1: Nextcloud offers reasonably protection against malicious input
 #### Description
-User input is processed by nexcloud for searches, login, comments etc. This input can very well be used to perform many malicious activites such as extracting information from the database or executing complex script on the user's machine or even on the server. User's input represent a critical data that must be handled with care otherwise it could have some serious repercution for the business. 
-The Assurance Case below seek to mitigate this risk. 
-
+Input from users is processed by Nexcloud in various places such as login, search boxes, comments etc. This input can very well be used to perform many malicious activities such as extracting information from the database or executing complex script on the user's machine or even on the server. User's input represents critical data that must be handled with care otherwise it could have some serious repercussions for the business. 
+Hardening and security policy aims to minimize potential attacks from malicious input and others attack vectors. 
+https://docs.nextcloud.com/server/latest/admin_manual/installation/harden_server.html 
+### Diagram:
 ![Malicious input Execution](./Assurance%20Case%20-%20Malicious%20Input.png "Malicious Input Execution")
 
 
 ## Claim 2: NextCloud eliminates unauthorized account access
 #### Description
 NextCloud uses an enhanced password policy and preferences inside of it to maintain secure access to accounts. Multi-factor Authentication (MFA) is resolved by the Claim 4 - Sub-Claim 4. This Claim identifies and works to show that unauthorized account access through means of password attacks is eliminated and the various mechanisms that are used to mitigate them. Through the explanations of the Evidence found below it is clear that the NextCloud Assurance Case for eliminating unauthorized account access is indeed possible and critical to avoid any compliance or user privacy violations.  
-
+### Diagram:
 ![Assurance Case - Account Access drawio](https://github.com/Hinrichsta/FA23-Cyber8420/assets/143133739/bb1240ba-577a-46e6-9bf6-1261e0efc286)
-
+  
 * Alignment: The claim that NextCloud has measures in place to prevent unauthorized access to accounts is aligned with the User Password Policy found here: https://docs.nextcloud.com/server/latest/admin_manual/configuration_user/user_password_policy.html. Several claims are used to support this and resolve any rebuttal of such claims.
   
 * E1: Evidence 1 indicates that the auditing of password attempts and logins will be able to indicate lockouts due to brute force attacks. These audit logs can trigger alerts if necessary, but in most cases are ignored unless persisting through several lockout periods. When an account is locked out due to failed login attempts, the account will be automatically unlocked after a period of time. Should the password lockout be activated 3 consecutive times the SIEM would trigger alerts for more investigation into a potential ongoing attack.
