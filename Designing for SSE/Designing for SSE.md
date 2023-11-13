@@ -1,6 +1,7 @@
 # Data Flow Diagrams  
 
 ## DFD Level 2 Report
+[Nextcloud Server DFD Report](Insert Link Here)
 
 # Introduction
 Our data flow diagram combines each team members level 0 DFD's which we combined into a level 2 DFD. In this single diagram we show the user flow within the Nextcloud environment, with a user accessing a file within the system. We also show an external entity being the user, accessing the Nextcloud interface via Apache or utilizing the android mobile application. We go from the Apache interface that controls web encryption and communication into the Nextcloud server itself. From the Nextcloud server we access the database and the file storage location. All of this is dependent on the authentication sources that the database connects to and the multifactor authentication for those accounts.
