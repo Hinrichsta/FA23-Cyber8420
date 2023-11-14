@@ -1,8 +1,8 @@
 # Data Flow Diagrams  
 
 ## DFD Level 2 Report
-[Nextcloud Server DFD Report](https://htmlpreview.github.io/?https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Designing%20for%20SSE/NextCloudServer_TMT_Report.htm)
-![Threat Model](./Threat%20Model.png)
+[Nextcloud Server DFD Report](https://htmlpreview.github.io/?https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Designing%20for%20SSE/NextCloudServer_TMT_Report.htm)  
+![Threat Model](./Threat%20Model.png)  
 
 
 # Introduction
