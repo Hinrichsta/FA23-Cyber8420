@@ -36,6 +36,6 @@ CWE-862: Missing Authorization
 ## Findings Summary
 
 ## Contributions
-
+Our team met several times during the week of the assignment to ensure the tasks were completed on time. Meeting before and after the instructor meeting to ensure that we had a good understanding of the assignment requirements. Once the requirements were realized the team evenly divided the workload and completed it to the satisfaction of the group. There was some initial confusion over the exact requirements of the assignment, but after clarification from the professor it was discussed and remedied. As mentioned in previous weeks we worked through our tasks in GitHub, and everyone completed their tasks. The group met again prior to turning in the assignment after all parts were compiled to ensure that nothing as missing. The team will continue to collaborate and get assignments completed together as we have in the past. 
 
 
