@@ -18,18 +18,13 @@ CWE-836: Use of Password Hash Instead of password for Authentication
 CWE-862: Missing Authorization  
 CWE-918: Server-Side Request Forgery  
 
+### Chris  
 
+### Lucas  
 
-#### Other Nextcloud Teams CWEs
-CWE-22: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')  
-CWE-78: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')  
-CWE-94: Improper Control of Generation of Code ('Code Injection')  
-CWE-125: Out-of-bounds Read  
-CWE-276: Incorrect Default Permissions  
-CWE-287: Improper Authentication  
-CWE-434: Unrestricted Upload of File with Dangerous Type  
-CWE-798: Use of Hard-coded Credentials  
-CWE-862: Missing Authorization  
+### Henri  
+
+### Tyler  
 
 ### Automated Code Review
 
