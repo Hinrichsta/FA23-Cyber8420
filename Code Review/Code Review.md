@@ -5,7 +5,7 @@
 ## Reviewed CWEs
 
 ### Our Potential list
-https://cwe.mitre.org/data/definitions/699.html
+https://cwe.mitre.org/data/definitions/699.html  
 CWE-125: Out-of-bounds Read  
 CWE-276: Incorrect Default Permissions  
 CWE-295: Improper Certifcate Validation  
