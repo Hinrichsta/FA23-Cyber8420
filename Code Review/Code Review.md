@@ -6,14 +6,14 @@ Our team decided to take a scenario-based approach.  We felt this would be wise 
 
 ## Reviewed CWEs
 
-*CWE-400
-*CWE-547
-*
-*
-*
-*
-*
-*
+* CWE-400
+* CWE-547
+* 
+* 
+* 
+* 
+* 
+* 
 
 ### CWE-400: Uncontrollsed Resource Consumption [-Link-](https://cwe.mitre.org/data/definitions/400.html)
 
