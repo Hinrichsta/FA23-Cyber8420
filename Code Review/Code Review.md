@@ -58,7 +58,20 @@ CWE Description will go here.....
 Code Summary Review will go here.....
 
 ### CWE-836: Use of Password Hash Instead of password for Authentication [-Link-](https://cwe.mitre.org/data/definitions/836.html)
+* Description
+CWE Description will go here.....
 
+* Files Analyzed
+   * placeholder [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/blob/fece503fb408dc83609bfaa7003ac34593c5ba4a/apps/files_sharing/src/files_sharing_tab.js)
+   * placeholder [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/blob/fece503fb408dc83609bfaa7003ac34593c5ba4a/apps/files_sharing/src/views/SharingInherited.vue)
+   * placeholder [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/blob/fece503fb408dc83609bfaa7003ac34593c5ba4a/apps/files_sharing/src/views/SharingList.vue)
+   * placeholder [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/blob/fece503fb408dc83609bfaa7003ac34593c5ba4a/apps/files_sharing/src/views/shares.ts)
+
+* Automated Scan
+   * Nothing in automated scan was related to this CWE. 
+
+* Code Summary Review
+Code Summary Review will go here.....
 
 ## Henri  
 
