@@ -2,7 +2,27 @@
 
 ## Introduction
 
+Our team decided to take a scenario-based approach.  We felt this would be wise as we had one team member who focused primarily on the NextCloud mobile aspect of the application which was a single repo within GitHub.  In researching the MITRE website for inline CWE’s 400 and 547 seemed feasible and potentially obtainable by an attacker. The other three team members focused on the larger overarching Nextcloud server application repo on GitHub.  This is tied in file access, website access and database access, all within our original misuse case. They focused on the CWE’s XXX???
+
 ## Reviewed CWEs
+
+### CWE-400: Uncontrollsed Resource Consumption [-Link-](https://cwe.mitre.org/data/definitions/400.html)
+
+Limited resources include memory, file system storage, database connection pool entries, and CPU. If an attacker can trigger the allocation of these limited resources, but the number or size of the resources is not controlled, then the attacker could cause a denial of service that consumes all available resources. This would prevent valid users from accessing the product, and it could potentially have an impact on the surrounding environment. For example, a memory exhaustion attack against an application could slow down the application as well as its host operating system.
+
+There are at least three distinct scenarios which can commonly lead to resource exhaustion:
+
+Lack of throttling for the number of allocated resources
+Losing all references to a resource before reaching the shutdown stage
+Not closing/returning a resource after processing
+Resource exhaustion problems are often result due to an incorrect implementation of the following situations:
+
+Error conditions and other exceptional circumstances.
+Confusion over which part of the program is responsible for releasing the resource.
+
+### CWE-547: Use of Hard=coded, Security-relevant Constants [-Link-](https://cwe.mitre.org/data/definitions/547.html)
+
+If the developer does not find all occurrences of the hard-coded constants, an incorrect policy decision may be made if one of the constants is not changed. Making changes to these values will require code changes that may be difficult or impossible once the system is released to the field. In addition, these hard-coded values may become available to attackers if the code is ever disclosed.
 
 ### Our Potential list
 https://cwe.mitre.org/data/definitions/699.html  
@@ -18,15 +38,20 @@ CWE-836: Use of Password Hash Instead of password for Authentication
 CWE-862: Missing Authorization  
 CWE-918: Server-Side Request Forgery  
 
-### Chris  
+## Chris  
 
-### Lucas  
+## Lucas  
 
-### Henri  
+## Henri  
 
-### Tyler  
+## Tyler  
 
-### Automated Code Review
+## Automated Code Review
+
+SNYK Code Scanning [-Link-](https://snyk.io/)
+![Screenshot of high level code anaylsis of SNYK scan on NextCloud Android app on GitHub](https://myoctocat.com/assets/images/base-octocat.svg)
+
+## Manual Code Review
 
 ## Findings Summary
 
