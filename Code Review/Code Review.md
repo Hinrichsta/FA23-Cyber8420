@@ -6,10 +6,10 @@ Our team decided to take a scenario-based approach.  We felt this would be wise 
 
 ## Reviewed CWEs
 
-* CWE-400
-* CWE-547
+* CWE-400 (Chris)
+* CWE-547 (Chris)
 * 
-* 
+* CWE-200 (Henri)
 * 
 * 
 * 
