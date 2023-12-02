@@ -76,10 +76,15 @@ Code Summary Review will go here.....
 
 ## Tyler  
 
-## Automated Code Review
+## Automated Code Review Applications Used
 
-SNYK Code Scanning [-Link-](https://snyk.io/)
-![Screenshot of high level code anaylsis of SNYK scan on NextCloud Android app on GitHub](https://myoctocat.com/assets/images/base-octocat.svg)
+### SNYK Code Scanning [-Link-](https://snyk.io/)
+
+Screenshot of high level code anaylsis of SNYK scan on NextCloud Android app on GitHub
+
+[-Link to Scan Results-](https://app.snyk.io/invite/link/accept?invite=4f95a74d-8b1a-4037-bb5a-182fe4b8d65b&utm_source=link_invite&utm_medium=referral&utm_campaign=product-link-invite&from=link_invite)
+
+![](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Code%20Review/SNYK%20Mobile.png)
 
 ## Manual Code Review
 
