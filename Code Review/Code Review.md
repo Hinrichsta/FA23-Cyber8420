@@ -41,6 +41,12 @@ CWE-918: Server-Side Request Forgery
 ## Chris  
 
 ## Lucas  
+### CWE-1022: Use of Web Link to Untrusted Target with window.opener Access [-Link-](https://cwe.mitre.org/data/definitions/1022.html)
+
+
+
+### CWE-836: Use of Password Hash Instead of password for Authentication [-Link-](https://cwe.mitre.org/data/definitions/836.html)
+
 
 ## Henri  
 
