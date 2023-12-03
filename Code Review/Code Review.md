@@ -92,7 +92,13 @@ Code Summary Review will go here.....
   * The product exposes sensitive information to an actor that is not explicitly authorized to have access to that information.
     
 * Files Analyzed
-   * OC_Files.php [-Link-](https://github.com/hallou225/nc-server/blob/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/lib/private/legacy/OC_Files.php#L226)
+   * ‎lib/private/legacy/OC_Files.php
+       * [-Link-](https://github.com/hallou225/nc-server/blob/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/lib/private/legacy/OC_Files.php#L226)
+       * [-Link-](https://github.com/hallou225/nc-server/tree/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/lib/private/legacy/OC_Files.php#L244)
+   * ‎lib/base.php [-Link-](https://github.com/hallou225/nc-server/tree/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/lib/base.php#L744)
+   * Filename.ext [-Link-]()
+   * Filename.ext [-Link-]()
+   * Filename.ext [-Link-]()
 
 * Automated Scan
    * SNYK Code Scanning [-Link-](https://snyk.io/)
@@ -106,6 +112,10 @@ Code Summary Review will go here.....
 * Files Analyzed
    * ‎lib/private/App/InfoParser.php [-Link-](https://github.com/hallou225/nc-server/blob/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/lib/private/App/InfoParser.php#L66)
    * ‎lib/private/App/InfoParser.php [-Link-](https://github.com/hallou225/nc-server/blob/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/lib/private/App/InfoParser.php#L69)
+   * Filename.ext [-Link-]()
+   * Filename.ext [-Link-]()
+   * Filename.ext [-Link-]()
+   * Filename.ext [-Link-]()
 
 * Automated Scan
    * SNYK Code Scanning [-Link-](https://snyk.io/)
