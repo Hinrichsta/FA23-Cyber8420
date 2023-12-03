@@ -11,7 +11,7 @@ We decided to utilize 2 different automated code review tools for reviewing each
 
 * CWE-400  (Chris)
 * CWE-547  (Chris)
-* CWE-XXX  (Henri)
+* CWE-611  (Henri)
 * CWE-200  (Henri)
 * CWE-1022 (Luke)
 * CWE-836  (Luke)
@@ -87,7 +87,7 @@ Code Summary Review will go here.....
    * After an examination of the files, there is no indication that this CWE presents an active vulnerability. The authentication mechanisms in NextCloud include front-end validation and password verification steps that appear to be effective in preventing password hash authentication. There were no automated scan findings associated with this CWE.  
 
 ## Henri 
-### CWE-200: CVE Name [-Link-](https://cwe.mitre.org/data/definitions/200.html)
+### CWE-200: Exposure of Sensitive Information to an Unauthorized Actor [-Link-](https://cwe.mitre.org/data/definitions/200.html)
 * Description
   * The product exposes sensitive information to an actor that is not explicitly authorized to have access to that information.
     
@@ -99,7 +99,7 @@ Code Summary Review will go here.....
    * [-Link to Full Scan Results-](https://app.snyk.io/invite/link/accept?invite=a501f469-78e3-414e-9168-40631556bbf0&utm_source=link_invite&utm_medium=referral&utm_campaign=product-link-invite&from=link_invite)
     ![](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Code%20Review/CWE-200.png)
 
-### CWE-611: CVE Name [-Link-](https://cwe.mitre.org/data/definitions/611.html)
+### CWE-611: Improper Restriction of XML External Entity Reference [-Link-](https://cwe.mitre.org/data/definitions/611.html)
 * Description
   * The product processes an XML document that can contain XML entities with URIs that resolve to documents outside of the intended sphere of control, causing the product to embed incorrect documents into its output.
 
