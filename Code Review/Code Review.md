@@ -97,7 +97,6 @@ Code Summary Review will go here.....
    * ‎lib/base.php [-Link-](https://github.com/hallou225/nc-server/tree/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/lib/base.php#L744)
    * cron.php [-Link-](https://github.com/hallou225/nc-server/blob/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/cron.php#L189)
    * ‎Sharing.php [-Link-](https://github.com/hallou225/nc-server/tree/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/build/integration/features/bootstrap/Sharing.php#L344)
-   * Filename.ext [-Link-]()
 
 * Automated Scan
    * SNYK Code Scanning [-Link-](https://snyk.io/)
@@ -111,10 +110,6 @@ Code Summary Review will go here.....
 * Files Analyzed
    * InfoParser.php [-Link Line66-](https://github.com/hallou225/nc-server/blob/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/lib/private/App/InfoParser.php#L66)
    * ‎InfoParser.php [-Link Line69-](https://github.com/hallou225/nc-server/blob/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/lib/private/App/InfoParser.php#L69)
-   * Filename.ext [-Link-]()
-   * Filename.ext [-Link-]()
-   * Filename.ext [-Link-]()
-   * Filename.ext [-Link-]()
 
 * Automated Scan
    * SNYK Code Scanning [-Link-](https://snyk.io/)
@@ -129,15 +124,12 @@ Code Summary Review will go here.....
 * Files Analyzed
    * download.php [-Link-](https://github.com/hallou225/nc-server/tree/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/apps/files/ajax/download.php#L77)
    * ‎files.js [-Link-](https://github.com/hallou225/nc-server/tree/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/apps/files/js/files.js#L109)
-   * Filename.ext [-Link-]()
-   * Filename.ext [-Link-]()
-   * Filename.ext [-Link-]()
-   * Filename.ext [-Link-]()
+   * ‎settings-admin.js[-Link-](https://github.com/hallou225/nc-server/tree/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/apps/federation/js/settings-admin.js#L104)
 
 * Automated Scan
    * SNYK Code Scanning [-Link-](https://snyk.io/)
    * [-Link to Full Scan Results-](https://app.snyk.io/invite/link/accept?invite=a501f469-78e3-414e-9168-40631556bbf0&utm_source=link_invite&utm_medium=referral&utm_campaign=product-link-invite&from=link_invite)
-    ![](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Code%20Review/CWE-611.png)
+    ![](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Code%20Review/CWE-79.png)
 * Code Summary Review
 
 
