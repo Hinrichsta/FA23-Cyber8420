@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Our team decided to take a scenario-based approach.  We felt this would be wise as we had one team member who focused primarily on the NextCloud mobile aspect of the application which was a single repo within GitHub.  In researching the MITRE website for inline CWE’s 400 and 547 seemed feasible and potentially obtainable by an attacker. The other three team members focused on the larger overarching Nextcloud server application repo on GitHub.  This is tied in file access, website access and database access, all within our original misuse case. They focused on the CWE’s XXX???
+Our team decided to take a scenario-based approach.  We felt this would be wise as we had one team member who focused primarily on the NextCloud mobile app which was it's own repo within GitHub.  In researching the MITRE website for inline CWE’s 400 and 547 seemed feasible and potentially obtainable by an attacker. The other three team members focused on the larger overarching NextCloud server application repo on GitHub.  This is tied in to file access, website access and database access, all within our original misuse case. They focused on the CWE’s 200, 836, 1022???
 
 ## Reviewed CWEs
 
@@ -10,8 +10,8 @@ Our team decided to take a scenario-based approach.  We felt this would be wise 
 * CWE-547 (Chris)
 * 
 * CWE-200 (Henri)
-* 
-* 
+* CWE-1022 (Luke)
+* CWE-836 (Luke)
 * 
 * 
 
