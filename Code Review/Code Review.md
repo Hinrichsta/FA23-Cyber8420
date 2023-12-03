@@ -92,7 +92,7 @@ Code Summary Review will go here.....
   * The product exposes sensitive information to an actor that is not explicitly authorized to have access to that information.
     
 * Files Analyzed
-   * FileContentProvider.java [-Link-](https://github.com/Chepburn-uno/NextCloudAndroidScan/blob/ef2987d6dd7b292296b338ac3e038cea9aedcf12/app/src/main/java/com/owncloud/android/providers/FileContentProvider.java#L132)
+   * OC_Files.php [-Link-](https://github.com/hallou225/nc-server/blob/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/lib/private/legacy/OC_Files.php#L226)
 
 * Automated Scan
    * SNYK Code Scanning [-Link-](https://snyk.io/)
