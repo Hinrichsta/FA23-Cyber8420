@@ -108,8 +108,8 @@ Code Summary Review will go here.....
   * The product processes an XML document that can contain XML entities with URIs that resolve to documents outside of the intended sphere of control, causing the product to embed incorrect documents into its output.
 
 * Files Analyzed
-   * ‎lib/private/App/InfoParser.php [-Link-](https://github.com/hallou225/nc-server/blob/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/lib/private/App/InfoParser.php#L66)
-   * ‎lib/private/App/InfoParser.php [-Link-](https://github.com/hallou225/nc-server/blob/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/lib/private/App/InfoParser.php#L69)
+   * InfoParser.php [-Link Line66-](https://github.com/hallou225/nc-server/blob/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/lib/private/App/InfoParser.php#L66)
+   * ‎InfoParser.php [-Link Line69-](https://github.com/hallou225/nc-server/blob/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/lib/private/App/InfoParser.php#L69)
    * Filename.ext [-Link-]()
    * Filename.ext [-Link-]()
    * Filename.ext [-Link-]()
