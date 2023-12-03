@@ -99,17 +99,18 @@ Code Summary Review will go here.....
    * [-Link to Full Scan Results-](https://app.snyk.io/invite/link/accept?invite=a501f469-78e3-414e-9168-40631556bbf0&utm_source=link_invite&utm_medium=referral&utm_campaign=product-link-invite&from=link_invite)
     ![](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Code%20Review/CWE-200.png)
 
-### CWE-xxx: CVE Name [-Link-](https://cwe.mitre.org/data/definitions/400.html)
+### CWE-611: CVE Name [-Link-](https://cwe.mitre.org/data/definitions/611.html)
 * Description
-  * The product does n
+  * The product processes an XML document that can contain XML entities with URIs that resolve to documents outside of the intended sphere of control, causing the product to embed incorrect documents into its output.
 
 * Files Analyzed
-   * FileContentProvider.java [-Link-](https://github.com/Chepburn-uno/NextCloudAndroidScan/blob/ef2987d6dd7b292296b338ac3e038cea9aedcf12/app/src/main/java/com/owncloud/android/providers/FileContentProvider.java#L132)
+   * ‎lib/private/App/InfoParser.php [-Link-](https://github.com/hallou225/nc-server/blob/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/lib/private/App/InfoParser.php#L66)
+   * ‎lib/private/App/InfoParser.php [-Link-](https://github.com/hallou225/nc-server/blob/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/lib/private/App/InfoParser.php#L69)
 
 * Automated Scan
    * SNYK Code Scanning [-Link-](https://snyk.io/)
    * [-Link to Full Scan Results-](https://app.snyk.io/invite/link/accept?invite=a501f469-78e3-414e-9168-40631556bbf0&utm_source=link_invite&utm_medium=referral&utm_campaign=product-link-invite&from=link_invite)
-
+    ![](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Code%20Review/CWE-611.png)
 * Code Summary Review
 Code Summary Review will go here.....
 
