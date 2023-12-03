@@ -70,7 +70,7 @@ Code Summary Review will go here.....
 
 ### CWE-836: Use of Password Hash Instead of password for Authentication [-Link-](https://cwe.mitre.org/data/definitions/836.html)
 * Description
-   * The product stores password hashes in a data store, with the client responsible for generating and sending the password hash. This approach is sometimes employed to offload server load or avoid transmitting passwords over the network. However, when the client generates the hash, an attacker can compromise the authentication by acquiring the hash, for instance, through SQL injection or information exposure. Subsequently, the attacker can use a manipulated client to replay the stolen hash without needing knowledge of the original password. Comparing the server-side hash with a client-side hash offers no additional security compared to using passwords without hashing.
+   * The product records password hashes in a data store, receives a hash of a password from a client, and compares the supplied hash to the hash obtained from the data store.
 
 * Files Analyzed
    * LoginData.php [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/blob/fece503fb408dc83609bfaa7003ac34593c5ba4a/lib/private/Authentication/Login/LoginData.php)
