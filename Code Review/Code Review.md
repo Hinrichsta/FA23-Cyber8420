@@ -102,21 +102,22 @@ Code Summary Review will go here.....
    * SNYK Code Scanning [-Link-](https://snyk.io/)
    * [-Link to Full Scan Results-](https://app.snyk.io/invite/link/accept?invite=a501f469-78e3-414e-9168-40631556bbf0&utm_source=link_invite&utm_medium=referral&utm_campaign=product-link-invite&from=link_invite)
     ![](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Code%20Review/CWE-200.png)
-
+* Code Summary Review
+  Code Summary Review will go here.....
+  
 ### CWE-611: Improper Restriction of XML External Entity Reference [-Link-](https://cwe.mitre.org/data/definitions/611.html)
 * Description
   * The product processes an XML document that can contain XML entities with URIs that resolve to documents outside of the intended sphere of control, causing the product to embed incorrect documents into its output.
-
 * Files Analyzed
    * InfoParser.php [-Link Line66-](https://github.com/hallou225/nc-server/blob/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/lib/private/App/InfoParser.php#L66)
    * ‎InfoParser.php [-Link Line69-](https://github.com/hallou225/nc-server/blob/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/lib/private/App/InfoParser.php#L69)
-
 * Automated Scan
    * SNYK Code Scanning [-Link-](https://snyk.io/)
    * [-Link to Full Scan Results-](https://app.snyk.io/invite/link/accept?invite=a501f469-78e3-414e-9168-40631556bbf0&utm_source=link_invite&utm_medium=referral&utm_campaign=product-link-invite&from=link_invite)
     ![](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Code%20Review/CWE-611.png)
 * Code Summary Review
-* 
+  Code Summary Review will go here.....
+  
 ### CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') [-Link-](https://cwe.mitre.org/data/definitions/79.html)
 * Description
   * The product does not neutralize or incorrectly neutralizes user-controllable input before it is placed in output that is used as a web page that is served to other users.
@@ -130,10 +131,9 @@ Code Summary Review will go here.....
    * SNYK Code Scanning [-Link-](https://snyk.io/)
    * [-Link to Full Scan Results-](https://app.snyk.io/invite/link/accept?invite=a501f469-78e3-414e-9168-40631556bbf0&utm_source=link_invite&utm_medium=referral&utm_campaign=product-link-invite&from=link_invite)
     ![](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Code%20Review/CWE-79.png)
+
 * Code Summary Review
-
-
-Code Summary Review will go here.....
+  Code Summary Review will go here.....
 
 ### Tyler  
 ### [CVE-295: Improper Certificate Validation](https://cwe.mitre.org/data/definitions/295.html)
