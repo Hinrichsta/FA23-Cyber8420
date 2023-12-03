@@ -2,22 +2,22 @@
 
 ## Introduction
 
-Our team decided to take a scenario-based approach.  We felt this would be wise as we had one team member who focused primarily on the NextCloud mobile app which was it's own repo within GitHub.  In researching the MITRE website for inline CWE’s 400 and 547 seemed feasible and potentially obtainable by an attacker. The other three team members focused on the larger overarching NextCloud server application repo on GitHub.  This is tied in to file access, website access and database access, all within our original misuse case. They focused on the CWE’s 200, 836, 295, 918???
+Our team decided to take a scenario-based approach.  We felt this would be wise as we had one team member who focused primarily on the NextCloud mobile app which was it's own repo within GitHub.  In researching the MITRE website for inline CWE’s 400 and 547 seemed feasible and potentially obtainable by an attacker. The other three team members focused on the larger overarching NextCloud server application repo on GitHub.  This is tied in to file access, website access and database access, all within our original misuse case. They focused on the CWE’s 200, 611, 79, 836, 295, 918.
 
 ## Code Review Strategy  
 We decided to utilize 2 different automated code review tools for reviewing each of our CWEs so that we could cross reference and make sure potential issues were caught.  Manual reviews were then used to verify that the CWEs were not present within the application.  For the both the Server and the Mobile app they were reviewed with CodeQOL which is built into GitHub.  For the server it was secondarily reviews by Sonar Graph which is good for web applications, and the Mobile app was reviewed by Snyk and SpotBug which were better for Java applications.  Once the tools were run the found Weaknesses were reviewed to check against the ones we were looking for, failing that the manual review would be performed.
 
 ## Reviewed CWEs
 
-* CWE-400  (Chris)
-* CWE-547  (Chris)
-* CWE-611  (Henri)
-* CWE-200  (Henri)
-* CWE-79   (Henri)
-* CWE-1022 (Luke)
-* CWE-836  (Luke)
-* CWE-295  (Tyler)
-* CWE-918  (Tyler)
+* CWE-400
+* CWE-547
+* CWE-611
+* CWE-200
+* CWE-79
+* CWE-1022
+* CWE-836
+* CWE-295
+* CWE-918
 
 ## Chris  
 ### CWE-400: Uncontrolled Resource Consumption [-Link-](https://cwe.mitre.org/data/definitions/400.html)
@@ -33,7 +33,17 @@ The product does not properly control the allocation and maintenance of a limite
  
   ![](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Code%20Review/CWE%20400.png)
 * Code Summary Review
-Code Summary Review will go here.....
+  
+When scanning the NextCloud Android fork with Snyk and SpotBugs I picked up five hits in Snyk for CWE 400 – Regular expression injection.  All 5 hits were in the file, “FileContentProvider.java” for the lines below.  However, in the scan output there is the caveat that depending upon the programing this “may” result in a Regular Expression Injection vulnerability that could lead to a Denial of Service attack.
+
+1 - VerificationUtils.verifyWhere(selection);
+
+2 - VerificationUtils.verifyWhere(where);
+
+3 - result = query(db, uri, projection, selection, selectionArgs, sortOrder);
+
+4 - VerificationUtils.verifySortOrder(sortOrder);
+
 
 ### CWE-547: Use of Hard-coded, Security-relevant Constants [-Link-](https://cwe.mitre.org/data/definitions/547.html)
 * Description
@@ -49,7 +59,21 @@ The product uses hard-coded constants instead of symbolic names for security-cri
 
   ![](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Code%20Review/CWE%20547.png)
 * Code Summary Review
-Code Summary Review will go here.....
+  
+When scanning the NextCloud Android fork with Snyk and SpotBugs I picked up four hits in Snyk for CWE 547 – Hardcoded Secret.  For this CWE I had two in the file PushUtils.java and two in EncryptionUtils.java. which had the effected coding lines below.  All four hits call the coder to use java.security.SecureRandom to generate strong random cryptographic numbers.
+
+EncryptionUtils.java 
+
+1 - X509EncodedKeySpec keySpec = new X509EncodedKeySpec(bytes);
+
+2 - PKCS8EncodedKeySpec keySpec = new PKCS8EncodedKeySpec(bytes);
+
+java.security.SecureRandom
+
+1 - GCMParameterSpec spec = new GCMParameterSpec(128, iv);
+
+2 -KeySpec spec = new PBEKeySpec(keyPhrase.toCharArray(), salt, iterationCount, keyStrength);
+
 
 ## Lucas  
 ### CWE-1022: Use of Web Link to Untrusted Target with window.opener Access [-Link-](https://cwe.mitre.org/data/definitions/1022.html)
