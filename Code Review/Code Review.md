@@ -8,12 +8,12 @@ Our team decided to take a scenario-based approach.  We felt this would be wise 
 
 * CWE-400 (Chris)
 * CWE-547 (Chris)
-* 
+* CWE- (Henri)
 * CWE-200 (Henri)
 * CWE-1022 (Luke)
 * CWE-836 (Luke)
-* 
-* 
+* CWE- (Tyler)
+* CWE- (Tyler)
 
 ### CWE-400: Uncontrollsed Resource Consumption [-Link-](https://cwe.mitre.org/data/definitions/400.html)
 
