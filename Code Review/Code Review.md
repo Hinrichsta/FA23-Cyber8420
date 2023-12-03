@@ -30,19 +30,16 @@ CWE-862: Missing Authorization
 CWE-918: Server-Side Request Forgery  
 
 ## Chris  
-### CWE-400: Use of Web Link to Untrusted Target with window.opener Access [-Link-](https://cwe.mitre.org/data/definitions/1022.html)
+### CWE-400: Uncontrolled Resource Consumption [-Link-](https://cwe.mitre.org/data/definitions/400.html)
 * Description
-CWE Description will go here.....
+The product does not properly control the allocation and maintenance of a limited resource, thereby enabling an actor to influence the amount of resources consumed, eventually leading to the exhaustion of available resources.
 
 * Files Analyzed
-   * files_sharing_tab.js [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/blob/fece503fb408dc83609bfaa7003ac34593c5ba4a/apps/files_sharing/src/files_sharing_tab.js)
-   * SharingInherited.vue [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/blob/fece503fb408dc83609bfaa7003ac34593c5ba4a/apps/files_sharing/src/views/SharingInherited.vue)
-   * SharingList.vue [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/blob/fece503fb408dc83609bfaa7003ac34593c5ba4a/apps/files_sharing/src/views/SharingList.vue)
-   * shares.ts [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/blob/fece503fb408dc83609bfaa7003ac34593c5ba4a/apps/files_sharing/src/views/shares.ts)
+   * FileContentProvider.java [-Link-](https://app.snyk.io/org/chepburn-uno/project/96fcc72c-5bd8-4a7d-ac8d-0860e2b14471)
 
 * Automated Scan
-   * Potentially unsafe external link [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/security/code-scanning/3)
-
+   * SNYK Code Scanning [-Link-](https://snyk.io/)
+   * [-Link to Scan Results-](https://app.snyk.io/invite/link/accept?invite=4f95a74d-8b1a-4037-bb5a-182fe4b8d65b&utm_source=link_invite&utm_medium=referral&utm_campaign=product-link-invite&from=link_invite)
 * Code Summary Review
 Code Summary Review will go here.....
 
