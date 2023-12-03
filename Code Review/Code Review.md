@@ -161,12 +161,16 @@ Code Summary Review will go here.....
 ## Automated Code Review Applications Used
 
 ### [SNYK Code Scanning](https://snyk.io/)
-
+  #### NextCloud Android App on Github
 Screenshot of a high level code anaylsis of SNYK scan on the NextCloud Android app on GitHub
-
 [-Link to Scan Results-](https://app.snyk.io/invite/link/accept?invite=4f95a74d-8b1a-4037-bb5a-182fe4b8d65b&utm_source=link_invite&utm_medium=referral&utm_campaign=product-link-invite&from=link_invite)
 
 ![](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Code%20Review/SNYK%20Mobile.png)
+  #### NextCloud Server on Github
+  Screenshot of a high level code analysis of SNYK scan on the NextCloud Server app on Github
+  [-Link to Scan Results-](https://app.snyk.io/invite/link/accept?invite=a501f469-78e3-414e-9168-40631556bbf0&utm_source=link_invite&utm_medium=referral&utm_campaign=product-link-invite&from=link_invite)
+  ![](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Code%20Review/SNYK%20NextCloud%20Server.png)
+  
 
 ### [SpotBugs Code Scanning](https://spotbugs.github.io/)
 
