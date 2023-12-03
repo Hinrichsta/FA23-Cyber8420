@@ -84,7 +84,7 @@ Code Summary Review will go here.....
    * After an examination of the files, there is no evident indication that this CWE poses an active vulnerability. The authentication mechanisms in NextCloud include front-end validation and password verification steps that appear to effectively thwart password hash authentication of this nature. Additionally, there were no automated scan findings associated with this CWE. 
 
 * Summary 
-   * This password hash login attempt CWE would be a vulnerability that any system out suffers from. Salting a hashed password would also make the password hash unusable in this regard. Lastly a combination of password and MFA would ensure that if this exploit were possible, it would be allowed to compromise an account without the MFA approval. 
+   * After an examination of the files, there is no indication that this CWE presents an active vulnerability. The authentication mechanisms in NextCloud include front-end validation and password verification steps that appear to be effective in preventing password hash authentication. There were no automated scan findings associated with this CWE.  
 
 ## Henri 
 ### CWE-200: CVE Name [-Link-](https://cwe.mitre.org/data/definitions/200.html)
