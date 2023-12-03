@@ -92,10 +92,10 @@ Code Summary Review will go here.....
   * The product exposes sensitive information to an actor that is not explicitly authorized to have access to that information.
     
 * Files Analyzed
-   * ‎lib/private/legacy/OC_Files.php [-Link-](https://github.com/hallou225/nc-server/tree/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/lib/private/legacy/OC_Files.php#L244)
+   * ‎OC_Files.php [-Link-](https://github.com/hallou225/nc-server/tree/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/lib/private/legacy/OC_Files.php#L244)
    * ‎lib/base.php [-Link-](https://github.com/hallou225/nc-server/tree/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/lib/base.php#L744)
    * cron.php [-Link-](https://github.com/hallou225/nc-server/blob/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/cron.php#L189)
-   * ‎build/integration/features/bootstrap/Sharing.php [-Link-](https://github.com/hallou225/nc-server/tree/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/build/integration/features/bootstrap/Sharing.php#L344)
+   * ‎Sharing.php [-Link-](https://github.com/hallou225/nc-server/tree/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/build/integration/features/bootstrap/Sharing.php#L344)
    * Filename.ext [-Link-]()
 
 * Automated Scan
