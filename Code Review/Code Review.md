@@ -88,7 +88,7 @@ Code Summary Review will go here.....
 ## Henri 
 ### CWE-xxx: CVE Name [-Link-](https://cwe.mitre.org/data/definitions/400.html)
 * Description
-  The product exposes sensitive information to an actor that is not explicitly authorized to have access to that information.
+  * The product exposes sensitive information to an actor that is not explicitly authorized to have access to that information.
 
 
 * Files Analyzed
@@ -100,7 +100,7 @@ Code Summary Review will go here.....
 
 ### CWE-xxx: CVE Name [-Link-](https://cwe.mitre.org/data/definitions/400.html)
 * Description
-  The product does n
+  * The product does n
 
 * Files Analyzed
    * FileContentProvider.java [-Link-](https://github.com/Chepburn-uno/NextCloudAndroidScan/blob/ef2987d6dd7b292296b338ac3e038cea9aedcf12/app/src/main/java/com/owncloud/android/providers/FileContentProvider.java#L132)
