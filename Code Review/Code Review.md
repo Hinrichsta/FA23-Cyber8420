@@ -40,6 +40,8 @@ The product does not properly control the allocation and maintenance of a limite
 * Automated Scan
    * SNYK Code Scanning [-Link-](https://snyk.io/)
    * [-Link to Scan Results-](https://app.snyk.io/invite/link/accept?invite=4f95a74d-8b1a-4037-bb5a-182fe4b8d65b&utm_source=link_invite&utm_medium=referral&utm_campaign=product-link-invite&from=link_invite)
+ 
+  ![](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Code%20Review/CWE%20400.png)
 * Code Summary Review
 Code Summary Review will go here.....
 
