@@ -43,8 +43,10 @@ The product uses hard-coded constants instead of symbolic names for security-cri
    * PushUtils.java [-Link-](https://github.com/Chepburn-uno/NextCloudAndroidScan/blob/ef2987d6dd7b292296b338ac3e038cea9aedcf12/app/src/gplay/java/com/owncloud/android/utils/PushUtils.java#L293)
 
 * Automated Scan
-   * Nothing in automated scan was related to this CWE. 
+   * SNYK Code Scanning [-Link-](https://snyk.io/)
+   * [-Link to Full Scan Results-](https://app.snyk.io/invite/link/accept?invite=4f95a74d-8b1a-4037-bb5a-182fe4b8d65b&utm_source=link_invite&utm_medium=referral&utm_campaign=product-link-invite&from=link_invite)
 
+  ![](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Code%20Review/CWE%20547.png)
 * Code Summary Review
 Code Summary Review will go here.....
 
