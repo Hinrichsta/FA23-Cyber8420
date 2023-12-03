@@ -4,6 +4,9 @@
 
 Our team decided to take a scenario-based approach.  We felt this would be wise as we had one team member who focused primarily on the NextCloud mobile app which was it's own repo within GitHub.  In researching the MITRE website for inline CWE’s 400 and 547 seemed feasible and potentially obtainable by an attacker. The other three team members focused on the larger overarching NextCloud server application repo on GitHub.  This is tied in to file access, website access and database access, all within our original misuse case. They focused on the CWE’s 200, 836, 1022???
 
+## Code Review Strategy  
+We decided to utilize 2 different automated code review tools for reviewing each of our CWEs so that we could cross reference and make sure potential issues were caught.  Manual reviews were then used to verify that the CWEs were not present within the application.  For the both the Server and the Mobile app they were reviewed with CodeQOL which is built into GitHub.  For the server it was secondarily reviews by Sonar Graph which is good for web applications, and the Mobile app was reviewed by Snyk and SpotBug which were better for Java applications.  Once the tools were run the found Weaknesses were reviewed to check against the ones we were looking for, failing that the manual review would be performed.
+
 ## Reviewed CWEs
 
 * CWE-400  (Chris)
@@ -12,8 +15,8 @@ Our team decided to take a scenario-based approach.  We felt this would be wise 
 * CWE-200  (Henri)
 * CWE-1022 (Luke)
 * CWE-836  (Luke)
-* CWE-XXX  (Tyler)
-* CWE-XXX  (Tyler)
+* CWE-295  (Tyler)
+* CWE-918  (Tyler)
 
 ### CWE-400: Uncontrollsed Resource Consumption [-Link-](https://cwe.mitre.org/data/definitions/400.html)
 
@@ -21,21 +24,7 @@ Description - The product does not properly control the allocation and maintenan
 
 ### CWE-547: Use of Hard=coded, Security-relevant Constants [-Link-](https://cwe.mitre.org/data/definitions/547.html)
 
-Description - The product uses hard-coded constants instead of symbolic names for security-critical values, which increases the likelihood of mistakes during code maintenance or security policy change.
-
-### Our Potential list
-https://cwe.mitre.org/data/definitions/699.html  
-CWE-125: Out-of-bounds Read  
-CWE-276: Incorrect Default Permissions  
-CWE-295: Improper Certifcate Validation  
-CWE-308: Use of Single-factor Authentication  
-CWE-322: Key Exchange without Entity Authentication  
-CWE-351: Insufficient Type Distinction  
-CWE-419: Unprotected Primary Channel  
-CWE-434: Unrestricted Upload of File with Dangerous Type  
-CWE-836: Use of Password Hash Instead of password for Authentication  
-CWE-862: Missing Authorization  
-CWE-918: Server-Side Request Forgery  
+Description - The product uses hard-coded constants instead of symbolic names for security-critical values, which increases the likelihood of mistakes during code maintenance or security policy change.  
 
 ## Chris  
 
@@ -74,11 +63,32 @@ Code Summary Review will go here.....
 
 ## Henri  
 
-## Tyler  
+### Tyler  
+### [CVE-295: Improper Certificate Validation](https://cwe.mitre.org/data/definitions/295.html)
+- **Files Analyzed**
+  - Certificate.php
+  - CertificateManager.PHP
+  - ICertificate.php
+  - ICertificateManager.php
+  - ImportCertificate.php
+- **Analysis Method**
+  - Scanned with CodeQOL within Github and with SonarQube.  Manually Scanned within SonarQube.
+- **Summary**
+  - From the Scanning within both systems there didn't seem to be any issues present for the CWE.  Looking through the code it appears that all of the Certificate data is properly imported and validated.  Certificates do not appear to be available in anyway to be tampered with and are held seperately from the application itself.
+
+### [CVE-918: Server-Side Forgery Request](https://cwe.mitre.org/data/definitions/918.html)
+- **Files Analyzed**
+  - DnsPinMiddleware.php
+  - LocalAddressChecker.php
+  - ip-lib.php
+- **Analysis Method**
+  - Scanned with CodeQOL within Github and with SonarQube.  Manually Scanned within SonarQube.
+- **Summary**
+  - From the Scanning within both systems there didn't seem to be any issues present for the CWE.  Did some searching online and found a CVE for this particular weakness from 2022.  Did a review of what was done to remedy the issue.
 
 ## Automated Code Review Applications Used
 
-### SNYK Code Scanning [-Link-](https://snyk.io/)
+### [SNYK Code Scanning](https://snyk.io/)
 
 Screenshot of a high level code anaylsis of SNYK scan on the NextCloud Android app on GitHub
 
@@ -86,13 +96,16 @@ Screenshot of a high level code anaylsis of SNYK scan on the NextCloud Android a
 
 ![](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Code%20Review/SNYK%20Mobile.png)
 
-### SpotBugs Code Scanning [-Link-](https://spotbugs.github.io/)
+### [SpotBugs Code Scanning](https://spotbugs.github.io/)
 
 Screenshot of a high level code anaylsis of SpotBugs scan on the NextCloud Android app on GitHub
 
 [-Link to Scan Results-](https://www.kaminsky.me/nc-dev/android-findbugs/master.html)
 
 ![](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Code%20Review/spotbugs%20mobile.png)
+
+### [SonarQube](https://www.sonarsource.com/products/sonarqube/)
+A code analysis tool that specializes in web applications.  It is run locally and isn't a cloud source
 
 ## Manual Code Review
 
