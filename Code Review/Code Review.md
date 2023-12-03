@@ -55,7 +55,6 @@ Code Summary Review will go here.....
 * Description
    * The web application generates links to external sites that are not considered trustworthy and fall beyond its control. However, it fails to adequately restrict the ability of these external sites to alter essential security properties of the window.opener object, such as the location property.
 
-
 * Files Analyzed
    * files_sharing_tab.js [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/blob/fece503fb408dc83609bfaa7003ac34593c5ba4a/apps/files_sharing/src/files_sharing_tab.js)
    * SharingInherited.vue [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/blob/fece503fb408dc83609bfaa7003ac34593c5ba4a/apps/files_sharing/src/views/SharingInherited.vue)
@@ -71,19 +70,21 @@ Code Summary Review will go here.....
 
 ### CWE-836: Use of Password Hash Instead of password for Authentication [-Link-](https://cwe.mitre.org/data/definitions/836.html)
 * Description
-CWE Description will go here.....
+   * The product stores password hashes in a data store, with the client responsible for generating and sending the password hash. This approach is sometimes employed to offload server load or avoid transmitting passwords over the network. However, when the client generates the hash, an attacker can compromise the authentication by acquiring the hash, for instance, through SQL injection or information exposure. Subsequently, the attacker can use a manipulated client to replay the stolen hash without needing knowledge of the original password. Comparing the server-side hash with a client-side hash offers no additional security compared to using passwords without hashing.
 
 * Files Analyzed
-   * placeholder [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/blob/fece503fb408dc83609bfaa7003ac34593c5ba4a/apps/files_sharing/src/files_sharing_tab.js)
-   * placeholder [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/blob/fece503fb408dc83609bfaa7003ac34593c5ba4a/apps/files_sharing/src/views/SharingInherited.vue)
-   * placeholder [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/blob/fece503fb408dc83609bfaa7003ac34593c5ba4a/apps/files_sharing/src/views/SharingList.vue)
-   * placeholder [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/blob/fece503fb408dc83609bfaa7003ac34593c5ba4a/apps/files_sharing/src/views/shares.ts)
+   * LoginData.php [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/blob/fece503fb408dc83609bfaa7003ac34593c5ba4a/lib/private/Authentication/Login/LoginData.php)
+   * WebAuthnChain.php [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/blob/fece503fb408dc83609bfaa7003ac34593c5ba4a/lib/private/Authentication/Login/WebAuthnChain.php)
+   * Store.php [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/blob/fece503fb408dc83609bfaa7003ac34593c5ba4a/lib/private/Authentication/LoginCredentials/Store.php)
+   * Credentials.php [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/blob/fece503fb408dc83609bfaa7003ac34593c5ba4a/lib/private/Authentication/LoginCredentials/Credentials.php)
+   * AccountProperty.php [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/blob/fece503fb408dc83609bfaa7003ac34593c5ba4a/lib/private/Accounts/AccountProperty.php)
+   * CredentialRepository.php [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/blob/fece503fb408dc83609bfaa7003ac34593c5ba4a/lib/private/Authentication/WebAuthn/CredentialRepository.php)
 
-* Automated Scan
-   * Nothing in automated scan was related to this CWE. 
+* Analysis Method
+   * After an examination of the files, there is no evident indication that this CWE poses an active vulnerability. The authentication mechanisms in NextCloud include front-end validation and password verification steps that appear to effectively thwart password hash authentication of this nature. Additionally, there were no automated scan findings associated with this CWE. 
 
-* Code Summary Review
-Code Summary Review will go here.....
+* Summary 
+   * This password hash login attempt CWE would be a vulnerability that any system out suffers from. Salting a hashed password would also make the password hash unusable in this regard. Lastly a combination of password and MFA would ensure that if this exploit were possible, it would be allowed to compromise an account without the MFA approval. 
 
 ## Henri 
 ### CWE-200: CVE Name [-Link-](https://cwe.mitre.org/data/definitions/200.html)
