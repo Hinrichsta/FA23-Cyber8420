@@ -9,16 +9,16 @@ We decided to utilize 2 different automated code review tools for reviewing each
 
 ## Reviewed CWEs
 
+* CWE-79
+* CWE-89
+* CWE-295
 * CWE-400
 * CWE-547
-* CWE-89
-* CWE-79
-* CWE-1022
 * CWE-836
-* CWE-295
 * CWE-918
+* CWE-1022
 
-## Chris  
+ 
 ### CWE-400: Uncontrolled Resource Consumption [-Link-](https://cwe.mitre.org/data/definitions/400.html)
 * Description
 The product does not properly control the allocation and maintenance of a limited resource, thereby enabling an actor to influence the amount of resources consumed, eventually leading to the exhaustion of available resources.
@@ -73,8 +73,7 @@ java.security.SecureRandom
 
 2 -KeySpec spec = new PBEKeySpec(keyPhrase.toCharArray(), salt, iterationCount, keyStrength);
 
-
-## Lucas  
+  
 ### CWE-1022: Use of Web Link to Untrusted Target with window.opener Access [-Link-](https://cwe.mitre.org/data/definitions/1022.html)
 * Description
    * The web application when generating links to external sites that are not considered trustworthy and therefore out of the control of the system security. However, it cannot prevent the external sites from altering security properties of the window.opener object, such as the location property.
@@ -110,7 +109,7 @@ java.security.SecureRandom
 * Summary 
    * After an examination of the files, there is no indication that this CWE presents an active vulnerability. The authentication mechanisms in NextCloud include front-end validation and password verification steps that appear to be effective in preventing password hash authentication. There were no automated scan findings associated with this CWE.  
 
-## Henri 
+
 ### CWE-200: Exposure of Sensitive Information to an Unauthorized Actor [-Link-](https://cwe.mitre.org/data/definitions/200.html)
 * Description
   * The product exposes sensitive information to an actor that is not explicitly authorized to have access to that information.
@@ -158,8 +157,8 @@ java.security.SecureRandom
 * Code Summary Review
   Code Summary Review will go here.....
 
-### Tyler  
-### [CVE-295: Improper Certificate Validation](https://cwe.mitre.org/data/definitions/295.html)
+ 
+### [CWE-295: Improper Certificate Validation](https://cwe.mitre.org/data/definitions/295.html)
 - **Files Analyzed**
   - Certificate.php
   - CertificateManager.PHP
@@ -171,7 +170,7 @@ java.security.SecureRandom
 - **Summary**
   - From the Scanning within both systems there didn't seem to be any issues present for the CWE.  Looking through the code it appears that all of the Certificate data is properly imported and validated.  Certificates do not appear to be available in anyway to be tampered with and are held seperately from the application itself.
 
-### [CVE-918: Server-Side Forgery Request](https://cwe.mitre.org/data/definitions/918.html)
+### [CWE-918: Server-Side Forgery Request](https://cwe.mitre.org/data/definitions/918.html)
 - **Files Analyzed**
   - DnsPinMiddleware.php
   - LocalAddressChecker.php
