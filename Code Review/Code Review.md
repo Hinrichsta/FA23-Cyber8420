@@ -205,8 +205,6 @@ Screenshot of a high level code anaylsis of SpotBugs scan on the NextCloud Andro
 ### [SonarQube](https://www.sonarsource.com/products/sonarqube/)
 A code analysis tool that specializes in web applications.  It is run locally and isn't a cloud source
 
-## Manual Code Review
-
 ## Findings Summary
 
 Given out banking company we felt the scanning from the three different application code scanners were successful.  However, we did come across one CWE 475 vulnerability that would require further mobile application unit testing. We did find in the application scan CWE 79 which in proper neutralization input during webpage generation which could lead to cross site scripting. The remainder of the CWE's don't appear to affect our system and don't require any further remediation. However continued code review and testing would need to be conducted regularly. The OwnCloud CWE 2023,49103-05, NextCloud is a fork of OwnCloud and does not contain these vulnerabilites. 
