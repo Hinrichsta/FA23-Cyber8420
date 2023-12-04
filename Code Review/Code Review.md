@@ -18,6 +18,52 @@ We decided to utilize 2 different automated code review tools for reviewing each
 * CWE-918
 * CWE-1022
 
+### CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') [-Link-](https://cwe.mitre.org/data/definitions/79.html)
+* Description
+  * The product does not neutralize or incorrectly neutralizes user-controllable input before it is placed in output that is used as a web page that is served to other users.
+
+* Files Analyzed
+   * download.php [-Link-](https://github.com/hallou225/nc-server/tree/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/apps/files/ajax/download.php#L77)
+   * ‎files.js [-Link-](https://github.com/hallou225/nc-server/tree/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/apps/files/js/files.js#L109)
+   * ‎settings-admin.js[-Link-](https://github.com/hallou225/nc-server/tree/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/apps/federation/js/settings-admin.js#L104)
+
+* Automated Scan
+   * SNYK Code Scanning [-Link-](https://snyk.io/)
+   * [-Link to Full Scan Results-](https://app.snyk.io/invite/link/accept?invite=a501f469-78e3-414e-9168-40631556bbf0&utm_source=link_invite&utm_medium=referral&utm_campaign=product-link-invite&from=link_invite)
+    ![](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Code%20Review/CWE-79.png)
+
+* Code Summary Review
+  Code Summary Review will go here.....
+
+### CWE-89: Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') [-Link-](https://cwe.mitre.org/data/definitions/89.html)
+* Description
+  * The product does not neutralize or incorrectly neutralizes user-controllable input before it is placed in output that is used as a web page that is served to other users.
+
+* Files Analyzed
+   * download.php [-Link-](https://github.com/hallou225/nc-server/tree/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/apps/files/ajax/download.php#L77)
+   * ‎files.js [-Link-](https://github.com/hallou225/nc-server/tree/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/apps/files/js/files.js#L109)
+   * ‎settings-admin.js[-Link-](https://github.com/hallou225/nc-server/tree/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/apps/federation/js/settings-admin.js#L104)
+
+* Automated Scan
+   * SNYK Code Scanning [-Link-](https://snyk.io/)
+   * [-Link to Full Scan Results-](https://app.snyk.io/invite/link/accept?invite=a501f469-78e3-414e-9168-40631556bbf0&utm_source=link_invite&utm_medium=referral&utm_campaign=product-link-invite&from=link_invite)
+    ![](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Code%20Review/CWE-79.png)
+
+* Code Summary Review
+  Code Summary Review will go here.....
+
+### [CWE-295: Improper Certificate Validation](https://cwe.mitre.org/data/definitions/295.html)
+- **Files Analyzed**
+  - Certificate.php  [-Link-](https://github.com/nextcloud/server/blob/ca60df9abdd5b4b65d1d48289c82aea3f982b2a3/lib/private/Security/Certificate.php)
+  - CertificateManager.PHP  [-Link-](https://github.com/nextcloud/server/blob/ca60df9abdd5b4b65d1d48289c82aea3f982b2a3/lib/private/Security/CertificateManager.php)
+  - ICertificate.php [-Link-](https://github.com/nextcloud/server/blob/ca60df9abdd5b4b65d1d48289c82aea3f982b2a3/lib/public/ICertificate.php)
+  - ICertificateManager.php [-Link-](https://github.com/nextcloud/server/blob/ca60df9abdd5b4b65d1d48289c82aea3f982b2a3/lib/public/ICertificateManager.php)
+  - ImportCertificate.php [-Link-](https://github.com/nextcloud/server/blob/ca60df9abdd5b4b65d1d48289c82aea3f982b2a3/core/Command/Security/ImportCertificate.php)
+- **Analysis Method**
+  - Scanned with CodeQOL within Github and with SonarQube.  Manually Scanned within SonarQube.
+- **Summary**
+  - From the Scanning within both systems there didn't seem to be any issues present for the CWE.  Looking through the code it appears that all of the Certificate data is properly imported and validated.  Certificates do not appear to be available in anyway to be tampered with and are held seperately from the application itself.
+  
  
 ### CWE-400: Uncontrolled Resource Consumption [-Link-](https://cwe.mitre.org/data/definitions/400.html)
 * Description
@@ -73,24 +119,6 @@ java.security.SecureRandom
 
 2 -KeySpec spec = new PBEKeySpec(keyPhrase.toCharArray(), salt, iterationCount, keyStrength);
 
-  
-### CWE-1022: Use of Web Link to Untrusted Target with window.opener Access [-Link-](https://cwe.mitre.org/data/definitions/1022.html)
-* Description
-   * The web application when generating links to external sites that are not considered trustworthy and therefore out of the control of the system security. However, it cannot prevent the external sites from altering security properties of the window.opener object, such as the location property.
-
-* Files Analyzed
-   * files_sharing_tab.js [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/blob/fece503fb408dc83609bfaa7003ac34593c5ba4a/apps/files_sharing/src/files_sharing_tab.js)
-   * SharingInherited.vue [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/blob/fece503fb408dc83609bfaa7003ac34593c5ba4a/apps/files_sharing/src/views/SharingInherited.vue)
-   * SharingList.vue [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/blob/fece503fb408dc83609bfaa7003ac34593c5ba4a/apps/files_sharing/src/views/SharingList.vue)
-   * shares.ts [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/blob/fece503fb408dc83609bfaa7003ac34593c5ba4a/apps/files_sharing/src/views/shares.ts)
-
-* Analysis Method
-   * After a review of the files listed above, there was no clear sign of this CWE being an active vulnerability. NextCloud cloud links it generates will be specific to each system file structure and domain its created for. This CWE would only be a problem for things like spam or phishing that did not originate from the system. 
-   * Automated scan of the solution provided this CWE but there was no ability for exploit. Potentially unsafe external link [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/security/code-scanning/3)
-* Summary
-    * After scanning both with manual and automated scans, there are no apparent issues related to the CWEs that were referenced. When the code was inspected, it seems that all link-sending functionalities are appropriately implemented. If any vulnerabilities exist they are external to the system. 
-
-
 ### CWE-836: Use of Password Hash Instead of password for Authentication [-Link-](https://cwe.mitre.org/data/definitions/836.html)
 * Description
    * The product records password hashes in a data store, receives a hash of a password from a client, and compares the supplied hash to the hash obtained from the data store.
@@ -107,7 +135,33 @@ java.security.SecureRandom
    * After an examination of the files, there is no evident indication that this CWE poses an active vulnerability. The authentication mechanisms in NextCloud include front-end validation and password verification steps that appear to effectively thwart password hash authentication of this nature. Additionally, there were no automated scan findings associated with this CWE. 
 
 * Summary 
-   * After an examination of the files, there is no indication that this CWE presents an active vulnerability. The authentication mechanisms in NextCloud include front-end validation and password verification steps that appear to be effective in preventing password hash authentication. There were no automated scan findings associated with this CWE.  
+   * After an examination of the files, there is no indication that this CWE presents an active vulnerability. The authentication mechanisms in NextCloud include front-end validation and password verification steps that appear to be effective in preventing password hash authentication. There were no automated scan findings associated with this CWE.
+     
+ ### [CWE-918: Server-Side Forgery Request](https://cwe.mitre.org/data/definitions/918.html)
+- **Files Analyzed**
+  - DnsPinMiddleware.php [-Link-](https://github.com/nextcloud/server/blob/ca60df9abdd5b4b65d1d48289c82aea3f982b2a3/lib/private/Http/Client/DnsPinMiddleware.php#L4) 
+- **Analysis Method**
+  - Scanned with CodeQOL within Github and with SonarQube.  Manually Scanned within SonarQube.
+- **Summary**
+  - From the Scanning within both systems there didn't seem to be any issues present for the CWE.  Did some searching online and found a CVE for this particular weakness from 2022.  Did a review of what was done to remedy the issue.
+
+ 
+### CWE-1022: Use of Web Link to Untrusted Target with window.opener Access [-Link-](https://cwe.mitre.org/data/definitions/1022.html)
+* Description
+   * The web application when generating links to external sites that are not considered trustworthy and therefore out of the control of the system security. However, it cannot prevent the external sites from altering security properties of the window.opener object, such as the location property.
+
+* Files Analyzed
+   * files_sharing_tab.js [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/blob/fece503fb408dc83609bfaa7003ac34593c5ba4a/apps/files_sharing/src/files_sharing_tab.js)
+   * SharingInherited.vue [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/blob/fece503fb408dc83609bfaa7003ac34593c5ba4a/apps/files_sharing/src/views/SharingInherited.vue)
+   * SharingList.vue [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/blob/fece503fb408dc83609bfaa7003ac34593c5ba4a/apps/files_sharing/src/views/SharingList.vue)
+   * shares.ts [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/blob/fece503fb408dc83609bfaa7003ac34593c5ba4a/apps/files_sharing/src/views/shares.ts)
+
+* Analysis Method
+   * After a review of the files listed above, there was no clear sign of this CWE being an active vulnerability. NextCloud cloud links it generates will be specific to each system file structure and domain its created for. This CWE would only be a problem for things like spam or phishing that did not originate from the system. 
+   * Automated scan of the solution provided this CWE but there was no ability for exploit. Potentially unsafe external link [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/security/code-scanning/3)
+* Summary
+    * After scanning both with manual and automated scans, there are no apparent issues related to the CWEs that were referenced. When the code was inspected, it seems that all link-sending functionalities are appropriately implemented. If any vulnerabilities exist they are external to the system. 
+
 
 
 ### CWE-200: Exposure of Sensitive Information to an Unauthorized Actor [-Link-](https://cwe.mitre.org/data/definitions/200.html)
@@ -127,56 +181,6 @@ java.security.SecureRandom
 * Code Summary Review
   Code Summary Review will go here.....
   
-### CWE-611: Improper Restriction of XML External Entity Reference [-Link-](https://cwe.mitre.org/data/definitions/611.html)
-* Description
-  * The product processes an XML document that can contain XML entities with URIs that resolve to documents outside of the intended sphere of control, causing the product to embed incorrect documents into its output.
-* Files Analyzed
-   * InfoParser.php [-Link Line66-](https://github.com/hallou225/nc-server/blob/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/lib/private/App/InfoParser.php#L66)
-   * ‎InfoParser.php [-Link Line69-](https://github.com/hallou225/nc-server/blob/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/lib/private/App/InfoParser.php#L69)
-* Automated Scan
-   * SNYK Code Scanning [-Link-](https://snyk.io/)
-   * [-Link to Full Scan Results-](https://app.snyk.io/invite/link/accept?invite=a501f469-78e3-414e-9168-40631556bbf0&utm_source=link_invite&utm_medium=referral&utm_campaign=product-link-invite&from=link_invite)
-    ![](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Code%20Review/CWE-611.png)
-* Code Summary Review
-  Code Summary Review will go here.....
-  
-### CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') [-Link-](https://cwe.mitre.org/data/definitions/79.html)
-* Description
-  * The product does not neutralize or incorrectly neutralizes user-controllable input before it is placed in output that is used as a web page that is served to other users.
-
-* Files Analyzed
-   * download.php [-Link-](https://github.com/hallou225/nc-server/tree/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/apps/files/ajax/download.php#L77)
-   * ‎files.js [-Link-](https://github.com/hallou225/nc-server/tree/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/apps/files/js/files.js#L109)
-   * ‎settings-admin.js[-Link-](https://github.com/hallou225/nc-server/tree/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/apps/federation/js/settings-admin.js#L104)
-
-* Automated Scan
-   * SNYK Code Scanning [-Link-](https://snyk.io/)
-   * [-Link to Full Scan Results-](https://app.snyk.io/invite/link/accept?invite=a501f469-78e3-414e-9168-40631556bbf0&utm_source=link_invite&utm_medium=referral&utm_campaign=product-link-invite&from=link_invite)
-    ![](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Code%20Review/CWE-79.png)
-
-* Code Summary Review
-  Code Summary Review will go here.....
-
- 
-### [CWE-295: Improper Certificate Validation](https://cwe.mitre.org/data/definitions/295.html)
-- **Files Analyzed**
-  - Certificate.php  [-Link-](https://github.com/nextcloud/server/blob/ca60df9abdd5b4b65d1d48289c82aea3f982b2a3/lib/private/Security/Certificate.php)
-  - CertificateManager.PHP  [-Link-](https://github.com/nextcloud/server/blob/ca60df9abdd5b4b65d1d48289c82aea3f982b2a3/lib/private/Security/CertificateManager.php)
-  - ICertificate.php [-Link-](https://github.com/nextcloud/server/blob/ca60df9abdd5b4b65d1d48289c82aea3f982b2a3/lib/public/ICertificate.php)
-  - ICertificateManager.php [-Link-](https://github.com/nextcloud/server/blob/ca60df9abdd5b4b65d1d48289c82aea3f982b2a3/lib/public/ICertificateManager.php)
-  - ImportCertificate.php [-Link-](https://github.com/nextcloud/server/blob/ca60df9abdd5b4b65d1d48289c82aea3f982b2a3/core/Command/Security/ImportCertificate.php)
-- **Analysis Method**
-  - Scanned with CodeQOL within Github and with SonarQube.  Manually Scanned within SonarQube.
-- **Summary**
-  - From the Scanning within both systems there didn't seem to be any issues present for the CWE.  Looking through the code it appears that all of the Certificate data is properly imported and validated.  Certificates do not appear to be available in anyway to be tampered with and are held seperately from the application itself.
-
-### [CWE-918: Server-Side Forgery Request](https://cwe.mitre.org/data/definitions/918.html)
-- **Files Analyzed**
-  - DnsPinMiddleware.php [-Link-](https://github.com/nextcloud/server/blob/ca60df9abdd5b4b65d1d48289c82aea3f982b2a3/lib/private/Http/Client/DnsPinMiddleware.php#L4) 
-- **Analysis Method**
-  - Scanned with CodeQOL within Github and with SonarQube.  Manually Scanned within SonarQube.
-- **Summary**
-  - From the Scanning within both systems there didn't seem to be any issues present for the CWE.  Did some searching online and found a CVE for this particular weakness from 2022.  Did a review of what was done to remedy the issue.
 
 ## Automated Code Review Applications Used
 
