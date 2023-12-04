@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Our team decided to take a scenario-based approach.  We felt this would be wise as we had one team member who focused primarily on the NextCloud mobile app which was it's own repo within GitHub.  In researching the MITRE website for inline CWE’s 400 and 547 seemed feasible and potentially obtainable by an attacker. The other three team members focused on the larger overarching NextCloud server application repo on GitHub.  This is tied in to file access, website access and database access, all within our original misuse case. They focused on the CWE’s 200, 611, 79, 836, 295, 918.
+Our team decided to take a scenario-based approach.  We felt this would be wise as we had one team member who focused primarily on the NextCloud mobile app which was it's own repo within GitHub.  In researching the MITRE website for inline CWE’s 400 and 547 seemed feasible and potentially obtainable by an attacker. The other three team members focused on the larger overarching NextCloud server application repo on GitHub.  This is tied in to file access, website access and database access, all within our original misuse case. They focused on the CWE’s 89, 79, 836, 295, 918.
 
 ## Code Review Strategy  
 We decided to utilize 2 different automated code review tools for reviewing each of our CWEs so that we could cross reference and make sure potential issues were caught.  Manual reviews were then used to verify that the CWEs were not present within the application.  For the both the Server and the Mobile app they were reviewed with CodeQOL which is built into GitHub.  For the server it was secondarily reviews by Sonar Graph which is good for web applications, and the Mobile app was reviewed by Snyk and SpotBug which were better for Java applications.  Once the tools were run the found Weaknesses were reviewed to check against the ones we were looking for, failing that the manual review would be performed.
@@ -11,8 +11,7 @@ We decided to utilize 2 different automated code review tools for reviewing each
 
 * CWE-400
 * CWE-547
-* CWE-611
-* CWE-200
+* CWE-89
 * CWE-79
 * CWE-1022
 * CWE-836
