@@ -160,11 +160,11 @@ java.security.SecureRandom
  
 ### [CWE-295: Improper Certificate Validation](https://cwe.mitre.org/data/definitions/295.html)
 - **Files Analyzed**
-  - Certificate.php
-  - CertificateManager.PHP
-  - ICertificate.php
-  - ICertificateManager.php
-  - ImportCertificate.php
+  - Certificate.php  [-Link-](https://github.com/nextcloud/server/blob/ca60df9abdd5b4b65d1d48289c82aea3f982b2a3/lib/private/Security/Certificate.php)
+  - CertificateManager.PHP  [-Link-](https://github.com/nextcloud/server/blob/ca60df9abdd5b4b65d1d48289c82aea3f982b2a3/lib/private/Security/CertificateManager.php)
+  - ICertificate.php [-Link-](https://github.com/nextcloud/server/blob/ca60df9abdd5b4b65d1d48289c82aea3f982b2a3/lib/public/ICertificate.php)
+  - ICertificateManager.php [-Link-](https://github.com/nextcloud/server/blob/ca60df9abdd5b4b65d1d48289c82aea3f982b2a3/lib/public/ICertificateManager.php)
+  - ImportCertificate.php [-Link-](https://github.com/nextcloud/server/blob/ca60df9abdd5b4b65d1d48289c82aea3f982b2a3/core/Command/Security/ImportCertificate.php)
 - **Analysis Method**
   - Scanned with CodeQOL within Github and with SonarQube.  Manually Scanned within SonarQube.
 - **Summary**
@@ -172,9 +172,7 @@ java.security.SecureRandom
 
 ### [CWE-918: Server-Side Forgery Request](https://cwe.mitre.org/data/definitions/918.html)
 - **Files Analyzed**
-  - DnsPinMiddleware.php
-  - LocalAddressChecker.php
-  - ip-lib.php
+  - DnsPinMiddleware.php [-Link-](https://github.com/nextcloud/server/blob/ca60df9abdd5b4b65d1d48289c82aea3f982b2a3/lib/private/Http/Client/DnsPinMiddleware.php#L4) 
 - **Analysis Method**
   - Scanned with CodeQOL within Github and with SonarQube.  Manually Scanned within SonarQube.
 - **Summary**
