@@ -30,7 +30,7 @@ We decided to utilize 2 different automated code review tools for reviewing each
    [Nextcloud Server Scan Results](https://app.snyk.io/invite/link/accept?invite=a501f469-78e3-414e-9168-40631556bbf0&utm_source=link_invite&utm_medium=referral&utm_campaign=product-link-invite&from=link_invite)
     ![](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Code%20Review/CWE-79.png)
 - **Code Summary Review**
-   - The weakness occurs when software does not perform or incorrectly performs neutralization of input data before displaying it in user's browser.
+   - The scan of the NextCloud Server fork with Snyk detected CWE-79 for the above files. This is a critical finding that reflect an application vulnerable to cross-site scripting. Input data should be properly handled on the affected code before displaying it in user's browser.
 
 ### [CWE-89: Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')](https://cwe.mitre.org/data/definitions/89.html)
 - **Description**
@@ -105,19 +105,16 @@ java.security.SecureRandom
 
 ### [CWE-836: Use of Password Hash Instead of password for Authentication](https://cwe.mitre.org/data/definitions/836.html)
 - **Description**
-   * The product records password hashes in a data store, receives a hash of a password from a client, and compares the supplied hash to the hash obtained from the data store.
-
+  - The product records password hashes in a data store, receives a hash of a password from a client, and compares the supplied hash to the hash obtained from the data store.
 - **Files Analyzed**
-   * LoginData.php [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/blob/fece503fb408dc83609bfaa7003ac34593c5ba4a/lib/private/Authentication/Login/LoginData.php)
-   * WebAuthnChain.php [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/blob/fece503fb408dc83609bfaa7003ac34593c5ba4a/lib/private/Authentication/Login/WebAuthnChain.php)
-   * Store.php [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/blob/fece503fb408dc83609bfaa7003ac34593c5ba4a/lib/private/Authentication/LoginCredentials/Store.php)
-   * Credentials.php [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/blob/fece503fb408dc83609bfaa7003ac34593c5ba4a/lib/private/Authentication/LoginCredentials/Credentials.php)
-   * AccountProperty.php [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/blob/fece503fb408dc83609bfaa7003ac34593c5ba4a/lib/private/Accounts/AccountProperty.php)
-   * CredentialRepository.php [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/blob/fece503fb408dc83609bfaa7003ac34593c5ba4a/lib/private/Authentication/WebAuthn/CredentialRepository.php)
-
+  - LoginData.php [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/blob/fece503fb408dc83609bfaa7003ac34593c5ba4a/lib/private/Authentication/Login/LoginData.php)
+  - WebAuthnChain.php [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/blob/fece503fb408dc83609bfaa7003ac34593c5ba4a/lib/private/Authentication/Login/WebAuthnChain.php)
+  - Store.php [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/blob/fece503fb408dc83609bfaa7003ac34593c5ba4a/lib/private/Authentication/LoginCredentials/Store.php)
+  - Credentials.php [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/blob/fece503fb408dc83609bfaa7003ac34593c5ba4a/lib/private/Authentication/LoginCredentials/Credentials.php)
+  - AccountProperty.php [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/blob/fece503fb408dc83609bfaa7003ac34593c5ba4a/lib/private/Accounts/AccountProperty.php)
+  - CredentialRepository.php [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/blob/fece503fb408dc83609bfaa7003ac34593c5ba4a/lib/private/Authentication/WebAuthn/CredentialRepository.php)
 - **Analysis Method**
-   * After an examination of the files, there is no evident indication that this CWE poses an active vulnerability. The authentication mechanisms in NextCloud include front-end validation and password verification steps that appear to effectively thwart password hash authentication of this nature. Additionally, there were no automated scan findings associated with this CWE. 
-
+  - After an examination of the files, there is no evident indication that this CWE poses an active vulnerability. The authentication mechanisms in NextCloud include front-end validation and password verification steps that appear to effectively thwart password hash authentication of this nature. Additionally, there were no automated scan findings associated with this CWE. 
 - **Code Summary Review**
    - After an examination of the files, there is no indication that this CWE presents an active vulnerability. The authentication mechanisms in NextCloud include front-end validation and password verification steps that appear to be effective in preventing password hash authentication. There were no automated scan findings associated with this CWE.
      
@@ -148,19 +145,6 @@ java.security.SecureRandom
 - **Code Summary Review**
    - After scanning both with manual and automated scans, there are no apparent issues related to the CWEs that were referenced. When the code was inspected, it seems that all link-sending functionalities are appropriately implemented. If any vulnerabilities exist they are external to the system. 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Automated Code Review Applications Used
 
 ### [SNYK Code Scanning](https://snyk.io/)
@@ -177,9 +161,7 @@ Screenshot of a high level code anaylsis of SNYK scan on the NextCloud Android a
 
 ### [SpotBugs Code Scanning](https://spotbugs.github.io/)
 
-Screenshot of a high level code anaylsis of SpotBugs scan on the NextCloud Android app on GitHub
-
-[-Link to Scan Results-](https://www.kaminsky.me/nc-dev/android-findbugs/master.html)
+Screenshot of a high level code anaylsis of SpotBugs scan on the NextCloud Android app on GitHub [-Link to Scan Results-](https://www.kaminsky.me/nc-dev/android-findbugs/master.html)
 
 ![](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Code%20Review/spotbugs%20mobile.png)
 
