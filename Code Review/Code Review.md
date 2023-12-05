@@ -35,7 +35,7 @@ We decided to utilize 2 different automated code review tools for reviewing each
 * Code Summary Review
   Code Summary Review will go here.....
 
-### CWE-89: Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') [-Link-](https://cwe.mitre.org/data/definitions/89.html)
+### [CWE-89: Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')](https://cwe.mitre.org/data/definitions/89.html)
 - **Description**
   - The product does not neutralize or incorrectly neutralizes user-controllable input before it is placed in output that is used as a web page that is served to other users.
 - **Files Analyzed**
