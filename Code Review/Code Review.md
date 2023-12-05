@@ -30,7 +30,7 @@ We decided to utilize 2 different automated code review tools for reviewing each
    [-Link to Full Scan Results-](https://app.snyk.io/invite/link/accept?invite=a501f469-78e3-414e-9168-40631556bbf0&utm_source=link_invite&utm_medium=referral&utm_campaign=product-link-invite&from=link_invite)
     ![](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Code%20Review/CWE-79.png)
 - **Code Summary Review**
- - The weakness occurs when software does not perform or incorrectly performs neutralization of input data before displaying it in user's browser.
+   - The weakness occurs when software does not perform or incorrectly performs neutralization of input data before displaying it in user's browser.
 
 ### [CWE-89: Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')](https://cwe.mitre.org/data/definitions/89.html)
 - **Description**
