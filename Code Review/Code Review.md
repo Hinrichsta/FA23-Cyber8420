@@ -36,20 +36,17 @@ We decided to utilize 2 different automated code review tools for reviewing each
   Code Summary Review will go here.....
 
 ### CWE-89: Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') [-Link-](https://cwe.mitre.org/data/definitions/89.html)
-* Description
-  * The product does not neutralize or incorrectly neutralizes user-controllable input before it is placed in output that is used as a web page that is served to other users.
-
-* Files Analyzed
-   * index.php [-Link-](https://github.com/hallou225/nc-server/blob/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/index.php)
-   * Cache.php [-Link-](https://github.com/hallou225/nc-server/blob/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/lib/private/Files/Cache/Cache.php).
-   * ‎Sharing.php [-Link-](https://github.com/hallou225/nc-server/blob/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/build/integration/features/bootstrap/Sharing.php).
-   * SFTP.php [-Link-](https://github.com/hallou225/nc-server/tree/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/apps/files_external/lib/Lib/Storage/SFTP.php)
-
-* Manual Scan
-   * A thorough analysis of the files has not confirmed that they are vulnerable to SQL Injection.
-     Moreover, the automated scan did not return any CWE-89 related violation. 
-* Summary 
-   * CWE-89 represent a major security risk for application such as nexcloud. It is therefore a great relief to see that both the manual and automated scan could not validate its presence within the application. 
+- **Description**
+  - The product does not neutralize or incorrectly neutralizes user-controllable input before it is placed in output that is used as a web page that is served to other users.
+- **Files Analyzed**
+   - index.php [-Link-](https://github.com/hallou225/nc-server/blob/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/index.php)
+   - Cache.php [-Link-](https://github.com/hallou225/nc-server/blob/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/lib/private/Files/Cache/Cache.php).
+   - ‎Sharing.php [-Link-](https://github.com/hallou225/nc-server/blob/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/build/integration/features/bootstrap/Sharing.php).
+   - SFTP.php [-Link-](https://github.com/hallou225/nc-server/tree/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/apps/files_external/lib/Lib/Storage/SFTP.php)
+- **Analysis Method**
+   - A thorough manual analysis of the files within github. Also scan with SNYK
+- **Summary**
+  - CWE-89 represent a major security risk for application such as nexcloud. It is therefore a great relief to see that both the manual and automated scan could not validate its presence within the application. 
 
 ### [CWE-295: Improper Certificate Validation](https://cwe.mitre.org/data/definitions/295.html)
 - **Files Analyzed**
