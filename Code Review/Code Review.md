@@ -26,7 +26,7 @@ We decided to utilize 2 different automated code review tools for reviewing each
    * ‎files.js [-Link-](https://github.com/hallou225/nc-server/tree/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/apps/files/js/files.js#L109)
    * ‎settings-admin.js[-Link-](https://github.com/hallou225/nc-server/tree/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/apps/federation/js/settings-admin.js#L104)
 - **Analysis Method**
-  - Automated scan conducted via [SNYK code Scanning](https://snyk.io/).
+  - Automated scan of the nextcloud repo conducted via [SNYK code Scanning](https://snyk.io/).
    [-Link to Full Scan Results-](https://app.snyk.io/invite/link/accept?invite=a501f469-78e3-414e-9168-40631556bbf0&utm_source=link_invite&utm_medium=referral&utm_campaign=product-link-invite&from=link_invite)
     ![](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Code%20Review/CWE-79.png)
 - **Code Summary Review**
@@ -41,7 +41,7 @@ We decided to utilize 2 different automated code review tools for reviewing each
    - ‎Sharing.php [-Link-](https://github.com/hallou225/nc-server/blob/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/build/integration/features/bootstrap/Sharing.php).
    - SFTP.php [-Link-](https://github.com/hallou225/nc-server/tree/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/apps/files_external/lib/Lib/Storage/SFTP.php)
 - **Analysis Method**
-   - A thorough manual analysis of the files within github. Also scan with SNYK
+   - A thorough manual analysis of the files within github. Also scan github repo with [SNYK code Scanning](https://snyk.io/).
 - **Code Summary Review**
    - CWE-89 represent a major security risk for application such as nexcloud. It is therefore a great relief to see that both the manual and automated scan could not validate its presence within the application. 
 
@@ -66,7 +66,7 @@ The product does not properly control the allocation and maintenance of a limite
 - **Files Analyzed**
   -FileContentProvider.java [-Link-](https://github.com/Chepburn-uno/NextCloudAndroidScan/blob/ef2987d6dd7b292296b338ac3e038cea9aedcf12/app/src/main/java/com/owncloud/android/providers/FileContentProvider.java#L132)
 - **Analysis Method**
-   - Automated Scan conducted visa [SNYK code scanning](https://snyk.io/)
+   - Automated Scan conducted with [SNYK code scanning](https://snyk.io/)
    - [-Link to Full Scan Results-](https://app.snyk.io/invite/link/accept?invite=4f95a74d-8b1a-4037-bb5a-182fe4b8d65b&utm_source=link_invite&utm_medium=referral&utm_campaign=product-link-invite&from=link_invite)
  
   ![](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Code%20Review/CWE%20400.png)
