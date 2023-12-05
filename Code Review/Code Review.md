@@ -30,7 +30,7 @@ We decided to utilize 2 different automated code review tools for reviewing each
    [-Link to Full Scan Results-](https://app.snyk.io/invite/link/accept?invite=a501f469-78e3-414e-9168-40631556bbf0&utm_source=link_invite&utm_medium=referral&utm_campaign=product-link-invite&from=link_invite)
     ![](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Code%20Review/CWE-79.png)
 - **Code Summary Review**
- - The weakness occurs when software does not perform or incorrectly performs neutralization of input data before displaying it in user's browser. As a result, an attacker is able to inject and execute arbitrary HTML and script code in user's browser in context of a vulnerable website.
+ - The weakness occurs when software does not perform or incorrectly performs neutralization of input data before displaying it in user's browser.
 
 ### [CWE-89: Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')](https://cwe.mitre.org/data/definitions/89.html)
 - **Description**
@@ -55,11 +55,11 @@ We decided to utilize 2 different automated code review tools for reviewing each
 - **Analysis Method**
   - Scanned with CodeQOL within Github and with SonarQube.  Manually Scanned within SonarQube.
 - **Code Summary Review**
-  - From the Scanning within both systems there didn't seem to be any issues present for the CWE.  Looking through the code it appears that all of the Certificate data is properly imported and validated.  Certificates do not appear to be available in anyway to be tampered with and are held seperately from the application itself.
+   - From the Scanning within both systems there didn't seem to be any issues present for the CWE.  Looking through the code it appears that all of the Certificate data is properly imported and validated.  Certificates do not appear to be available in anyway to be tampered with and are held seperately from the application itself.
   
  
 ###  [CWE-400: Uncontrolled Resource Consumption](https://cwe.mitre.org/data/definitions/400.html)
-* Description
+- **Description**
 The product does not properly control the allocation and maintenance of a limited resource, thereby enabling an actor to influence the amount of resources consumed, eventually leading to the exhaustion of available resources.
 - **Files Analyzed**
   -FileContentProvider.java [-Link-](https://github.com/Chepburn-uno/NextCloudAndroidScan/blob/ef2987d6dd7b292296b338ac3e038cea9aedcf12/app/src/main/java/com/owncloud/android/providers/FileContentProvider.java#L132)
@@ -81,21 +81,19 @@ When scanning the NextCloud Android fork with Snyk and SpotBugs I picked up five
 
 
 ### CWE-547: Use of Hard-coded, Security-relevant Constants [-Link-](https://cwe.mitre.org/data/definitions/547.html)
-* Description
-The product uses hard-coded constants instead of symbolic names for security-critical values, which increases the likelihood of mistakes during code maintenance or security policy change.
-
-* Files Analyzed
+- **Description**
+ - The product uses hard-coded constants instead of symbolic names for security-critical values, which increases the likelihood of mistakes during code maintenance or security policy change.
+- **Files Analyzed**
    * EncryptionUtils.java [-Link-](https://github.com/Chepburn-uno/NextCloudAndroidScan/blob/ef2987d6dd7b292296b338ac3e038cea9aedcf12/app/src/main/java/com/owncloud/android/utils/EncryptionUtils.java#L825)
    * PushUtils.java [-Link-](https://github.com/Chepburn-uno/NextCloudAndroidScan/blob/ef2987d6dd7b292296b338ac3e038cea9aedcf12/app/src/gplay/java/com/owncloud/android/utils/PushUtils.java#L293)
 
-* Automated Scan
+- **Analysis Method**
    * SNYK Code Scanning [-Link-](https://snyk.io/)
    * [-Link to Full Scan Results-](https://app.snyk.io/invite/link/accept?invite=4f95a74d-8b1a-4037-bb5a-182fe4b8d65b&utm_source=link_invite&utm_medium=referral&utm_campaign=product-link-invite&from=link_invite)
 
   ![](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Code%20Review/CWE%20547.png)
-* Code Summary Review
-  
-When scanning the NextCloud Android fork with Snyk and SpotBugs I picked up four hits in Snyk for CWE 547 – Hardcoded Secret.  For this CWE I had two in the file PushUtils.java and two in EncryptionUtils.java. which had the effected coding lines below.  All four hits call the coder to use java.security.SecureRandom to generate strong random cryptographic numbers.
+- **Code Summary Review**
+   - When scanning the NextCloud Android fork with Snyk and SpotBugs I picked up four hits in Snyk for CWE 547 – Hardcoded Secret.  For this CWE I had two in the file PushUtils.java and two in EncryptionUtils.java. which had the effected coding lines below.  All four hits call the coder to use java.security.SecureRandom to generate strong random cryptographic numbers.
 
 EncryptionUtils.java 
 
@@ -110,10 +108,10 @@ java.security.SecureRandom
 2 -KeySpec spec = new PBEKeySpec(keyPhrase.toCharArray(), salt, iterationCount, keyStrength);
 
 ### CWE-836: Use of Password Hash Instead of password for Authentication [-Link-](https://cwe.mitre.org/data/definitions/836.html)
-* Description
+- **Description**
    * The product records password hashes in a data store, receives a hash of a password from a client, and compares the supplied hash to the hash obtained from the data store.
 
-* Files Analyzed
+- **Files Analyzed**
    * LoginData.php [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/blob/fece503fb408dc83609bfaa7003ac34593c5ba4a/lib/private/Authentication/Login/LoginData.php)
    * WebAuthnChain.php [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/blob/fece503fb408dc83609bfaa7003ac34593c5ba4a/lib/private/Authentication/Login/WebAuthnChain.php)
    * Store.php [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/blob/fece503fb408dc83609bfaa7003ac34593c5ba4a/lib/private/Authentication/LoginCredentials/Store.php)
@@ -121,23 +119,24 @@ java.security.SecureRandom
    * AccountProperty.php [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/blob/fece503fb408dc83609bfaa7003ac34593c5ba4a/lib/private/Accounts/AccountProperty.php)
    * CredentialRepository.php [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/blob/fece503fb408dc83609bfaa7003ac34593c5ba4a/lib/private/Authentication/WebAuthn/CredentialRepository.php)
 
-* Analysis Method
+- **Analysis Method**
    * After an examination of the files, there is no evident indication that this CWE poses an active vulnerability. The authentication mechanisms in NextCloud include front-end validation and password verification steps that appear to effectively thwart password hash authentication of this nature. Additionally, there were no automated scan findings associated with this CWE. 
 
-* Summary 
-   * After an examination of the files, there is no indication that this CWE presents an active vulnerability. The authentication mechanisms in NextCloud include front-end validation and password verification steps that appear to be effective in preventing password hash authentication. There were no automated scan findings associated with this CWE.
+- **Code Summary Review**
+   - After an examination of the files, there is no indication that this CWE presents an active vulnerability. The authentication mechanisms in NextCloud include front-end validation and password verification steps that appear to be effective in preventing password hash authentication. There were no automated scan findings associated with this CWE.
      
  ### [CWE-918: Server-Side Forgery Request](https://cwe.mitre.org/data/definitions/918.html)
+- **Description**
 - **Files Analyzed**
   - DnsPinMiddleware.php [-Link-](https://github.com/nextcloud/server/blob/ca60df9abdd5b4b65d1d48289c82aea3f982b2a3/lib/private/Http/Client/DnsPinMiddleware.php#L4) 
 - **Analysis Method**
   - Scanned with CodeQOL within Github and with SonarQube.  Manually Scanned within SonarQube.
-- **Summary**
-  - From the Scanning within both systems there didn't seem to be any issues present for the CWE.  Did some searching online and found a CVE for this particular weakness from 2022.  Did a review of what was done to remedy the issue.
+- **Code Summary Review**
+   - From the Scanning within both systems there didn't seem to be any issues present for the CWE.  Did some searching online and found a CVE for this particular weakness from 2022.  Did a review of what was done to remedy the issue.
 
  
 ### CWE-1022: Use of Web Link to Untrusted Target with window.opener Access [-Link-](https://cwe.mitre.org/data/definitions/1022.html)
-* Description
+- **Description**
    * The web application when generating links to external sites that are not considered trustworthy and therefore out of the control of the system security. However, it cannot prevent the external sites from altering security properties of the window.opener object, such as the location property.
 
 * Files Analyzed
@@ -146,11 +145,24 @@ java.security.SecureRandom
    * SharingList.vue [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/blob/fece503fb408dc83609bfaa7003ac34593c5ba4a/apps/files_sharing/src/views/SharingList.vue)
    * shares.ts [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/blob/fece503fb408dc83609bfaa7003ac34593c5ba4a/apps/files_sharing/src/views/shares.ts)
 
-* Analysis Method
+- **Analysis Method**
    * After a review of the files listed above, there was no clear sign of this CWE being an active vulnerability. NextCloud cloud links it generates will be specific to each system file structure and domain its created for. This CWE would only be a problem for things like spam or phishing that did not originate from the system. 
    * Automated scan of the solution provided this CWE but there was no ability for exploit. Potentially unsafe external link [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/security/code-scanning/3)
-* Summary
-    * After scanning both with manual and automated scans, there are no apparent issues related to the CWEs that were referenced. When the code was inspected, it seems that all link-sending functionalities are appropriately implemented. If any vulnerabilities exist they are external to the system. 
+- **Code Summary Review**
+   - After scanning both with manual and automated scans, there are no apparent issues related to the CWEs that were referenced. When the code was inspected, it seems that all link-sending functionalities are appropriately implemented. If any vulnerabilities exist they are external to the system. 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Automated Code Review Applications Used
 
