@@ -80,7 +80,7 @@ When scanning the NextCloud Android fork with Snyk and SpotBugs I picked up five
 4 - VerificationUtils.verifySortOrder(sortOrder);
 
 
-### CWE-547: Use of Hard-coded, Security-relevant Constants [-Link-](https://cwe.mitre.org/data/definitions/547.html)
+### [CWE-547: Use of Hard-coded, Security-relevant Constants](https://cwe.mitre.org/data/definitions/547.html)
 - **Description**
  - The product uses hard-coded constants instead of symbolic names for security-critical values, which increases the likelihood of mistakes during code maintenance or security policy change.
 - **Files Analyzed**
@@ -107,7 +107,7 @@ java.security.SecureRandom
 
 2 -KeySpec spec = new PBEKeySpec(keyPhrase.toCharArray(), salt, iterationCount, keyStrength);
 
-### CWE-836: Use of Password Hash Instead of password for Authentication [-Link-](https://cwe.mitre.org/data/definitions/836.html)
+### [CWE-836: Use of Password Hash Instead of password for Authentication](https://cwe.mitre.org/data/definitions/836.html)
 - **Description**
    * The product records password hashes in a data store, receives a hash of a password from a client, and compares the supplied hash to the hash obtained from the data store.
 
@@ -135,7 +135,7 @@ java.security.SecureRandom
    - From the Scanning within both systems there didn't seem to be any issues present for the CWE.  Did some searching online and found a CVE for this particular weakness from 2022.  Did a review of what was done to remedy the issue.
 
  
-### CWE-1022: Use of Web Link to Untrusted Target with window.opener Access [-Link-](https://cwe.mitre.org/data/definitions/1022.html)
+### [CWE-1022: Use of Web Link to Untrusted Target with window.opener Access](https://cwe.mitre.org/data/definitions/1022.html)
 - **Description**
    * The web application when generating links to external sites that are not considered trustworthy and therefore out of the control of the system security. However, it cannot prevent the external sites from altering security properties of the window.opener object, such as the location property.
 
