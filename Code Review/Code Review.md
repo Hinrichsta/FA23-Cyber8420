@@ -19,17 +19,17 @@ We decided to utilize 2 different automated code review tools for reviewing each
 * CWE-1022
 
 ### [CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')](https://cwe.mitre.org/data/definitions/79.html)
-**Description**
+- **Description**
   * The product does not neutralize or incorrectly neutralizes user-controllable input before it is placed in output that is used as a web page that is served to other users.
-**Files Analyzed**
+- **Files Analyzed**
    * download.php [-Link-](https://github.com/hallou225/nc-server/tree/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/apps/files/ajax/download.php#L77)
    * ‎files.js [-Link-](https://github.com/hallou225/nc-server/tree/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/apps/files/js/files.js#L109)
    * ‎settings-admin.js[-Link-](https://github.com/hallou225/nc-server/tree/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/apps/federation/js/settings-admin.js#L104)
-**Analysis Method**
+- **Analysis Method**
    Automated scan conducted via [SNYK code Scanning](https://snyk.io/).
    [-Link to Full Scan Results-](https://app.snyk.io/invite/link/accept?invite=a501f469-78e3-414e-9168-40631556bbf0&utm_source=link_invite&utm_medium=referral&utm_campaign=product-link-invite&from=link_invite)
     ![](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Code%20Review/CWE-79.png)
-**Code Summary Review**
+- **Code Summary Review**
   The weakness occurs when software does not perform or incorrectly performs neutralization of input data before displaying it in user's browser. As a result, an attacker is able to inject and execute arbitrary HTML and script code in user's browser in context of a vulnerable website.
 
 ### [CWE-89: Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')](https://cwe.mitre.org/data/definitions/89.html)
