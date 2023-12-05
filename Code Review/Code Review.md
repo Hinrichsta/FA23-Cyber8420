@@ -40,17 +40,16 @@ We decided to utilize 2 different automated code review tools for reviewing each
   * The product does not neutralize or incorrectly neutralizes user-controllable input before it is placed in output that is used as a web page that is served to other users.
 
 * Files Analyzed
-   * download.php [-Link-](https://github.com/hallou225/nc-server/tree/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/apps/files/ajax/download.php#L77)
-   * ‎files.js [-Link-](https://github.com/hallou225/nc-server/tree/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/apps/files/js/files.js#L109)
-   * ‎settings-admin.js[-Link-](https://github.com/hallou225/nc-server/tree/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/apps/federation/js/settings-admin.js#L104)
+   * index.php [-Link-](https://github.com/hallou225/nc-server/blob/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/index.php)
+   * Cache.php [-Link-](https://github.com/hallou225/nc-server/blob/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/lib/private/Files/Cache/Cache.php).
+   * ‎Sharing.php [-Link-](https://github.com/hallou225/nc-server/blob/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/build/integration/features/bootstrap/Sharing.php).
+   * SFTP.php [-Link-](https://github.com/hallou225/nc-server/tree/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/apps/files_external/lib/Lib/Storage/SFTP.php)
 
-* Automated Scan
-   * SNYK Code Scanning [-Link-](https://snyk.io/)
-   * [-Link to Full Scan Results-](https://app.snyk.io/invite/link/accept?invite=a501f469-78e3-414e-9168-40631556bbf0&utm_source=link_invite&utm_medium=referral&utm_campaign=product-link-invite&from=link_invite)
-    ![](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Code%20Review/CWE-79.png)
-
-* Code Summary Review
-  Code Summary Review will go here.....
+* Manual Scan
+   * A thorough analysis of the files has not confirmed that they are vulnerable to SQL Injection.
+     Moreover, the automated scan did not return any CWE-89 related violation. 
+* Summary 
+   * CWE-89 represent a major security risk for application such as nexcloud. It is therefore a great relief to see that both the manual and automated scan could not validate its presence within the application. 
 
 ### [CWE-295: Improper Certificate Validation](https://cwe.mitre.org/data/definitions/295.html)
 - **Files Analyzed**
@@ -161,26 +160,6 @@ java.security.SecureRandom
    * Automated scan of the solution provided this CWE but there was no ability for exploit. Potentially unsafe external link [-Link-](https://github.com/Hinrichsta/nextcloudserver-scan/security/code-scanning/3)
 * Summary
     * After scanning both with manual and automated scans, there are no apparent issues related to the CWEs that were referenced. When the code was inspected, it seems that all link-sending functionalities are appropriately implemented. If any vulnerabilities exist they are external to the system. 
-
-
-
-### CWE-200: Exposure of Sensitive Information to an Unauthorized Actor [-Link-](https://cwe.mitre.org/data/definitions/200.html)
-* Description
-  * The product exposes sensitive information to an actor that is not explicitly authorized to have access to that information.
-    
-* Files Analyzed
-   * ‎OC_Files.php [-Link-](https://github.com/hallou225/nc-server/tree/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/lib/private/legacy/OC_Files.php#L244)
-   * ‎lib/base.php [-Link-](https://github.com/hallou225/nc-server/tree/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/lib/base.php#L744)
-   * cron.php [-Link-](https://github.com/hallou225/nc-server/blob/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/cron.php#L189)
-   * ‎Sharing.php [-Link-](https://github.com/hallou225/nc-server/tree/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/build/integration/features/bootstrap/Sharing.php#L344)
-
-* Automated Scan
-   * SNYK Code Scanning [-Link-](https://snyk.io/)
-   * [-Link to Full Scan Results-](https://app.snyk.io/invite/link/accept?invite=a501f469-78e3-414e-9168-40631556bbf0&utm_source=link_invite&utm_medium=referral&utm_campaign=product-link-invite&from=link_invite)
-    ![](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Code%20Review/CWE-200.png)
-* Code Summary Review
-  Code Summary Review will go here.....
-  
 
 ## Automated Code Review Applications Used
 
