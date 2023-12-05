@@ -63,14 +63,13 @@ We decided to utilize 2 different automated code review tools for reviewing each
 - **Description**
   - The product does not properly control the allocation and maintenance of a limited resource, thereby enabling an actor to influence the amount of resources consumed, eventually leading to the exhaustion of available resources.
 - **Files Analyzed**
-  -FileContentProvider.java [-Link-](https://github.com/Chepburn-uno/NextCloudAndroidScan/blob/ef2987d6dd7b292296b338ac3e038cea9aedcf12/app/src/main/java/com/owncloud/android/providers/FileContentProvider.java#L132)
+  - FileContentProvider.java [-Link-](https://github.com/Chepburn-uno/NextCloudAndroidScan/blob/ef2987d6dd7b292296b338ac3e038cea9aedcf12/app/src/main/java/com/owncloud/android/providers/FileContentProvider.java#L132)
 - **Analysis Method**
    - Automated Scan conducted with [SNYK code scanning](https://snyk.io/)
    - [-Link to Full Scan Results-](https://app.snyk.io/invite/link/accept?invite=4f95a74d-8b1a-4037-bb5a-182fe4b8d65b&utm_source=link_invite&utm_medium=referral&utm_campaign=product-link-invite&from=link_invite)
- 
-  ![](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Code%20Review/CWE%20400.png)
+   - ![](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Code%20Review/CWE%20400.png)
 - **Code Summary Review**
-When scanning the NextCloud Android fork with Snyk and SpotBugs I picked up five hits in Snyk for CWE 400 – Regular expression injection.  All 5 hits were in the file, “FileContentProvider.java” for the lines below.  However, in the scan output there is the caveat that depending upon the programing this “may” result in a Regular Expression Injection vulnerability that could lead to a Denial of Service attack.
+   - When scanning the NextCloud Android fork with Snyk and SpotBugs I picked up five hits in Snyk for CWE 400 – Regular expression injection.  All 5 hits were in the file, “FileContentProvider.java” for the lines below.  However, in the scan output there is the caveat that depending upon the programing this “may” result in a Regular Expression Injection vulnerability that could lead to a Denial of Service attack.
 
 1 - VerificationUtils.verifyWhere(selection);
 
@@ -82,24 +81,23 @@ When scanning the NextCloud Android fork with Snyk and SpotBugs I picked up five
 
 ### [CWE-547: Use of Hard-coded, Security-relevant Constants](https://cwe.mitre.org/data/definitions/547.html)
 - **Description**
- - The product uses hard-coded constants instead of symbolic names for security-critical values, which increases the likelihood of mistakes during code maintenance or security policy change.
+  - The product uses hard-coded constants instead of symbolic names for security-critical values, which increases the likelihood of mistakes during code maintenance or security policy change.
 - **Files Analyzed**
-   * EncryptionUtils.java [-Link-](https://github.com/Chepburn-uno/NextCloudAndroidScan/blob/ef2987d6dd7b292296b338ac3e038cea9aedcf12/app/src/main/java/com/owncloud/android/utils/EncryptionUtils.java#L825)
-   * PushUtils.java [-Link-](https://github.com/Chepburn-uno/NextCloudAndroidScan/blob/ef2987d6dd7b292296b338ac3e038cea9aedcf12/app/src/gplay/java/com/owncloud/android/utils/PushUtils.java#L293)
-
+  - EncryptionUtils.java [-Link-](https://github.com/Chepburn-uno/NextCloudAndroidScan/blob/ef2987d6dd7b292296b338ac3e038cea9aedcf12/app/src/main/java/com/owncloud/android/utils/EncryptionUtils.java#L825)
+  - PushUtils.java [-Link-](https://github.com/Chepburn-uno/NextCloudAndroidScan/blob/ef2987d6dd7b292296b338ac3e038cea9aedcf12/app/src/gplay/java/com/owncloud/android/utils/PushUtils.java#L293)
 - **Analysis Method**
-   * SNYK Code Scanning [-Link-](https://snyk.io/)
-   * [-Link to Full Scan Results-](https://app.snyk.io/invite/link/accept?invite=4f95a74d-8b1a-4037-bb5a-182fe4b8d65b&utm_source=link_invite&utm_medium=referral&utm_campaign=product-link-invite&from=link_invite)
-
-  ![](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Code%20Review/CWE%20547.png)
+  - SNYK Code Scanning [-Link-](https://snyk.io/)
+  - [-Link to Full Scan Results-](https://app.snyk.io/invite/link/accept?invite=4f95a74d-8b1a-4037-bb5a-182fe4b8d65b&utm_source=link_invite&utm_medium=referral&utm_campaign=product-link-invite&from=link_invite)
+  - ![](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Code%20Review/CWE%20547.png)
 - **Code Summary Review**
-   - When scanning the NextCloud Android fork with Snyk and SpotBugs I picked up four hits in Snyk for CWE 547 – Hardcoded Secret.  For this CWE I had two in the file PushUtils.java and two in EncryptionUtils.java. which had the effected coding lines below.  All four hits call the coder to use java.security.SecureRandom to generate strong random cryptographic numbers.
+  - When scanning the NextCloud Android fork with Snyk and SpotBugs I picked up four hits in Snyk for CWE 547 – Hardcoded Secret.  For this CWE I had two in the file PushUtils.java and two in EncryptionUtils.java. which had the effected coding lines below.  All four hits call the coder to use java.security.SecureRandom to generate strong random cryptographic numbers.
 
 EncryptionUtils.java 
 
 1 - X509EncodedKeySpec keySpec = new X509EncodedKeySpec(bytes);
 
 2 - PKCS8EncodedKeySpec keySpec = new PKCS8EncodedKeySpec(bytes);
+
 
 java.security.SecureRandom
 
