@@ -27,7 +27,7 @@ We decided to utilize 2 different automated code review tools for reviewing each
    * ‎settings-admin.js[-Link-](https://github.com/hallou225/nc-server/tree/0f4e4baebcfa0345ebec66ea5e78e835fd62c4eb/apps/federation/js/settings-admin.js#L104)
 - **Analysis Method**
   - Automated scan of the nextcloud repo conducted via [SNYK code Scanning](https://snyk.io/).
-   [-Link to Full Scan Results-](https://app.snyk.io/invite/link/accept?invite=a501f469-78e3-414e-9168-40631556bbf0&utm_source=link_invite&utm_medium=referral&utm_campaign=product-link-invite&from=link_invite)
+   [Nextcloud Server Scan Results](https://app.snyk.io/invite/link/accept?invite=a501f469-78e3-414e-9168-40631556bbf0&utm_source=link_invite&utm_medium=referral&utm_campaign=product-link-invite&from=link_invite)
     ![](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Code%20Review/CWE-79.png)
 - **Code Summary Review**
    - The weakness occurs when software does not perform or incorrectly performs neutralization of input data before displaying it in user's browser.
@@ -65,8 +65,7 @@ We decided to utilize 2 different automated code review tools for reviewing each
 - **Files Analyzed**
   - FileContentProvider.java [-Link-](https://github.com/Chepburn-uno/NextCloudAndroidScan/blob/ef2987d6dd7b292296b338ac3e038cea9aedcf12/app/src/main/java/com/owncloud/android/providers/FileContentProvider.java#L132)
 - **Analysis Method**
-   - Automated Scan conducted with [SNYK code scanning](https://snyk.io/)
-   - [-Link to Full Scan Results-](https://app.snyk.io/invite/link/accept?invite=4f95a74d-8b1a-4037-bb5a-182fe4b8d65b&utm_source=link_invite&utm_medium=referral&utm_campaign=product-link-invite&from=link_invite)
+   - Automated Scan conducted with [SNYK code scanning](https://snyk.io/)  [Nextcloud Mobile Scan Results](https://app.snyk.io/invite/link/accept?invite=4f95a74d-8b1a-4037-bb5a-182fe4b8d65b&utm_source=link_invite&utm_medium=referral&utm_campaign=product-link-invite&from=link_invite)
    - ![](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Code%20Review/CWE%20400.png)
 - **Code Summary Review**
    - When scanning the NextCloud Android fork with Snyk and SpotBugs I picked up five hits in Snyk for CWE 400 – Regular expression injection.  All 5 hits were in the file, “FileContentProvider.java” for the lines below.  However, in the scan output there is the caveat that depending upon the programing this “may” result in a Regular Expression Injection vulnerability that could lead to a Denial of Service attack.
@@ -86,8 +85,7 @@ We decided to utilize 2 different automated code review tools for reviewing each
   - EncryptionUtils.java [-Link-](https://github.com/Chepburn-uno/NextCloudAndroidScan/blob/ef2987d6dd7b292296b338ac3e038cea9aedcf12/app/src/main/java/com/owncloud/android/utils/EncryptionUtils.java#L825)
   - PushUtils.java [-Link-](https://github.com/Chepburn-uno/NextCloudAndroidScan/blob/ef2987d6dd7b292296b338ac3e038cea9aedcf12/app/src/gplay/java/com/owncloud/android/utils/PushUtils.java#L293)
 - **Analysis Method**
-  - SNYK Code Scanning [-Link-](https://snyk.io/)
-  - [-Link to Full Scan Results-](https://app.snyk.io/invite/link/accept?invite=4f95a74d-8b1a-4037-bb5a-182fe4b8d65b&utm_source=link_invite&utm_medium=referral&utm_campaign=product-link-invite&from=link_invite)
+  - SNYK Code Scanning [-Link-](https://snyk.io/)  [Nextcloud Mobile Scan Results](https://app.snyk.io/invite/link/accept?invite=4f95a74d-8b1a-4037-bb5a-182fe4b8d65b&utm_source=link_invite&utm_medium=referral&utm_campaign=product-link-invite&from=link_invite)
   - ![](https://github.com/Hinrichsta/FA23-Cyber8420/blob/main/Code%20Review/CWE%20547.png)
 - **Code Summary Review**
   - When scanning the NextCloud Android fork with Snyk and SpotBugs I picked up four hits in Snyk for CWE 547 – Hardcoded Secret.  For this CWE I had two in the file PushUtils.java and two in EncryptionUtils.java. which had the effected coding lines below.  All four hits call the coder to use java.security.SecureRandom to generate strong random cryptographic numbers.
