@@ -43,7 +43,7 @@ We decided to utilize 2 different automated code review tools for reviewing each
 - **Analysis Method**
    - A thorough manual analysis of the files within github. Also scan with SNYK
 - **Code Summary Review**
-  - CWE-89 represent a major security risk for application such as nexcloud. It is therefore a great relief to see that both the manual and automated scan could not validate its presence within the application. 
+   - CWE-89 represent a major security risk for application such as nexcloud. It is therefore a great relief to see that both the manual and automated scan could not validate its presence within the application. 
 
 ### [CWE-295: Improper Certificate Validation](https://cwe.mitre.org/data/definitions/295.html)
 - **Files Analyzed**
