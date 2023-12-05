@@ -46,6 +46,8 @@ We decided to utilize 2 different automated code review tools for reviewing each
    - CWE-89 represent a major security risk for application such as nexcloud. It is therefore a great relief to see that both the manual and automated scan could not validate its presence within the application. 
 
 ### [CWE-295: Improper Certificate Validation](https://cwe.mitre.org/data/definitions/295.html)
+- **Description**
+  - The product does not validate, or incorrectly validates, a certificate.
 - **Files Analyzed**
   - Certificate.php  [-Link-](https://github.com/nextcloud/server/blob/ca60df9abdd5b4b65d1d48289c82aea3f982b2a3/lib/private/Security/Certificate.php)
   - CertificateManager.PHP  [-Link-](https://github.com/nextcloud/server/blob/ca60df9abdd5b4b65d1d48289c82aea3f982b2a3/lib/private/Security/CertificateManager.php)
@@ -78,7 +80,6 @@ When scanning the NextCloud Android fork with Snyk and SpotBugs I picked up five
 3 - result = query(db, uri, projection, selection, selectionArgs, sortOrder);
 
 4 - VerificationUtils.verifySortOrder(sortOrder);
-
 
 ### [CWE-547: Use of Hard-coded, Security-relevant Constants](https://cwe.mitre.org/data/definitions/547.html)
 - **Description**
@@ -127,6 +128,7 @@ java.security.SecureRandom
      
  ### [CWE-918: Server-Side Forgery Request](https://cwe.mitre.org/data/definitions/918.html)
 - **Description**
+   * The web server receives a URL or similar request from an upstream component and retrieves the contents of this URL, but it does not sufficiently ensure that the request is being sent to the expected destination.
 - **Files Analyzed**
   - DnsPinMiddleware.php [-Link-](https://github.com/nextcloud/server/blob/ca60df9abdd5b4b65d1d48289c82aea3f982b2a3/lib/private/Http/Client/DnsPinMiddleware.php#L4) 
 - **Analysis Method**
